@@ -1,0 +1,961 @@
+Group	item_set	prime	target	condition	p_sound	p_trans	p_w	p_nsylls	p_logF	p_dens	p_dens_cond	p_emp_dens	p_emp_dens_cond	p_entropy	p_emp_entropy	t_sound	t_trans	t_w	t_nsylls	t_logF	t_dens	t_dens_cond	t_emp_dens	t_emp_dens_cond	t_entropy	t_emp_entropy	nw	resp	sem	resp_nTimesGiven	resp_nTimesCond	resp_editDist	sem_nTimesGiven_Nelsonetal
+1	1	batiss	plant	test	BAETAHS.wav	B AE T AH S	NW	2	0	9	large	31	high	1.27472266	4.356026503	PLANT.wav	P L AE1 N T	W	1	0.465397724	19	NA	NA	NA	NA	NA	batiss	cactus	plant	2	low	2	0.321428571
+1	1	dihz	skahch	nw_nw	DIHZ.wav	D IH Z	NW	1	0	88	NA	NA	NA	NA	NA	SKAHCH.wav	S K AH CH	NW	1	0	16	NA	NA	NA	NA	NA	batiss	atlas	map	1	low	2	0.527027027
+1	1	minefield	church	unrel_w	MAY1NFIY1LD.wav	M AY1 N F IY2 L D	W	2	1.6232	1	NA	NA	NA	NA	NA	CHURCH.wav	CH ER1 CH	W	1	0.495183432	19	NA	NA	NA	NA	NA	batiss	baptist	church	12	high	2	0.267973856
+1	1	naekt	ball	unrel_nw	NAEKT.wav	N AE K T	NW	1	0	30	NA	NA	NA	NA	NA	ball.wav	B AO1 L	W	1	0.520640715	124	NA	NA	NA	NA	NA	batiss	bat	ball	8	high	2	0.251968504
+1	1	oven	stove	semantic	OVEN.wav	AH1 V AH0 N	W	2	2.5211	11	NA	NA	NA	NA	NA	STOVE.wav	S T OW1 V	W	1	0.389485041	20	NA	NA	NA	NA	NA	avan	oven	stove	1	low	1	0.224242424
+1	2	cover (nw)	wine	test	KOWVER.wav	K OW V ER	NW	2	0	11	large	14	low	0.460947018	2.891803819	WINE.wav	W AY1 N	W	1	0.502645578	118	NA	NA	NA	NA	NA	cover (nw)	cooler	wine	1	low	2	0.206521739
+1	2	strah	faemz	nw_nw	STRAH.wav	S T R AH	NW	1	0	29	NA	NA	NA	NA	NA	FAEMZ.wav	F AE M Z	NW	1	1	36	NA	NA	NA	NA	NA	birow	bureau	dresser	16	high	2	0.140939597
+1	2	convex	mustache	unrel_w	KAA1NVEH2KS.wav	K AA1 N V EH2 K S	W	2	0.7782	1	NA	NA	NA	NA	NA	MUSTACHE.wav	M AH1 S T AE2 SH	W	2	0.352259719	2	NA	NA	NA	NA	NA	birow	beard	mustache	3	low	1	0.310344828
+1	2	sayngk	lid	unrel_nw	SAYNGK.wav	S AY NG K	NW	1	0	11	NA	NA	NA	NA	NA	LID.wav	L IH1 D	W	1	0.369661059	84	NA	NA	NA	NA	NA	cover (nw)	cover 	lid	21	high	1	0.12
+1	2	hero	superman	semantic	HERO.wav	HH IH1 R OW0	W	2	3.1405	22	NA	NA	NA	NA	NA	SUPERMAN.wav	S UW1 P ER0 M AE2 N	W	3	0.346372537	#N/A	NA	NA	NA	NA	NA	birow	hero	superman	20	high	1	0.166666667
+1	3	dozer	twelve	test	DAHZER.wav	D AH Z ER	NW	2	0	9	large	9	low	0.799918544	2.009364073	TWELVE.wav	T W EH1 L V	W	1	0.449154293	1	NA	NA	NA	NA	NA	dozer	dozen	twelve	25	high	2	0.483660131
+1	3	draesht	tehrch	nw_nw	DRAESHT.wav	D R AE SH T	NW	1	0	6	NA	NA	NA	NA	NA	TEHRCH.wav	T EH R CH	NW	1	2	15	NA	NA	NA	NA	NA	leafa	leaf	tree	35	high	1	0.642424242
+1	3	rival	bee	unrel_w	RAY1VAH0L.wav	R AY1 V AH0 L	W	2	2.1644	19	NA	NA	NA	NA	NA	BEE.wav	B IY1	W	1	0.379523064	202	NA	NA	NA	NA	NA	dozer	buzz	bee	1	low	2	0.520833333
+1	3	kehvz	sand	unrel_nw	KEHVZ.wav	K EH V Z	NW	1	0	15	NA	NA	NA	NA	NA	SAND.wav	S AE1 N D	W	1	0.445868747	51	NA	NA	NA	NA	NA	dozer	desert	sand	5	high	2	0.17037037
+1	3	fairy	tale	semantic	FAIRY.wav	F EH1 R IY0	W	2	2.6345	131	NA	NA	NA	NA	NA	TALE.wav	T EY1 L	W	1	0.421521666	117	NA	NA	NA	NA	NA	leafa	fairy	tale	1	low	4	0.542857143
+1	4	fesser	write	test	FEHSER.wav	F EH S ER	NW	2	0	11	large	11	low	2.681515794	1.632938805	WRITE.wav	R AY1 T	W	1	0.540179261	105	NA	NA	NA	NA	NA	fesser	essay	write	1	low	3	0.335616438
+1	4	paybz	thehrts	nw_nw	PAYBZ.wav	P AY B Z	NW	1	0	13	NA	NA	NA	NA	NA	THEHRTS.wav	TH EH R T S	NW	1	3	6	NA	NA	NA	NA	NA	fesser	professor	teacher	46	high	3	0.510791367
+1	4	founder	bird	unrel_w	FAW1NDER0.wav	F AW1 N D ER0	W	2	1.959	14	NA	NA	NA	NA	NA	BIRD.wav	B ER1 D	W	1	0.488282725	110	NA	NA	NA	NA	NA	fesser	feather	bird	1	low	1	0.358974359
+1	4	luhch	fog	unrel_nw	LUHCH.wav	L UH CH	NW	1	0	21	NA	NA	NA	NA	NA	FOG.wav	F AO1 G	W	1	0.368193878	51	NA	NA	NA	NA	NA	huzzy	haze	fog	1	low	2	0.377952756
+1	4	carrot	rabbit	semantic	CARROT.wav	K AE1 R AH0 T	W	2	2.0934	32	NA	NA	NA	NA	NA	RABBIT.wav	R AE1 B IH0 T	W	2	0.423458872	17	NA	NA	NA	NA	NA	kerek	carrot	rabbit	55	high	2	0.205
+1	5	weeco	fun	test	WIYKOW.wav	W IY K OW	NW	2	0	9	large	12	low	1.148794097	2.918460374	fun.wav	F AH1 N	W	1	0.564180614	91	NA	NA	NA	NA	NA	weeco	weekend	fun	16	high	3	0.234899329
+1	5	klehd	traedz	nw_nw	KLEHD.wav	K L EH D	NW	1	0	33	NA	NA	NA	NA	NA	TRAEDZ.wav	T R AE D Z	NW	1	4	9	NA	NA	NA	NA	NA	lolla	lollipop	candy	11	high	4	0.412162162
+1	5	bias	strong	unrel_w	BAY1AH0S.wav	B AY1 AH0 S	W	2	1.7993	24	NA	NA	NA	NA	NA	STRONG.wav	S T R AO1 NG	W	1	0.53515482	12	NA	NA	NA	NA	NA	weeco	weak	strong	14	high	1	0.557142857
+1	5	spawks	sensitive	unrel_nw	SPAWKS.wav	S P AW K S	NW	1	0	9	NA	NA	NA	NA	NA	SENSITIVE.wav	S EH1 N S IH0 T IH0 V	W	3	0.471144965	1	NA	NA	NA	NA	NA	cuchee	touchy	sensitive	10	high	1	0.223684211
+1	5	wheat	bread	semantic	WHEAT.wav	W IY1 T	W	1	2.3096	97	NA	NA	NA	NA	NA	BREAD.wav	B R EH1 D	W	1	0.470660352	45	NA	NA	NA	NA	NA	weeco	wheat	bread	2	low	2	0.189189189
+1	6	meckle	pen	test	MEHKAHL.wav	M EH K AH L	NW	2	0	10	large	25	high	0.917850636	4.185680473	PEN.wav	P EH1 N	W	1	0.464221198	113	NA	NA	NA	NA	NA	meckle	marker	pen	2	low	4	0.256756757
+1	6	griyl	steyps	nw_nw	GRIYL.wav	G R IY L	NW	1	0	52	NA	NA	NA	NA	NA	STEYPS.wav	S T EY P S	NW	1	5	14	NA	NA	NA	NA	NA	meckle	freckle	face	5	high	2	0.448051948
+1	6	printouts	gold	unrel_w	PRIH1NTAW2TZ.wav	P R IH1 N T AW2 T S	W	2	1.0792	1	NA	NA	NA	NA	NA	GOLD.wav	G OW1 L D	W	1	0.503218508	48	NA	NA	NA	NA	NA	meckle	medal	gold	2	low	1	0.210884354
+1	6	wehvz	belt	unrel_nw	WEHVZ.wav	W EH V Z	NW	1	0	18	NA	NA	NA	NA	NA	belt.wav	B EH1 L T	W	1	0.465947662	64	NA	NA	NA	NA	NA	meckle	buckle	belt	2	low	2	0.666666667
+1	6	mechanical	car	semantic	MECHANICAL.wav	M AH0 K AE1 N IH0 K AH0 L	W	4	2.2923	2	NA	NA	NA	NA	NA	CAR.wav	K AA1 R	W	1	0.569631366	162	NA	NA	NA	NA	NA	meckle	mechanical	car	1	low	5	0.257142857
+1	7	tawto	period	test	T_AA_T_OW.wav	T AA T OW	NW	2	0	11	large	25	high	2.556749458	3.839622954	PERIOD.wav	P IH1 R IY0 AH0 D	W	3	0.478552067	3	NA	NA	NA	NA	NA	tawto	dot	period	1	low	2	0.182432432
+1	7	yehts	tahs	nw_nw	YEHTS.wav	Y EH T S	NW	1	0	49	NA	NA	NA	NA	NA	TAHS.wav	T AH S	NW	1	6	63	NA	NA	NA	NA	NA	zater	ladder	climb	1	low	2	0.337931034
+1	7	fellows	furniture	unrel_w	FEH1LOW0Z.wav	F EH1 L OW0 Z	W	2	2.6503	17	NA	NA	NA	NA	NA	FURNITURE.wav	F ER1 N IH0 CH ER0	W	3	0.436417104	#N/A	NA	NA	NA	NA	NA	tawto	patio	furniture	2	low	4	0.254901961
+1	7	maefs	chip	unrel_nw	MAEFS.wav	M AE F S	NW	1	0	24	NA	NA	NA	NA	NA	CHIP.wav	CH IH1 P	W	1	0.429929836	57	NA	NA	NA	NA	NA	tawto	potato	chip	20	high	4	0.141891892
+1	7	tomato	vegetables	semantic	TOMATO.wav	T AH0 M EY1 T OW2	W	3	2.3096	4	NA	NA	NA	NA	NA	VEGETABLES.wav	V EH1 JH T AH0 B AH0 L Z	W	3	0.384980296	1	NA	NA	NA	NA	NA	tawto	tomato	vegetables	1	low	4	0.230769231
+1	8	zhelung	breathe	test	ZHEYLAHNG.wav	ZH EY L AH NG	NW	2	0	11	large	24	high	2.78868912	3.90569566	BREATHE.wav	B R IY1 DH	W	1	0.498834149	24	NA	NA	NA	NA	NA	zhelung	lung	breathe	1	low	3	0.362318841
+1	8	smaem	traynd	nw_nw	SMAEM.wav	S M AE M	NW	1	0	15	NA	NA	NA	NA	NA	TRAYND.wav	T R AY N D	NW	1	7	9	NA	NA	NA	NA	NA	brushels	brush	hair	9	high	3	0.440217391
+1	8	mothers	big	unrel_w	MAH1DHER0Z.wav	M AH1 DH ER0 Z	W	2	2.6684	14	NA	NA	NA	NA	NA	BIG.wav	B IH1 G	W	1	0.586519793	75	NA	NA	NA	NA	NA	zhelung	giant	big	1	low	5	0.229166667
+1	8	wowks	tired	unrel_nw	WOWKS.wav	W OW K S	NW	1	0	46	NA	NA	NA	NA	NA	TIRED.wav	T AY1 ER0 D	W	1	0.543844635	12	NA	NA	NA	NA	NA	zolly	yawn	tired	1	low	4	0.464052288
+1	8	sum	add	semantic	SUM.wav	S AH1 M	W	1	2.5551	88	NA	NA	NA	NA	NA	ADD.wav	AE1 D	W	1	0.494697123	82	NA	NA	NA	NA	NA	zhelung	sum	add	1	low	5	0.283783784
+1	9	chichin	cook	test	CHIHCHAHN.wav	CH IH CH AH N	NW	2	0	2	small	13	low	0.999414397	2.48090424	COOK.wav	K UH1 K	W	1	0.496472984	57	NA	NA	NA	NA	NA	chichin	kitchen	cook	27	high	1	0.182741117
+1	9	hhawn	ayng	nw_nw	HHAWN.wav	HH AW N	NW	1	0	87	NA	NA	NA	NA	NA	AYNG.wav	AY NG	NW	1	8	51	NA	NA	NA	NA	NA	curdage	cabbage	lettuce	1	low	2	0.28057554
+1	9	smelly	brave	unrel_w	SMELLY.wav	S M EH1 L IY0	W	2	2.2095	23	NA	NA	NA	NA	NA	BRAVE.wav	B R EY1 V	W	1	0.483744157	22	NA	NA	NA	NA	NA	curdage	courage	brave	26	high	2	0.239726027
+1	9	ehkt	cheese	unrel_nw	EHKT.wav	EH K T	NW	1	0	41	NA	NA	NA	NA	NA	CHEESE.wav	CH IY1 Z	W	1	0.484797924	130	NA	NA	NA	NA	NA	clackuz	crackers	cheese	34	high	2	0.294520548
+1	9	chicken	soup	semantic	CHICKEN.wav	CH IH1 K AH0 N	W	2	3.1962	21	NA	NA	NA	NA	NA	SOUP.wav	S UW1 P	W	1	0.459859706	83	NA	NA	NA	NA	NA	chichin	chicken	soup	14	high	1	0.092391304
+1	10	glumber	band	test	GLAHMBER.wav	G L AH M B ER	NW	2	0	2	small	15	low	0.997923519	2.851207983	BAND.wav	B AE1 N D	W	1	0.484356792	49	NA	NA	NA	NA	NA	glumber	rubber	band	1	low	3	0.216216216
+1	10	naym	sowngk	nw_nw	NAYM.wav	N AY M	NW	1	0	46	NA	NA	NA	NA	NA	SOWNGK.wav	S OW NG K	NW	1	9	10	NA	NA	NA	NA	NA	glumber	slumber	sleep	23	high	1	0.513513514
+1	10	maintenance	wood	unrel_w	MEY1NTNAH0NS.wav	M EY1 N T N AH0 N S	W	2	2.42	1	NA	NA	NA	NA	NA	WOOD.wav	W UH1 D	W	1	0.459075699	30	NA	NA	NA	NA	NA	glumber	timber	wood	1	low	3	0.41025641
+1	10	riynt	guilty	unrel_nw	RIYNT.wav	R IY N T	NW	1	0	19	NA	NA	NA	NA	NA	GUILTY.wav	G IH1 L T IY0	W	2	0.503409317	12	NA	NA	NA	NA	NA	dreason	treason	guilty	25	high	2	0.114864865
+1	10	doctor	nurse	semantic	DOCTOR.wav	D AA1 K T ER0	W	2	3.5687	14	NA	NA	NA	NA	NA	NURSE.wav	N ER1 S	W	1	0.483073542	55	NA	NA	NA	NA	NA	moctor	doctor	nurse	11	high	2	0.378787879
+1	11	sardent	fish	test	SAARDAHNT.wav	S AA R D AH N T	NW	2	0	2	small	12	low	0.076028129	2.967113485	FISH.wav	F IH1 SH	W	1	0.509565403	50	NA	NA	NA	NA	NA	sardent	sardine	fish	14	high	3	0.452380952
+1	11	prehnd	dayts	nw_nw	P_R_EH_N_D.wav	P R EH N D	NW	1	0	9	NA	NA	NA	NA	NA	DAYTS.wav	D AY T S	NW	1	10	65	NA	NA	NA	NA	NA	perchant	curtain	drapes	1	low	3	0.25984252
+1	11	contacts	army	unrel_w	KAA1NTAE2KTS.wav	K AA1 N T AE2 K T S	W	2	2.4914	4	NA	NA	NA	NA	NA	ARMY.wav	AA1 R M IY0	W	1	0.502167558	29	NA	NA	NA	NA	NA	sardent	sergeant	army	13	high	1	0.353741497
+1	11	sehm	buy	unrel_nw	SEHM.wav	S EH M	NW	1	0	88	NA	NA	NA	NA	NA	BUY.wav	B AY1	W	1	0.560169754	133	NA	NA	NA	NA	NA	perchant	purchase	buy	26	high	2	0.577181208
+1	11	urgent	important	semantic	URGENT.wav	ER1 JH AH0 N T	W	2	2.7551	3	NA	NA	NA	NA	NA	IMPORTANT.wav	IH0 M P AO1 R T AH0 N T	W	3	0.566826239	1	NA	NA	NA	NA	NA	perchant	urgent	important	1	low	2	0.173913043
+1	12	timney	smoke	test	TIHMNIY.wav	T IH M N IY	NW	2	0	2	small	10	low	0.07731692	1.769349584	SMOKE.wav	S M OW1 K	W	1	0.515224565	19	NA	NA	NA	NA	NA	timney	chimney	smoke	45	high	1	0.24025974
+1	12	chehd	chihrts	nw_nw	CHEHD.wav	CH EH D	NW	1	0	42	NA	NA	NA	NA	NA	CHIRTS.wav	CH IH R T S	NW	1	11	4	NA	NA	NA	NA	NA	enwars	envy	jealousy	1	low	4	0.513333333
+1	12	photon	green	unrel_w	FOW1TAA2N.wav	F OW1 T AA2 N	W	2	1.301	2	NA	NA	NA	NA	NA	GREEN.wav	G R IY1 N	W	1	0.515979756	67	NA	NA	NA	NA	NA	enwars	emerald	green	1	low	5	0.371621622
+1	12	kraeng	wild	unrel_nw	KRAENG.wav	K R AE NG	NW	1	0	33	NA	NA	NA	NA	NA	wild.wav	W AY1 L D	W	1	0.511869998	50	NA	NA	NA	NA	NA	timney	tame	wild	1	low	3	0.4
+1	12	endless	forever	semantic	ENDLESS.wav	EH1 N D L AH0 S	W	2	2.4639	0	NA	NA	NA	NA	NA	FOREVER.wav	F ER0 EH1 V ER0	W	3	0.536230073	1	NA	NA	NA	NA	NA	enwars	endless	forever	1	low	3	0.248322148
+1	13	nuleave	stomach	test	NAHLIYV.wav	N AH L IY V	NW	2	0	2	small	28	high	0.072941923	3.913100742	STOMACH.wav	S T AH1 M AH0 K	W	2	0.48945221	2	NA	NA	NA	NA	NA	nuleave	belly	stomach	13	high	3	0.402777778
+1	13	jhahnd	stahnjh	nw_nw	JHAHND.wav	JH AH N D	NW	1	0	27	NA	NA	NA	NA	NA	STAHNJH.wav	S T AH N JH	NW	1	12	8	NA	NA	NA	NA	NA	nuleave	mellow	yellow	3	low	4	0.328671329
+1	13	missile	pain	unrel_w	MIH1SAH0L.wav	M IH1 S AH0 L	W	2	2.3181	46	NA	NA	NA	NA	NA	PAIN.wav	P EY1 N	W	1	0.532728906	125	NA	NA	NA	NA	NA	nuleave	relief	pain	1	low	4	0.117647059
+1	13	stehbz	average	unrel_nw	STEHBZ.wav	S T EH B Z	NW	1	0	9	NA	NA	NA	NA	NA	AVERAGE.wav	AE1 V R IH0 JH	W	2	0.442730553	2	NA	NA	NA	NA	NA	medry	mediocre	average	1	low	5	0.169934641
+1	13	snow	white	semantic	SNOW.wav	S N OW1	W	1	2.8887	37	NA	NA	NA	NA	NA	WHITE.wav	W AY1 T	W	1	0.547257673	104	NA	NA	NA	NA	NA	nuleave	snow	white	1	low	5	0.314102564
+1	14	shawshus	rude	test	SHAOSHAHS.wav	SH AO SH AH S	NW	2	0	2	small	27	high	0.998916038	3.819383308	RUDE.wav	R UW1 D	W	1	0.469439079	107	NA	NA	NA	NA	NA	shawshus	obnoxious	rude	1	low	5	0.181818182
+1	14	kwihsk	behrbd	nw_nw	KWIHSK.wav	K W IH S K	NW	1	0	7	NA	NA	NA	NA	NA	BEHRBD.wav	B EH R B D	NW	1	13	4	NA	NA	NA	NA	NA	shawshus	cautious	careful	21	high	1	0.513333333
+1	14	spoken	beach	unrel_w	SPOW1KAH0N.wav	S P OW1 K AH0 N	W	2	2.9335	4	NA	NA	NA	NA	NA	BEACH.wav	B IY1 CH	W	1	0.492941889	#N/A	NA	NA	NA	NA	NA	shawshus	shell	beach	1	low	4	0.25
+1	14	kaadz	sick	unrel_nw	KAADZ.wav	K AA D Z	NW	1	0	52	NA	NA	NA	NA	NA	SICK.wav	S IH1 K	W	1	0.55479191	109	NA	NA	NA	NA	NA	shawshus	nauseous	sick	4	low	1	0.613333333
+1	14	sausage	breakfast	semantic	SAUSAGE.wav	S AO1 S AH0 JH	W	2	2.356	2	NA	NA	NA	NA	NA	BREAKFAST.wav	B R EH1 K F AH0 S T	W	2	0.517697225	1	NA	NA	NA	NA	NA	shawshus	sausage	breakfast	1	low	3	0.092105263
+1	15	tarfin	bull's eye	test	TAORFAHN.wav	T AO R F AH N	NW	2	0	2	small	27	high	0.082953374	4.052326308	BULLSEYE.wav	B UH1 L Z AY2	W	2	0.450787792	#N/A	NA	NA	NA	NA	NA	tarfin	target	bull's eye	11	high	3	0.297297297
+1	15	krayn	lawnz	nw_nw	KRAYN.wav	K R AY N	NW	1	0	55	NA	NA	NA	NA	NA	LAWNZ.wav	L AW N Z	NW	1	14	46	NA	NA	NA	NA	NA	yaters	yacht	boat	9	high	3	0.59375
+1	15	tally	hurricane	unrel_w	TAE1LIY0.wav	T AE1 L IY0	W	2	1.7782	75	NA	NA	NA	NA	NA	HURRICANE.wav	HH ER1 AH0 K EY2 N	W	3	0.352741915	2	NA	NA	NA	NA	NA	tarfin	typhoon	hurricane	2	low	3	0.175324675
+1	15	graelt	fast	unrel_nw	GRAELT.wav	G R AE L T	NW	1	0	6	NA	NA	NA	NA	NA	FAST.wav	F AE1 S T	W	1	0.553980065	43	NA	NA	NA	NA	NA	uxman	express	fast	1	low	5	0.186206897
+1	15	tart	sour	semantic	TART.wav	T AA1 R T	W	1	1.9731	37	NA	NA	NA	NA	NA	SOUR.wav	S AW1 R	W	1	0.380156952	57	NA	NA	NA	NA	NA	tarfin	tart	sour	1	low	4	0.25
+1	16	zaucous	shoes	test	ZAOKAHS.wav	Z AO K AH S	NW	2	0	2	small	26	high	0.999198354	4.234587229	SHOES.wav	SH UW1 Z	W	1	0.519224023	103	NA	NA	NA	NA	NA	zaucous	socks	shoes	10	high	3	0.655405405
+1	16	vehrnd	skey	nw_nw	VEHRND.wav	V EH R N D	NW	1	0	3	NA	NA	NA	NA	NA	SKEY.wav	S K EY	NW	1	15	37	NA	NA	NA	NA	NA	beevee	beaver	dam	14	high	1	0.269503546
+1	16	layers	flag	unrel_w	LEY1ER0Z.wav	L EY1 ER0 Z	W	2	1.959	49	NA	NA	NA	NA	NA	FLAG.wav	F L AE1 G	W	1	0.430913151	30	NA	NA	NA	NA	NA	bannow	banner	flag	25	high	1	0.686868687
+1	16	klehpt	space	unrel_nw	KLEHPT.wav	K L EH P T	NW	1	0	12	NA	NA	NA	NA	NA	SPACE.wav	S P EY1 S	W	1	0.508395033	20	NA	NA	NA	NA	NA	yutul	shuttle	space	9	high	1	0.415492958
+1	16	yell	scream	semantic	YELL.wav	Y EH1 L	W	1	2.8645	77	NA	NA	NA	NA	NA	SCREAM.wav	S K R IY1 M	W	1	0.468051791	#N/A	NA	NA	NA	NA	NA	yutul	yell	scream	3	low	3	0.577777778
+1	17	dimer	food	test	DAYMER.wav	D AY M ER	NW	2	0	11	large	9	low	2.715889977	2.344627096	FOOD.wav	F UW1 D	W	1	0.551083865	50	NA	NA	NA	NA	NA	dimer	diner	food	9	high	1	0.317880795
+1	17	neyks	hhehz	nw_nw	NEYKS.wav	N EY K S	NW	1	0	42	NA	NA	NA	NA	NA	HHEHZ.wav	HH EH Z	NW	1	16	91	NA	NA	NA	NA	NA	dimer	diamond	ring	32	high	3	0.630434783
+1	17	rocket	water	unrel_w	RAA1KAH0T.wav	R AA1 K AH0 T	W	2	2.4609	16	NA	NA	NA	NA	NA	WATER.wav	W AO1 T ER0	W	2	0.558192389	24	NA	NA	NA	NA	NA	dimer	diver	water	1	low	1	0.266666667
+1	17	fihm	bug	unrel_nw	FIHM.wav	F IH M	NW	1	0	67	NA	NA	NA	NA	NA	BUG.wav	B AH1 G	W	1	0.441914976	65	NA	NA	NA	NA	NA	crickly	cricket	bug	10	high	2	0.216216216
+1	17	dime	nickel	semantic	DIME.wav	D AY1 M	W	1	2.6758	74	NA	NA	NA	NA	NA	NICKEL.wav	N IH1 K AH0 L	W	2	0.403154851	52	NA	NA	NA	NA	NA	dimer	dime	nickel	4	low	1	0.527272727
+1	18	lakein	eggs	test	LEYKAHN.wav	L EY K AH N	NW	2	0	9	large	20	low	0.737584635	3.171952855	EGGS.wav	EH1 G Z	W	1	0.483972215	43	NA	NA	NA	NA	NA	lakein	bacon	eggs	1	low	1	0.517241379
+1	18	weym	jhahk	nw_nw	WEYM.wav	W EY M	NW	1	0	68	NA	NA	NA	NA	NA	JHAHK.wav	JH AH K	NW	1	17	54	NA	NA	NA	NA	NA	fidest	fighter	boxer	13	high	4	0.209459459
+1	18	piping	fist	unrel_w	PAY1PIH0NG.wav	P AY1 P IH0 NG	W	2	1.5441	7	NA	NA	NA	NA	NA	FIST.wav	F IH1 S T	W	1	0.392397943	54	NA	NA	NA	NA	NA	nuckie	knuckle	fist	24	high	2	0.257142857
+1	18	puhnd	laugh	unrel_nw	PUHND.wav	P UH N D	NW	1	0	11	NA	NA	NA	NA	NA	LAUGH.wav	L AE1 F	W	1	0.516693991	65	NA	NA	NA	NA	NA	gingul	giggle	laugh	8	high	1	0.78030303
+1	18	fable	story	semantic	FABLE.wav	F EY1 B AH0 L	W	2	1.301	31	NA	NA	NA	NA	NA	STORY.wav	S T AO1 R IY0	W	2	0.559906625	36	NA	NA	NA	NA	NA	fubble	fable	story	1	low	1	0.480769231
+1	19	protag	neutron	test	PROWTAAG.wav	P R OW T AA G	NW	2	0	2	small	19	low	0.998282846	3.543710515	NEUTRON.wav	N UW1 T R AA2 N	W	2	0.145476105	1	NA	NA	NA	NA	NA	protag	proton	neutron	16	high	2	0.565789474
+1	19	dehrnd	taesht	nw_nw	DEHRND.wav	D EH R N D	NW	1	0	2	NA	NA	NA	NA	NA	TAESHT.wav	T AE SH T	NW	1	18	19	NA	NA	NA	NA	NA	onul	oval	round	6	high	1	0.407608696
+1	19	colon	ketchup	unrel_w	KOW1LAH0N.wav	K OW1 L AH0 N	W	2	1.9823	78	NA	NA	NA	NA	NA	KETCHUP.wav	K EH1 CH AH0 P	W	2	0.358125285	4	NA	NA	NA	NA	NA	muswee	mustard	ketchup	14	high	3	0.584415584
+1	19	krihf	smell	unrel_nw	KRIHF.wav	K R IH F	NW	1	0	32	NA	NA	NA	NA	NA	SMELL.wav	S M EH1 L	W	1	0.528878152	29	NA	NA	NA	NA	NA	permume	perfume	smell	27	high	3	0.392857143
+1	19	musty	old	semantic	MUSTY.wav	M AH1 S T IY0	W	2	1.3617	15	NA	NA	NA	NA	NA	OLD.wav	OW1 L D	W	1	0.584274672	53	NA	NA	NA	NA	NA	muswee	musty	old	10	high	1	0.114864865
+1	20	sheeler	protection	test	SHIYLER.wav	SH IY L ER	NW	2	0	11	large	22	high	2.398058192	3.961982349	PROTECTION.wav	P ER0 T EH1 K SH AH0 N	W	3	0.467163966	2	NA	NA	NA	NA	NA	sheeler	shield	protection	7	high	1	0.243243243
+1	20	spihmz	bahcht	nw_nw	SPIHMZ.wav	S P IH M Z	NW	1	0	15	NA	NA	NA	NA	NA	BAHCHT.wav	B AH CH T	NW	1	19	19	NA	NA	NA	NA	NA	sussy	sunny	cloudy	1	low	1	0.175324675
+1	20	lions	steam	unrel_w	LAY1AH0NZ.wav	L AY1 AH0 N Z	W	2	2.2148	20	NA	NA	NA	NA	NA	STEAM.wav	S T IY1 M	W	1	0.416923289	39	NA	NA	NA	NA	NA	vaper	vapor	steam	9	high	1	0.127516779
+1	20	lahcht	dolphin	unrel_nw	LAHCHT.wav	L AH CH T	NW	1	0	14	NA	NA	NA	NA	NA	DOLPHIN.wav	D AA1 L F AH0 N	W	2	0.270282784	6	NA	NA	NA	NA	NA	thibber	flipper	dolphin	7	high	3	0.797385621
+1	20	violet	purple	semantic	VIOLET.wav	V AY1 AH0 L IH0 T	W	2	1.9395	3	NA	NA	NA	NA	NA	PURPLE.wav	P ER1 P AH0 L	W	2	0.419344334	#N/A	NA	NA	NA	NA	NA	vaper	violet	purple	1	low	5	0.402777778
+1	21	bosser	dinosaur	test	BAOSER.wav	B AO S ER	NW	2	0	9	large	22	high	0.35693382	3.794771052	DINOSAUR.wav	D AY1 N AH0 S AO2 R	W	3	0.315592534	1	NA	NA	NA	NA	NA	bosser	fossil	dinosaur	9	high	4	0.217105263
+1	21	hhawks	maer	nw_nw	HHAWKS.wav	HH AW K S	NW	1	0	29	NA	NA	NA	NA	NA	MAER.wav	M AE R	NW	1	20	68	NA	NA	NA	NA	NA	bosser	saucer	cup	1	low	1	0.527272727
+1	21	scramble	club	unrel_w	SKRAE1MBAH0L.wav	S K R AE1 M B AH0 L	W	2	1.9685	3	NA	NA	NA	NA	NA	CLUB.wav	K L AH1 B	W	1	0.522952569	18	NA	NA	NA	NA	NA	vember	member	club	6	high	1	0.263513514
+1	21	driyld	employee	unrel_nw	DRIYLD.wav	D R IY L D	NW	1	0	4	NA	NA	NA	NA	NA	employee.wav	IH0 M P L OY1	W	3	0.420533323	8	NA	NA	NA	NA	NA	bosser	boss	employee	10	high	2	0.147435897
+1	21	winter	summer	semantic	winter.wav	W IH1 N T ER0	W	2	2.9243	23	NA	NA	NA	NA	NA	SUMMER.wav	S AH1 M ER0	W	2	0.506802578	39	NA	NA	NA	NA	NA	winternz	winter	summer	33	high	2	0.372340426
+1	22	cheppan	squirrel	test	cheppan.wav	CH EH P AH N	NW	2	0	2	small	34	high	0.057306055	4.887537511	squirrel.wav	S K W ER1 AH0 L	W	2	0.346372537	2	NA	NA	NA	NA	NA	cheppan	chipmunk	squirrel	2	low	4	0.22
+1	22	blaysts	flawn	nw_nw	BLAYSTS.wav	B L AY S T S	NW	1	0	1	NA	NA	NA	NA	NA	FLAWN.wav	F L AW N	NW	1	21	15	NA	NA	NA	NA	NA	bota	photo	picture	9	high	2	0.576530612
+1	22	battling	broom	unrel_w	BAE1TLIH0NG.wav	B AE1 T L IH0 NG	W	2	2.0934	9	NA	NA	NA	NA	NA	broom.wav	B R UW1 M	W	1	0.35320432	52	NA	NA	NA	NA	NA	sweeree	sweep	broom	1	low	2	0.405555556
+1	22	kleyn	flower	unrel_nw	KLEYN.wav	K L EY N	NW	1	0	68	NA	NA	NA	NA	NA	flower.wav	F L AW1 ER0	W	2	0.447049444	24	NA	NA	NA	NA	NA	bayzee	daisy	flower	13	high	1	0.689189189
+1	22	gossip	talk	semantic	gossip.wav	G AA1 S AH0 P	W	2	2.4518	3	NA	NA	NA	NA	NA	talk.wav	T AO1 K	W	1	0.589055531	76	NA	NA	NA	NA	NA	gossy	gossip	talk	20	high	2	0.446043165
+1	23	flisnung	picket	test	FLIHSNAHNG.wav	F L IH S N AH NG	NW	2	0	2	small	30	high	0.071885217	4.448710649	PICKET.wav	P IH1 K IH0 T	W	2	0.287689784	19	NA	NA	NA	NA	NA	flisnung	fence	picket	1	low	5	0.149606299
+1	23	kyuwvd	muwbd	nw_nw	KYUWVD.wav	K Y UW V D	NW	1	0	3	NA	NA	NA	NA	NA	MUWBD.wav	M UW B D	NW	1	22	3	NA	NA	NA	NA	NA	olem	bowl	dish	1	low	3	0.111111111
+1	23	robots	hear	unrel_w	ROW1BAA2TS.wav	R OW1 B AA2 T S	W	2	1.9638	3	NA	NA	NA	NA	NA	HEAR.wav	HH IY1 R	W	1	0.586621057	59	NA	NA	NA	NA	NA	flisnung	listen	hear	8	high	3	0.505555556
+1	23	spaach	tornado	unrel_nw	SPAACH.wav	S P AA CH	NW	1	0	14	NA	NA	NA	NA	NA	TORNADO.wav	T AO2 R N EY1 D OW0	W	3	0.27565681	4	NA	NA	NA	NA	NA	flisnung	twister	tornado	1	low	5	0.466216216
+1	23	oatmeal	cereal	semantic	OATMEAL.wav	OW1 T M IY2 L	W	3	2.0969	0	NA	NA	NA	NA	NA	CEREAL.wav	S IH1 R IY0 AH0 L	W	3	0.371104822	8	NA	NA	NA	NA	NA	olem	oatmeal	cereal	1	low	4	0.184210526
+1	24	rowser	beef	test	ROWSER.wav	R OW S ER	NW	2	0	10	large	21	high	2.401448733	3.759969059	BEEF.wav	B IY1 F	W	1	0.448536278	73	NA	NA	NA	NA	NA	rowser	roast	beef	4	low	1	0.49375
+1	24	dayp	pawl	nw_nw	DAYP.wav	D AY P	NW	1	0	55	NA	NA	NA	NA	NA	PAWL.wav	P AW L	NW	1	23	69	NA	NA	NA	NA	NA	masso	moth	butterfly	1	low	3	0.266666667
+1	24	stagnant	dog	unrel_w	STAE1GNAH0NT.wav	S T AE1 G N AH0 N T	W	2	1.1761	0	NA	NA	NA	NA	NA	DOG.wav	D AO1 G	W	1	0.542115541	46	NA	NA	NA	NA	NA	cato	cat	dog	28	high	1	0.516129032
+1	24	faarlz	climate	unrel_nw	FAARLZ.wav	F AA R L Z	NW	1	0	22	NA	NA	NA	NA	NA	CLIMATE.wav	K L AY1 M IH0 T	W	2	0.339948062	8	NA	NA	NA	NA	NA	wefer	weather	climate	5	high	1	0.198412698
+1	24	possum	animal	semantic	POSSUM.wav	P AA1 S AH0 M	W	2	0.4771	1	NA	NA	NA	NA	NA	ANIMAL.wav	AE1 N AH0 M AH0 L	W	3	0.496611418	7	NA	NA	NA	NA	NA	masso	opossum	animal	1	low	5	0.141414141
+1	filler_nwnw_1	trahbz	zolly	filler	TRAHBZ.wav	T R AH B Z	NW	1	0	11	#N/A	#N/A	#N/A	#N/A	#N/A	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_2	mehsts	taeld	filler	MEHSTS.wav	M EH S T S	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	TAELD.wav	T AE L D	NW	1	0	16	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_3	dorice	skehts	filler	dorice.wav	D AH R AY S	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	SKEHTS.wav	S K EH T S	NW	1	0	19	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_4	gihd	siybz	filler	GIHD.wav	G IH D	NW	1	0	53	#N/A	#N/A	#N/A	#N/A	#N/A	SIYBZ.wav	S IY B Z	NW	1	0	54	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_5	wefer	dreason	filler	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_6	thibber	waenmaxsiy	filler	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	WAENMAHSIY.wav	W AE N M AH S IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_7	yaters	kerek	filler	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_8	zihnd	klaam	filler	ZIHND.wav	Z IH N D	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	KLAAM.wav	K L AA M	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_9	masso	gahb	filler	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	GAHB.wav	G AH B	NW	1	0	39	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_10	curdage	hhehnd	filler	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	HHEHND.wav	HH EH N D	NW	1	0	49	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_11	onul	birow	filler	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_12	muswee	olem	filler	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_13	kleyt	stehliyzliy	filler	KLEYT.wav	K L EY T	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	STEHLIYZLIY.wav	S T EH L IY Z L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_14	beevee	vember	filler	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_15	dihmtiysihng	chehnzmihtihd	filler	DIHMTIYSIHNG.wav	D IH M T IY S IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	CHEHNZMIHTIHD.wav	CH EH N Z M IH T IH D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_16	lolla	hhaylihmaxn	filler	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	HHAYLIHMAHN.wav	HH AY L IH M AH N	NW	3	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_17	braht	brushels	filler	BRAHT.wav	BR AH T	NW	1	0	35	#N/A	#N/A	#N/A	#N/A	#N/A	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_18	chihngkpehraxnt	kriyrz	filler	CHIHNGKPEHRAHNT.wav	CH IH NG K P EH R AH N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	KRIYRZ.wav	K R IY R Z	NW	1	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_19	skehrlz	gingul	filler	SKEHRLZ.wav	S K EH R L Z	NW	1	0	1	#N/A	#N/A	#N/A	#N/A	#N/A	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_20	zater	gossy	filler	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_21	siynt	staarm	filler	SIYNT.wav	S IY N T	NW	1	0	18	#N/A	#N/A	#N/A	#N/A	#N/A	STAARM.wav	S T AA R M	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_22	sussy	saech	filler	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	SAECH.wav	S AE CH	NW	1	0	52	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_23	fidest	yutul	filler	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	NA	NA	NA	NA	NA	NA	NA
+1	filler_nwnw_24	fihd	crickly	filler	FIHD.wav	F IH D	NW	1	0	62	#N/A	#N/A	#N/A	#N/A	#N/A	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_1	beard	byuw	filler	BEARD.wav	B IH1 R D	W	1	2.6021	#N/A	NA	NA	NA	NA	NA	BYUW.wav	B Y UW	NW	1	0	56	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_2	boat	reters	filler	BOAT.wav	B OW1 T	W	1	3.1638	117	NA	NA	NA	NA	NA	R_EH_T_ER_Z.wav	R EH T ER Z	NW	2	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_3	boss	aeshk	filler	boss.wav	B AO1 S	W	1	3.3681	88	NA	NA	NA	NA	NA	AESHK.wav	AE SH K	NW	1	0	21	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_4	bowl	bannow	filler	BOWL.wav	B OW1 L	W	1	2.8344	174	NA	NA	NA	NA	NA	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_5	brush	fubble	filler	BRUSH.wav	B R AH1 SH	W	1	2.7672	33	NA	NA	NA	NA	NA	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_6	buzz	sihnsaxrfaxp	filler	BUZZ.wav	B AH1 Z	W	1	2.5843	91	NA	NA	NA	NA	NA	SIHNSAHRFAHP.wav	S IH NS AH R F AH P	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_7	cat	bota	filler	CAT.wav	K AE1 T	W	1	3.1421	117	NA	NA	NA	NA	NA	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_8	climb	winternz	filler	CLIMB.wav	K L AY1 M	W	1	2.8603	39	NA	NA	NA	NA	NA	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_9	cup	paang	filler	CUP.wav	K AH1 P	W	1	3.1951	76	NA	NA	NA	NA	NA	PAANG.wav	P AA NG	NW	1	0	42	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_10	dam	vaper	filler	DAM.wav	D AE1 M	W	1	2.0969	85	NA	NA	NA	NA	NA	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_11	dish	rowf	filler	DISH.wav	D IH1 SH	W	1	2.6474	62	NA	NA	NA	NA	NA	ROWF.wav	R OW F	NW	1	0	100	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_12	dot	cuchee	filler	dot.wav	D AA1 T	W	1	2.2672	90	NA	NA	NA	NA	NA	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_13	drapes	mowfs	filler	DRAPES.wav	D R EY1 P S	W	1	2.0253	13	NA	NA	NA	NA	NA	MOWFS.wav	M OW F S	NW	1	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_14	face	uxman	filler	FACE.wav	F EY1 S	W	1	3.749	72	NA	NA	NA	NA	NA	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_15	fence	skehk	filler	FENCE.wav	F EH1 N S	W	1	2.7427	30	NA	NA	NA	NA	NA	SKEHK.wav	S K EH K	NW	1	0	15	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_16	hair	permume	filler	HAIR.wav	HH EH1 R	W	1	3.5603	125	NA	NA	NA	NA	NA	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_17	haze	skaym	filler	HAZE.wav	HH EY1 Z	W	1	1.6812	157	NA	NA	NA	NA	NA	SKAYM.wav	S K AY M	NW	1	0	13	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_18	leaf	dihsihnvihrd	filler	LEAF.wav	L IY1 F	W	1	2.3385	90	NA	NA	NA	NA	NA	DIHSIHNVIHRD.wav	D IH S IH N V IH R D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_19	lung	swaydz	filler	lung.wav	L AH1 NG	W	1	2.3802	49	NA	NA	NA	NA	NA	SWAYDZ.wav	S W AY D Z	NW	1	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_20	map	baasps	filler	MAP.wav	M AE1 P	W	1	2.9063	73	NA	NA	NA	NA	NA	BAASPS.wav	B AA S P S	NW	1	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_21	moth	pahpaxrdliy	filler	MOTH.wav	M AO1 TH	W	1	1.8451	46	NA	NA	NA	NA	NA	PAHPAHRDLIY.wav	P AH P AH R D L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_22	ring	paesihguhks	filler	RING.wav	R IH1 NG	W	1	3.3172	82	NA	NA	NA	NA	NA	PAESIHGUHKS.wav	P AE S IH G UH K S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_23	roast	baxskiyshaxn	filler	ROAST.wav	R OW1 S T	W	1	2.5599	44	NA	NA	NA	NA	NA	BAHSKIYSHAHN.wav	B AH S K IY SH AH N	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_24	round	lowstung	filler	ROUND.wav	R AW1 N D	W	1	3.2778	30	NA	NA	NA	NA	NA	L_OW_S_T_AH_NG.wav	L OW1 ER0	NW	2	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_25	shell	skwaykaxnihng	filler	SHELL.wav	SH EH1 L	W	1	2.6064	115	NA	NA	NA	NA	NA	SKWAYKAHNIHNG.wav	S K W AY K AH N IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_26	shield	huzzy	filler	SHIELD.wav	SH IY1 L D	W	1	2.4099	45	NA	NA	NA	NA	NA	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_27	sleep	moctor	filler	SLEEP.wav	S L IY1 P	W	1	3.6686	28	NA	NA	NA	NA	NA	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_28	socks	cato	filler	SOCKS.wav	S AA1 K S	W	1	2.738	60	NA	NA	NA	NA	NA	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_29	sweep	clackuz	filler	sweep.wav	S W IY1 P	W	1	2.5821	25	NA	NA	NA	NA	NA	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_30	tree	vihklaxmawnt	filler	TREE.wav	T R IY1	W	1	3.2103	#N/A	NA	NA	NA	NA	NA	VIHKLAHMAWNT.wav	V IH K L AH M AW N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_31	weak	paer	filler	WEAK.wav	W IY1 K	W	1	3.0726	109	NA	NA	NA	NA	NA	PAER.wav	P AE R	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_32	yacht	enwars	filler	YACHT.wav	Y AA1 T	W	1	2.2967	57	NA	NA	NA	NA	NA	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_33	yawn	leafa	filler	YAWN.wav	Y AO1 N	W	1	1.6128	#N/A	NA	NA	NA	NA	NA	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_34	woman	perchant	filler	WUH1MAH0N.wav	W UH1 M AH0 N	W	2	3.7728	18	NA	NA	NA	NA	NA	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_35	jingled	ehgyiywaxrm	filler	JHIH1NGGAH0LD.wav	JH IH1 NG G AH0 L D	W	2	0.4771	6	NA	NA	NA	NA	NA	EHGIYWAHRM.wav	EH G Y IY W AH R M	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_36	ran	yihl	filler	ran.wav	R AE1 N	W	1	3.458	143	NA	NA	NA	NA	NA	YIHL.wav	Y IH L	NW	1	0	65	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_37	torches	nuckie	filler	TAO1RCHIH0Z.wav	T AO1 R CH IH0 Z	W	2	1.7076	4	NA	NA	NA	NA	NA	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_38	dome	bayzee	filler	dome.wav	D OW1 M	W	1	1.8751	79	NA	NA	NA	NA	NA	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_39	frigid	payt	filler	FRIH1JHAH0D.wav	F R IH1 JH AH0 D	W	2	1.7634	2	NA	NA	NA	NA	NA	PAYT.wav	P AY T	NW	1	0	85	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_40	diet	skayt	filler	DAY1AH0T.wav	D AY1 AH0 T	W	2	2.7466	30	NA	NA	NA	NA	NA	SKAYT.wav	S K AY T	NW	1	0	32	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_41	carted	mumote	filler	CARTED.wav	K AA1 R T IH0 D	W	2	0.9031	8	NA	NA	NA	NA	NA	M_AH_M_OW_T.wav	M AH M OW T	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_42	pathways	medry	filler	PAE1THWEY2Z.wav	P AE1 TH W EY2 Z	W	2	1.3424	1	NA	NA	NA	NA	NA	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_43	jumps	geckered	filler	jumps.wav	JH AH1 M P Z	W	1	2.3404	11	NA	NA	NA	NA	NA	G_EH_K_ER_D.wav	G EH K ER D	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_44	cough	swaht	filler	cough.wav	K AO1 F	W	1	2.525	78	NA	NA	NA	NA	NA	SWAHT.wav	S W AH T	NW	1	0	17	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_45	creamy	gawnst	filler	KRIY1MIY0.wav	K R IY1 M IY0	W	2	1.7243	22	NA	NA	NA	NA	NA	GAWNST.wav	G AW NS T	NW	1	0	3	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_46	anchors	piyvaxrnaxs	filler	AE1NGKER0Z.wav	AE1 NG K ER0 Z	W	2	1.5185	17	NA	NA	NA	NA	NA	PIHVAHRNAHS.wav	P IY V AH R N AH S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_47	yearly	sweeree	filler	YIH1RLIY0.wav	Y IH1 R L IY0	W	2	1.6435	7	NA	NA	NA	NA	NA	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	NA	NA	NA	NA	NA	NA	NA
+1	filler_wnw_48	otter	avan	filler	AA1TER0.wav	AA1 T ER0	W	2	1.4472	43	NA	NA	NA	NA	NA	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	NA	NA	NA	NA	NA	NA	NA
+2	1	cactus	plant	semantic	CACTUS.wav	K AE1 K T AH0 S	W	2	1.9345	3	NA	NA	NA	NA	NA	PLANT.wav	P L AE1 N T	W	1	0.465397724	19	NA	NA	NA	NA	NA	batiss	cactus	plant	2	low	2	0.321428571
+2	1	batiss	map	test	BAETAHS.wav	B AE T AH S	NW	2	0	9	large	31	high	1.27472266	4.356026503	MAP.wav	M AE1 P	W	1	0.463340442	73	NA	NA	NA	NA	NA	batiss	atlas	map	1	low	2	0.527027027
+2	1	dihz	skahch	nw_nw	DIHZ.wav	D IH Z	NW	1	0	88	NA	NA	NA	NA	NA	SKAHCH.wav	S K AH CH	NW	1	0	16	NA	NA	NA	NA	NA	batiss	baptist	church	12	high	2	0.267973856
+2	1	minefield	ball	unrel_w	MAY1NFIY1LD.wav	M AY1 N F IY2 L D	W	2	1.6232	1	NA	NA	NA	NA	NA	ball.wav	B AO1 L	W	1	0.520640715	124	NA	NA	NA	NA	NA	batiss	bat	ball	8	high	2	0.251968504
+2	1	naekt	stove	unrel_nw	NAEKT.wav	N AE K T	NW	1	0	30	NA	NA	NA	NA	NA	STOVE.wav	S T OW1 V	W	1	0.389485041	20	NA	NA	NA	NA	NA	avan	oven	stove	1	low	1	0.224242424
+2	2	cooler	wine	semantic	COOLER.wav	K UW1 L ER0	W	2	2.4472	75	NA	NA	NA	NA	NA	WINE.wav	W AY1 N	W	1	0.502645578	118	NA	NA	NA	NA	NA	cover (nw)	cooler	wine	1	low	2	0.206521739
+2	2	birow	dresser	test	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	DRESSER.wav	D R EH1 S ER0	W	2	0.343231295	16	NA	NA	NA	NA	NA	birow	bureau	dresser	16	high	2	0.140939597
+2	2	strah	faemz	nw_nw	STRAH.wav	S T R AH	NW	1	0	29	NA	NA	NA	NA	NA	FAEMZ.wav	F AE M Z	NW	1	0	36	NA	NA	NA	NA	NA	birow	beard	mustache	3	low	1	0.310344828
+2	2	convex	lid	unrel_w	KAA1NVEH2KS.wav	K AA1 N V EH2 K S	W	2	0.7782	1	NA	NA	NA	NA	NA	LID.wav	L IH1 D	W	1	0.369661059	84	NA	NA	NA	NA	NA	cover (nw)	cover 	lid	21	high	1	0.12
+2	2	sayngk	superman	unrel_nw	SAYNGK.wav	S AY NG K	NW	1	0	11	NA	NA	NA	NA	NA	SUPERMAN.wav	S UW1 P ER0 M AE2 N	W	3	0.346372537	#N/A	NA	NA	NA	NA	NA	birow	hero	superman	20	high	1	0.166666667
+2	3	dozen	twelve	semantic	DOZEN.wav	D AH1 Z AH0 N	W	2	3.0009	11	NA	NA	NA	NA	NA	TWELVE.wav	T W EH1 L V	W	1	0.449154293	1	NA	NA	NA	NA	NA	dozer	dozen	twelve	25	high	2	0.483660131
+2	3	leafa	tree	test	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	TREE.wav	T R IY1	W	1	0.506545619	#N/A	NA	NA	NA	NA	NA	leafa	leaf	tree	35	high	1	0.642424242
+2	3	draesht	tehrch	nw_nw	DRAESHT.wav	D R AE SH T	NW	1	0	6	NA	NA	NA	NA	NA	TEHRCH.wav	T EH R CH	NW	1	0	15	NA	NA	NA	NA	NA	dozer	buzz	bee	1	low	2	0.520833333
+2	3	rival	sand	unrel_w	RAY1VAH0L.wav	R AY1 V AH0 L	W	2	2.1644	19	NA	NA	NA	NA	NA	SAND.wav	S AE1 N D	W	1	0.445868747	51	NA	NA	NA	NA	NA	dozer	desert	sand	5	high	2	0.17037037
+2	3	kehvz	tale	unrel_nw	KEHVZ.wav	K EH V Z	NW	1	0	15	NA	NA	NA	NA	NA	TALE.wav	T EY1 L	W	1	0.421521666	117	NA	NA	NA	NA	NA	leafa	fairy	tale	1	low	4	0.542857143
+2	4	essay	write	semantic	ESSAY.wav	EH0 S EY1	W	2	2.1106	25	NA	NA	NA	NA	NA	WRITE.wav	R AY1 T	W	1	0.540179261	105	NA	NA	NA	NA	NA	fesser	essay	write	1	low	3	0.335616438
+2	4	fesser	teacher	test	FEHSER.wav	F EH S ER	NW	2	0	11	large	11	low	2.681515794	1.632938805	TEACHER.wav	T IY1 CH ER0	W	2	0.493583511	16	NA	NA	NA	NA	NA	fesser	professor	teacher	46	high	3	0.510791367
+2	4	paybz	thehrts	nw_nw	PAYBZ.wav	P AY B Z	NW	1	0	13	NA	NA	NA	NA	NA	THEHRTS.wav	TH EH R T S	NW	1	0	6	NA	NA	NA	NA	NA	fesser	feather	bird	1	low	1	0.358974359
+2	4	founder	fog	unrel_w	FAW1NDER0.wav	F AW1 N D ER0	W	2	1.959	14	NA	NA	NA	NA	NA	FOG.wav	F AO1 G	W	1	0.368193878	51	NA	NA	NA	NA	NA	huzzy	haze	fog	1	low	2	0.377952756
+2	4	luhch	rabbit	unrel_nw	LUHCH.wav	L UH CH	NW	1	0	21	NA	NA	NA	NA	NA	RABBIT.wav	R AE1 B IH0 T	W	2	0.423458872	17	NA	NA	NA	NA	NA	kerek	carrot	rabbit	55	high	2	0.205
+2	5	weekend	fun	semantic	weekend.wav	W IY1 K EH2 N D	W	2	3.2082	#N/A	NA	NA	NA	NA	NA	fun.wav	F AH1 N	W	1	0.564180614	91	NA	NA	NA	NA	NA	weeco	weekend	fun	16	high	3	0.234899329
+2	5	lolla	candy	test	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	CANDY.wav	K AE1 N D IY0	W	2	0.470660352	43	NA	NA	NA	NA	NA	lolla	lollipop	candy	11	high	4	0.412162162
+2	5	klehd	traedz	nw_nw	KLEHD.wav	K L EH D	NW	1	0	33	NA	NA	NA	NA	NA	TRAEDZ.wav	T R AE D Z	NW	1	0	9	NA	NA	NA	NA	NA	weeco	weak	strong	14	high	1	0.557142857
+2	5	bias	sensitive	unrel_w	BAY1AH0S.wav	B AY1 AH0 S	W	2	1.7993	24	NA	NA	NA	NA	NA	SENSITIVE.wav	S EH1 N S IH0 T IH0 V	W	3	0.471144965	1	NA	NA	NA	NA	NA	cuchee	touchy	sensitive	10	high	1	0.223684211
+2	5	spawks	bread	unrel_nw	SPAWKS.wav	S P AW K S	NW	1	0	9	NA	NA	NA	NA	NA	BREAD.wav	B R EH1 D	W	1	0.470660352	45	NA	NA	NA	NA	NA	weeco	wheat	bread	2	low	2	0.189189189
+2	6	marker	pen	semantic	MARKER.wav	M AA1 R K ER0	W	2	2.2068	47	NA	NA	NA	NA	NA	PEN.wav	P EH1 N	W	1	0.464221198	113	NA	NA	NA	NA	NA	meckle	marker	pen	2	low	4	0.256756757
+2	6	meckle	face	test	MEHKAHL.wav	M EH K AH L	NW	2	0	10	large	25	high	0.917850636	4.185680473	FACE.wav	F EY1 S	W	1	0.57391544	72	NA	NA	NA	NA	NA	meckle	freckle	face	5	high	2	0.448051948
+2	6	griyl	steyps	nw_nw	GRIYL.wav	G R IY L	NW	1	0	52	NA	NA	NA	NA	NA	STEYPS.wav	S T EY P S	NW	1	0	14	NA	NA	NA	NA	NA	meckle	medal	gold	2	low	1	0.210884354
+2	6	printouts	belt	unrel_w	PRIH1NTAW2TZ.wav	P R IH1 N T AW2 T S	W	2	1.0792	1	NA	NA	NA	NA	NA	belt.wav	B EH1 L T	W	1	0.465947662	64	NA	NA	NA	NA	NA	meckle	buckle	belt	2	low	2	0.666666667
+2	6	wehvz	car	unrel_nw	WEHVZ.wav	W EH V Z	NW	1	0	18	NA	NA	NA	NA	NA	CAR.wav	K AA1 R	W	1	0.569631366	162	NA	NA	NA	NA	NA	meckle	mechanical	car	1	low	5	0.257142857
+2	7	dot	period	semantic	dot.wav	D AA1 T	W	1	2.2672	90	NA	NA	NA	NA	NA	PERIOD.wav	P IH1 R IY0 AH0 D	W	3	0.478552067	3	NA	NA	NA	NA	NA	tawto	dot	period	1	low	2	0.182432432
+2	7	zater	climb	test	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	CLIMB.wav	K L AY1 M	W	1	0.456411586	39	NA	NA	NA	NA	NA	zater	ladder	climb	1	low	2	0.337931034
+2	7	yehts	tahs	nw_nw	YEHTS.wav	Y EH T S	NW	1	0	49	NA	NA	NA	NA	NA	TAHS.wav	T AH S	NW	1	0	63	NA	NA	NA	NA	NA	tawto	patio	furniture	2	low	4	0.254901961
+2	7	fellows	chip	unrel_w	FEH1LOW0Z.wav	F EH1 L OW0 Z	W	2	2.6503	17	NA	NA	NA	NA	NA	CHIP.wav	CH IH1 P	W	1	0.429929836	57	NA	NA	NA	NA	NA	tawto	potato	chip	20	high	4	0.141891892
+2	7	maefs	vegetables	unrel_nw	MAEFS.wav	M AE F S	NW	1	0	24	NA	NA	NA	NA	NA	VEGETABLES.wav	V EH1 JH T AH0 B AH0 L Z	W	3	0.384980296	1	NA	NA	NA	NA	NA	tawto	tomato	vegetables	1	low	4	0.230769231
+2	8	lung	breathe	semantic	lung.wav	L AH1 NG	W	1	2.3802	49	NA	NA	NA	NA	NA	BREATHE.wav	B R IY1 DH	W	1	0.498834149	24	NA	NA	NA	NA	NA	zhelung	lung	breathe	1	low	3	0.362318841
+2	8	brushels	hair	test	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	HAIR.wav	HH EH1 R	W	1	0.551486594	125	NA	NA	NA	NA	NA	brushels	brush	hair	9	high	3	0.440217391
+2	8	smaem	traynd	nw_nw	SMAEM.wav	S M AE M	NW	1	0	15	NA	NA	NA	NA	NA	TRAYND.wav	T R AY N D	NW	1	0	9	NA	NA	NA	NA	NA	zhelung	giant	big	1	low	5	0.229166667
+2	8	mothers	tired	unrel_w	MAH1DHER0Z.wav	M AH1 DH ER0 Z	W	2	2.6684	14	NA	NA	NA	NA	NA	TIRED.wav	T AY1 ER0 D	W	1	0.543844635	12	NA	NA	NA	NA	NA	zolly	yawn	tired	1	low	4	0.464052288
+2	8	wowks	add	unrel_nw	WOWKS.wav	W OW K S	NW	1	0	46	NA	NA	NA	NA	NA	ADD.wav	AE1 D	W	1	0.494697123	82	NA	NA	NA	NA	NA	zhelung	sum	add	1	low	5	0.283783784
+2	9	kitchen	cook	semantic	KITCHEN.wav	K IH1 CH AH0 N	W	2	3.2591	20	NA	NA	NA	NA	NA	COOK.wav	K UH1 K	W	1	0.496472984	57	NA	NA	NA	NA	NA	chichin	kitchen	cook	27	high	1	0.182741117
+2	9	curdage	lettuce	test	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	LETTUCE.wav	L EH1 T AH0 S	W	2	0.32085222	12	NA	NA	NA	NA	NA	curdage	cabbage	lettuce	1	low	2	0.28057554
+2	9	hhawn	ayng	nw_nw	HHAWN.wav	HH AW N	NW	1	0	87	NA	NA	NA	NA	NA	AYNG.wav	AY NG	NW	1	0	51	NA	NA	NA	NA	NA	curdage	courage	brave	26	high	2	0.239726027
+2	9	smelly	cheese	unrel_w	SMELLY.wav	S M EH1 L IY0	W	2	2.2095	23	NA	NA	NA	NA	NA	CHEESE.wav	CH IY1 Z	W	1	0.484797924	130	NA	NA	NA	NA	NA	clackuz	crackers	cheese	34	high	2	0.294520548
+2	9	ehkt	soup	unrel_nw	EHKT.wav	EH K T	NW	1	0	41	NA	NA	NA	NA	NA	SOUP.wav	S UW1 P	W	1	0.459859706	83	NA	NA	NA	NA	NA	chichin	chicken	soup	14	high	1	0.092391304
+2	10	rubber	band	semantic	RUBBER.wav	R AH1 B ER0	W	2	2.6712	24	NA	NA	NA	NA	NA	BAND.wav	B AE1 N D	W	1	0.484356792	49	NA	NA	NA	NA	NA	glumber	rubber	band	1	low	3	0.216216216
+2	10	glumber	sleep	test	GLAHMBER.wav	G L AH M B ER	NW	2	0	2	small	15	low	0.997923519	2.851207983	SLEEP.wav	S L IY1 P	W	1	0.564500362	28	NA	NA	NA	NA	NA	glumber	slumber	sleep	23	high	1	0.513513514
+2	10	naym	sowngk	nw_nw	NAYM.wav	N AY M	NW	1	0	46	NA	NA	NA	NA	NA	SOWNGK.wav	S OW NG K	NW	1	0	10	NA	NA	NA	NA	NA	glumber	timber	wood	1	low	3	0.41025641
+2	10	maintenance	guilty	unrel_w	MEY1NTNAH0NS.wav	M EY1 N T N AH0 N S	W	2	2.42	1	NA	NA	NA	NA	NA	GUILTY.wav	G IH1 L T IY0	W	2	0.503409317	12	NA	NA	NA	NA	NA	dreason	treason	guilty	25	high	2	0.114864865
+2	10	riynt	nurse	unrel_nw	RIYNT.wav	R IY N T	NW	1	0	19	NA	NA	NA	NA	NA	NURSE.wav	N ER1 S	W	1	0.483073542	55	NA	NA	NA	NA	NA	moctor	doctor	nurse	11	high	2	0.378787879
+2	11	sardine	fish	semantic	SARDINE.wav	S AA0 R D IY1 N	W	2	1.4914	4	NA	NA	NA	NA	NA	FISH.wav	F IH1 SH	W	1	0.509565403	50	NA	NA	NA	NA	NA	sardent	sardine	fish	14	high	3	0.452380952
+2	11	perchant	drapes	test	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	DRAPES.wav	D R EY1 P S	W	1	0.306489363	13	NA	NA	NA	NA	NA	perchant	curtain	drapes	1	low	3	0.25984252
+2	11	prehnd	dayts	nw_nw	P_R_EH_N_D.wav	P R EH N D	NW	1	0	9	NA	NA	NA	NA	NA	DAYTS.wav	D AY T S	NW	1	0	65	NA	NA	NA	NA	NA	sardent	sergeant	army	13	high	1	0.353741497
+2	11	contacts	buy	unrel_w	KAA1NTAE2KTS.wav	K AA1 N T AE2 K T S	W	2	2.4914	4	NA	NA	NA	NA	NA	BUY.wav	B AY1	W	1	0.560169754	133	NA	NA	NA	NA	NA	perchant	purchase	buy	26	high	2	0.577181208
+2	11	sehm	important	unrel_nw	SEHM.wav	S EH M	NW	1	0	88	NA	NA	NA	NA	NA	IMPORTANT.wav	IH0 M P AO1 R T AH0 N T	W	3	0.566826239	1	NA	NA	NA	NA	NA	perchant	urgent	important	1	low	2	0.173913043
+2	12	chimney	smoke	semantic	CHIMNEY.wav	CH IH1 M N IY0	W	2	2.1461	5	NA	NA	NA	NA	NA	SMOKE.wav	S M OW1 K	W	1	0.515224565	19	NA	NA	NA	NA	NA	timney	chimney	smoke	45	high	1	0.24025974
+2	12	enwars	jealousy	test	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	JEALOUSY.wav	JH EH1 L AH0 S IY0	W	3	0.37322473	4	NA	NA	NA	NA	NA	enwars	envy	jealousy	1	low	4	0.513333333
+2	12	chehd	chihrts	nw_nw	CHEHD.wav	CH EH D	NW	1	0	42	NA	NA	NA	NA	NA	CHIRTS.wav	CH IH R T S	NW	1	0	4	NA	NA	NA	NA	NA	enwars	emerald	green	1	low	5	0.371621622
+2	12	photon	wild	unrel_w	FOW1TAA2N.wav	F OW1 T AA2 N	W	2	1.301	2	NA	NA	NA	NA	NA	wild.wav	W AY1 L D	W	1	0.511869998	50	NA	NA	NA	NA	NA	timney	tame	wild	1	low	3	0.4
+2	12	kraeng	forever	unrel_nw	KRAENG.wav	K R AE NG	NW	1	0	33	NA	NA	NA	NA	NA	FOREVER.wav	F ER0 EH1 V ER0	W	3	0.536230073	1	NA	NA	NA	NA	NA	enwars	endless	forever	1	low	3	0.248322148
+2	13	belly	stomach	semantic	BELLY.wav	B EH1 L IY0	W	2	2.7657	128	NA	NA	NA	NA	NA	STOMACH.wav	S T AH1 M AH0 K	W	2	0.48945221	2	NA	NA	NA	NA	NA	nuleave	belly	stomach	13	high	3	0.402777778
+2	13	nuleave	yellow	test	NAHLIYV.wav	N AH L IY V	NW	2	0	2	small	28	high	0.072941923	3.913100742	YELLOW.wav	Y EH1 L OW0	W	2	0.478364451	25	NA	NA	NA	NA	NA	nuleave	mellow	yellow	3	low	4	0.328671329
+2	13	jhahnd	stahnjh	nw_nw	JHAHND.wav	JH AH N D	NW	1	0	27	NA	NA	NA	NA	NA	STAHNJH.wav	S T AH N JH	NW	1	0	8	NA	NA	NA	NA	NA	nuleave	relief	pain	1	low	4	0.117647059
+2	13	missile	average	unrel_w	MIH1SAH0L.wav	M IH1 S AH0 L	W	2	2.3181	46	NA	NA	NA	NA	NA	AVERAGE.wav	AE1 V R IH0 JH	W	2	0.442730553	2	NA	NA	NA	NA	NA	medry	mediocre	average	1	low	5	0.169934641
+2	13	stehbz	white	unrel_nw	STEHBZ.wav	S T EH B Z	NW	1	0	9	NA	NA	NA	NA	NA	WHITE.wav	W AY1 T	W	1	0.547257673	104	NA	NA	NA	NA	NA	nuleave	snow	white	1	low	5	0.314102564
+2	14	obnoxious	rude	semantic	OBNOXIOUS.wav	AA0 B N AA1 K SH AH0 S	W	3	2.1818	0	NA	NA	NA	NA	NA	RUDE.wav	R UW1 D	W	1	0.469439079	107	NA	NA	NA	NA	NA	shawshus	obnoxious	rude	1	low	5	0.181818182
+2	14	shawshus	careful	test	SHAOSHAHS.wav	SH AO SH AH S	NW	2	0	2	small	27	high	0.998916038	3.819383308	CAREFUL.wav	K EH0 R F UH2 L	W	2	0.545653424	6	NA	NA	NA	NA	NA	shawshus	cautious	careful	21	high	1	0.513333333
+2	14	kwihsk	behrbd	nw_nw	KWIHSK.wav	K W IH S K	NW	1	0	7	NA	NA	NA	NA	NA	BEHRBD.wav	B EH R B D	NW	1	0	4	NA	NA	NA	NA	NA	shawshus	shell	beach	1	low	4	0.25
+2	14	spoken	sick	unrel_w	SPOW1KAH0N.wav	S P OW1 K AH0 N	W	2	2.9335	4	NA	NA	NA	NA	NA	SICK.wav	S IH1 K	W	1	0.55479191	109	NA	NA	NA	NA	NA	shawshus	nauseous	sick	4	low	1	0.613333333
+2	14	kaadz	breakfast	unrel_nw	KAADZ.wav	K AA D Z	NW	1	0	52	NA	NA	NA	NA	NA	BREAKFAST.wav	B R EH1 K F AH0 S T	W	2	0.517697225	1	NA	NA	NA	NA	NA	shawshus	sausage	breakfast	1	low	3	0.092105263
+2	15	target	bull's eye	semantic	TARGET.wav	T AA1 R G AH0 T	W	2	2.9759	3	NA	NA	NA	NA	NA	BULLSEYE.wav	B UH1 L Z AY2	W	2	0.450787792	#N/A	NA	NA	NA	NA	NA	tarfin	target	bull's eye	11	high	3	0.297297297
+2	15	yaters	boat	test	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	BOAT.wav	B OW1 T	W	1	0.500209022	117	NA	NA	NA	NA	NA	yaters	yacht	boat	9	high	3	0.59375
+2	15	krayn	lawnz	nw_nw	KRAYN.wav	K R AY N	NW	1	0	55	NA	NA	NA	NA	NA	LAWNZ.wav	L AW N Z	NW	1	0	46	NA	NA	NA	NA	NA	tarfin	typhoon	hurricane	2	low	3	0.175324675
+2	15	tally	fast	unrel_w	TAE1LIY0.wav	T AE1 L IY0	W	2	1.7782	75	NA	NA	NA	NA	NA	FAST.wav	F AE1 S T	W	1	0.553980065	43	NA	NA	NA	NA	NA	uxman	express	fast	1	low	5	0.186206897
+2	15	graelt	sour	unrel_nw	GRAELT.wav	G R AE L T	NW	1	0	6	NA	NA	NA	NA	NA	SOUR.wav	S AW1 R	W	1	0.380156952	57	NA	NA	NA	NA	NA	tarfin	tart	sour	1	low	4	0.25
+2	16	socks	shoes	semantic	SOCKS.wav	S AA1 K S	W	1	2.738	60	NA	NA	NA	NA	NA	SHOES.wav	SH UW1 Z	W	1	0.519224023	103	NA	NA	NA	NA	NA	zaucous	socks	shoes	10	high	3	0.655405405
+2	16	beevee	dam	test	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	DAM.wav	D AE1 M	W	1	0.32157772	85	NA	NA	NA	NA	NA	beevee	beaver	dam	14	high	1	0.269503546
+2	16	vehrnd	skey	nw_nw	VEHRND.wav	V EH R N D	NW	1	0	3	NA	NA	NA	NA	NA	SKEY.wav	S K EY	NW	1	0	37	NA	NA	NA	NA	NA	bannow	banner	flag	25	high	1	0.686868687
+2	16	layers	space	unrel_w	LEY1ER0Z.wav	L EY1 ER0 Z	W	2	1.959	49	NA	NA	NA	NA	NA	SPACE.wav	S P EY1 S	W	1	0.508395033	20	NA	NA	NA	NA	NA	yutul	shuttle	space	9	high	1	0.415492958
+2	16	klehpt	scream	unrel_nw	KLEHPT.wav	K L EH P T	NW	1	0	12	NA	NA	NA	NA	NA	SCREAM.wav	S K R IY1 M	W	1	0.468051791	#N/A	NA	NA	NA	NA	NA	yutul	yell	scream	3	low	3	0.577777778
+2	17	diner	food	semantic	DINER.wav	D AY1 N ER0	W	2	2.5079	66	NA	NA	NA	NA	NA	FOOD.wav	F UW1 D	W	1	0.551083865	50	NA	NA	NA	NA	NA	dimer	diner	food	9	high	1	0.317880795
+2	17	dimer	ring	test	DAYMER.wav	D AY M ER	NW	2	0	11	large	9	low	2.715889977	2.344627096	RING.wav	R IH1 NG	W	1	0.520771657	82	NA	NA	NA	NA	NA	dimer	diamond	ring	32	high	3	0.630434783
+2	17	neyks	hhehz	nw_nw	NEYKS.wav	N EY K S	NW	1	0	42	NA	NA	NA	NA	NA	HHEHZ.wav	HH EH Z	NW	1	0	91	NA	NA	NA	NA	NA	dimer	diver	water	1	low	1	0.266666667
+2	17	rocket	bug	unrel_w	RAA1KAH0T.wav	R AA1 K AH0 T	W	2	2.4609	16	NA	NA	NA	NA	NA	BUG.wav	B AH1 G	W	1	0.441914976	65	NA	NA	NA	NA	NA	crickly	cricket	bug	10	high	2	0.216216216
+2	17	fihm	nickel	unrel_nw	FIHM.wav	F IH M	NW	1	0	67	NA	NA	NA	NA	NA	NICKEL.wav	N IH1 K AH0 L	W	2	0.403154851	52	NA	NA	NA	NA	NA	dimer	dime	nickel	4	low	1	0.527272727
+2	18	bacon	eggs	semantic	BACON.wav	B EY1 K AH0 N	W	2	2.6021	29	NA	NA	NA	NA	NA	EGGS.wav	EH1 G Z	W	1	0.483972215	43	NA	NA	NA	NA	NA	lakein	bacon	eggs	1	low	1	0.517241379
+2	18	fidest	boxer	test	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	BOXER.wav	B AA1 K S ER0	W	2	0.313213178	11	NA	NA	NA	NA	NA	fidest	fighter	boxer	13	high	4	0.209459459
+2	18	weym	jhahk	nw_nw	WEYM.wav	W EY M	NW	1	0	68	NA	NA	NA	NA	NA	JHAHK.wav	JH AH K	NW	1	0	54	NA	NA	NA	NA	NA	nuckie	knuckle	fist	24	high	2	0.257142857
+2	18	piping	laugh	unrel_w	PAY1PIH0NG.wav	P AY1 P IH0 NG	W	2	1.5441	7	NA	NA	NA	NA	NA	LAUGH.wav	L AE1 F	W	1	0.516693991	65	NA	NA	NA	NA	NA	gingul	giggle	laugh	8	high	1	0.78030303
+2	18	puhnd	story	unrel_nw	PUHND.wav	P UH N D	NW	1	0	11	NA	NA	NA	NA	NA	STORY.wav	S T AO1 R IY0	W	2	0.559906625	36	NA	NA	NA	NA	NA	fubble	fable	story	1	low	1	0.480769231
+2	19	proton	neutron	semantic	PROTON.wav	P R OW1 T AA2 N	W	2	1.0414	#N/A	NA	NA	NA	NA	NA	NEUTRON.wav	N UW1 T R AA2 N	W	2	0.145476105	1	NA	NA	NA	NA	NA	protag	proton	neutron	16	high	2	0.565789474
+2	19	onul	round	test	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	ROUND.wav	R AW1 N D	W	1	0.515582451	30	NA	NA	NA	NA	NA	onul	oval	round	6	high	1	0.407608696
+2	19	dehrnd	taesht	nw_nw	DEHRND.wav	D EH R N D	NW	1	0	2	NA	NA	NA	NA	NA	TAESHT.wav	T AE SH T	NW	1	0	19	NA	NA	NA	NA	NA	muswee	mustard	ketchup	14	high	3	0.584415584
+2	19	colon	smell	unrel_w	KOW1LAH0N.wav	K OW1 L AH0 N	W	2	1.9823	78	NA	NA	NA	NA	NA	SMELL.wav	S M EH1 L	W	1	0.528878152	29	NA	NA	NA	NA	NA	permume	perfume	smell	27	high	3	0.392857143
+2	19	krihf	old	unrel_nw	KRIHF.wav	K R IH F	NW	1	0	32	NA	NA	NA	NA	NA	OLD.wav	OW1 L D	W	1	0.584274672	53	NA	NA	NA	NA	NA	muswee	musty	old	10	high	1	0.114864865
+2	20	shield	protection	semantic	SHIELD.wav	SH IY1 L D	W	1	2.4099	45	NA	NA	NA	NA	NA	PROTECTION.wav	P ER0 T EH1 K SH AH0 N	W	3	0.467163966	2	NA	NA	NA	NA	NA	sheeler	shield	protection	7	high	1	0.243243243
+2	20	sussy	cloudy	test	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	CLOUDY.wav	K L AW1 D IY0	W	2	0.296160414	4	NA	NA	NA	NA	NA	sussy	sunny	cloudy	1	low	1	0.175324675
+2	20	spihmz	bahcht	nw_nw	SPIHMZ.wav	S P IH M Z	NW	1	0	15	NA	NA	NA	NA	NA	BAHCHT.wav	B AH CH T	NW	1	0	19	NA	NA	NA	NA	NA	vaper	vapor	steam	9	high	1	0.127516779
+2	20	lions	dolphin	unrel_w	LAY1AH0NZ.wav	L AY1 AH0 N Z	W	2	2.2148	20	NA	NA	NA	NA	NA	DOLPHIN.wav	D AA1 L F AH0 N	W	2	0.270282784	6	NA	NA	NA	NA	NA	thibber	flipper	dolphin	7	high	3	0.797385621
+2	20	lahcht	purple	unrel_nw	LAHCHT.wav	L AH CH T	NW	1	0	14	NA	NA	NA	NA	NA	PURPLE.wav	P ER1 P AH0 L	W	2	0.419344334	#N/A	NA	NA	NA	NA	NA	vaper	violet	purple	1	low	5	0.402777778
+2	21	fossil	dinosaur	semantic	FOSSIL.wav	F AA1 S AH0 L	W	2	1.7482	18	NA	NA	NA	NA	NA	DINOSAUR.wav	D AY1 N AH0 S AO2 R	W	3	0.315592534	1	NA	NA	NA	NA	NA	bosser	fossil	dinosaur	9	high	4	0.217105263
+2	21	bosser	cup	test	BAOSER.wav	B AO S ER	NW	2	0	9	large	22	high	0.35693382	3.794771052	CUP.wav	K AH1 P	W	1	0.504484455	76	NA	NA	NA	NA	NA	bosser	saucer	cup	1	low	1	0.527272727
+2	21	hhawks	maer	nw_nw	HHAWKS.wav	HH AW K S	NW	1	0	29	NA	NA	NA	NA	NA	MAER.wav	M AE R	NW	1	0	68	NA	NA	NA	NA	NA	vember	member	club	6	high	1	0.263513514
+2	21	scramble	employee	unrel_w	SKRAE1MBAH0L.wav	S K R AE1 M B AH0 L	W	2	1.9685	3	NA	NA	NA	NA	NA	employee.wav	IH0 M P L OY1	W	3	0.420533323	8	NA	NA	NA	NA	NA	bosser	boss	employee	10	high	2	0.147435897
+2	21	driyld	summer	unrel_nw	DRIYLD.wav	D R IY L D	NW	1	0	4	NA	NA	NA	NA	NA	SUMMER.wav	S AH1 M ER0	W	2	0.506802578	39	NA	NA	NA	NA	NA	winternz	winter	summer	33	high	2	0.372340426
+2	22	chipmunk	squirrel	semantic	chipmunk.wav	CH IH1 P M AH0 NG K	W	2	1.4771	0	NA	NA	NA	NA	NA	squirrel.wav	S K W ER1 AH0 L	W	2	0.346372537	2	NA	NA	NA	NA	NA	cheppan	chipmunk	squirrel	2	low	4	0.22
+2	22	bota	picture	test	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	picture.wav	P IH1 K CH ER0	W	2	0.544353344	12	NA	NA	NA	NA	NA	bota	photo	picture	9	high	2	0.576530612
+2	22	blaysts	flawn	nw_nw	BLAYSTS.wav	B L AY S T S	NW	1	0	1	NA	NA	NA	NA	NA	FLAWN.wav	F L AW N	NW	1	0	15	NA	NA	NA	NA	NA	sweeree	sweep	broom	1	low	2	0.405555556
+2	22	battling	flower	unrel_w	BAE1TLIH0NG.wav	B AE1 T L IH0 NG	W	2	2.0934	9	NA	NA	NA	NA	NA	flower.wav	F L AW1 ER0	W	2	0.447049444	24	NA	NA	NA	NA	NA	bayzee	daisy	flower	13	high	1	0.689189189
+2	22	kleyn	talk	unrel_nw	KLEYN.wav	K L EY N	NW	1	0	68	NA	NA	NA	NA	NA	talk.wav	T AO1 K	W	1	0.589055531	76	NA	NA	NA	NA	NA	gossy	gossip	talk	20	high	2	0.446043165
+2	23	fence	picket	semantic	FENCE.wav	F EH1 N S	W	1	2.7427	30	NA	NA	NA	NA	NA	PICKET.wav	P IH1 K IH0 T	W	2	0.287689784	19	NA	NA	NA	NA	NA	flisnung	fence	picket	1	low	5	0.149606299
+2	23	olem	dish	test	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	DISH.wav	D IH1 SH	W	1	0.422819565	62	NA	NA	NA	NA	NA	olem	bowl	dish	1	low	3	0.111111111
+2	23	kyuwvd	muwbd	nw_nw	KYUWVD.wav	K Y UW V D	NW	1	0	3	NA	NA	NA	NA	NA	MUWBD.wav	M UW B D	NW	1	0	3	NA	NA	NA	NA	NA	flisnung	listen	hear	8	high	3	0.505555556
+2	23	robots	tornado	unrel_w	ROW1BAA2TS.wav	R OW1 B AA2 T S	W	2	1.9638	3	NA	NA	NA	NA	NA	TORNADO.wav	T AO2 R N EY1 D OW0	W	3	0.27565681	4	NA	NA	NA	NA	NA	flisnung	twister	tornado	1	low	5	0.466216216
+2	23	spaach	cereal	unrel_nw	SPAACH.wav	S P AA CH	NW	1	0	14	NA	NA	NA	NA	NA	CEREAL.wav	S IH1 R IY0 AH0 L	W	3	0.371104822	8	NA	NA	NA	NA	NA	olem	oatmeal	cereal	1	low	4	0.184210526
+2	24	roast	beef	semantic	ROAST.wav	R OW1 S T	W	1	2.5599	44	NA	NA	NA	NA	NA	BEEF.wav	B IY1 F	W	1	0.448536278	73	NA	NA	NA	NA	NA	rowser	roast	beef	4	low	1	0.49375
+2	24	masso	butterfly	test	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	BUTTERFLY.wav	B AH1 T ER0 F L AY2	W	3	0.356370095	2	NA	NA	NA	NA	NA	masso	moth	butterfly	1	low	3	0.266666667
+2	24	dayp	pawl	nw_nw	DAYP.wav	D AY P	NW	1	0	55	NA	NA	NA	NA	NA	PAWL.wav	P AW L	NW	1	0	69	NA	NA	NA	NA	NA	cato	cat	dog	28	high	1	0.516129032
+2	24	stagnant	climate	unrel_w	STAE1GNAH0NT.wav	S T AE1 G N AH0 N T	W	2	1.1761	0	NA	NA	NA	NA	NA	CLIMATE.wav	K L AY1 M IH0 T	W	2	0.339948062	8	NA	NA	NA	NA	NA	wefer	weather	climate	5	high	1	0.198412698
+2	24	faarlz	animal	unrel_nw	FAARLZ.wav	F AA R L Z	NW	1	0	22	NA	NA	NA	NA	NA	ANIMAL.wav	AE1 N AH0 M AH0 L	W	3	0.496611418	7	NA	NA	NA	NA	NA	masso	opossum	animal	1	low	5	0.141414141
+2	filler_nwnw_1	trahbz	zolly	filler	TRAHBZ.wav	T R AH B Z	NW	1	0	11	#N/A	#N/A	#N/A	#N/A	#N/A	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_2	mehsts	taeld	filler	MEHSTS.wav	M EH S T S	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	TAELD.wav	T AE L D	NW	1	0	16	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_3	dorice	skehts	filler	dorice.wav	D AH R AY S	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	SKEHTS.wav	S K EH T S	NW	1	0	19	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_4	gihd	siybz	filler	GIHD.wav	G IH D	NW	1	0	53	#N/A	#N/A	#N/A	#N/A	#N/A	SIYBZ.wav	S IY B Z	NW	1	0	54	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_5	wefer	dreason	filler	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_6	thibber	waenmaxsiy	filler	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	WAENMAHSIY.wav	W AE N M AH S IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_7	yaters	kerek	filler	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_8	zihnd	klaam	filler	ZIHND.wav	Z IH N D	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	KLAAM.wav	K L AA M	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_9	masso	gahb	filler	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	GAHB.wav	G AH B	NW	1	0	39	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_10	curdage	hhehnd	filler	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	HHEHND.wav	HH EH N D	NW	1	0	49	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_11	onul	birow	filler	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_12	muswee	olem	filler	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_13	kleyt	stehliyzliy	filler	KLEYT.wav	K L EY T	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	STEHLIYZLIY.wav	S T EH L IY Z L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_14	beevee	vember	filler	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_15	dihmtiysihng	chehnzmihtihd	filler	DIHMTIYSIHNG.wav	D IH M T IY S IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	CHEHNZMIHTIHD.wav	CH EH N Z M IH T IH D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_16	lolla	hhaylihmaxn	filler	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	HHAYLIHMAHN.wav	HH AY L IH M AH N	NW	3	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_17	braht	brushels	filler	BRAHT.wav	BR AH T	NW	1	0	35	#N/A	#N/A	#N/A	#N/A	#N/A	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_18	chihngkpehraxnt	kriyrz	filler	CHIHNGKPEHRAHNT.wav	CH IH NG K P EH R AH N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	KRIYRZ.wav	K R IY R Z	NW	1	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_19	skehrlz	gingul	filler	SKEHRLZ.wav	S K EH R L Z	NW	1	0	1	#N/A	#N/A	#N/A	#N/A	#N/A	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_20	zater	gossy	filler	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_21	siynt	staarm	filler	SIYNT.wav	S IY N T	NW	1	0	18	#N/A	#N/A	#N/A	#N/A	#N/A	STAARM.wav	S T AA R M	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_22	sussy	saech	filler	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	SAECH.wav	S AE CH	NW	1	0	52	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_23	fidest	yutul	filler	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	NA	NA	NA	NA	NA	NA	NA
+2	filler_nwnw_24	fihd	crickly	filler	FIHD.wav	F IH D	NW	1	0	62	#N/A	#N/A	#N/A	#N/A	#N/A	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_1	beach	byuw	filler	BEACH.wav	B IY1 CH	W	1	3.1113	#N/A	NA	NA	NA	NA	NA	BYUW.wav	B Y UW	NW	1	0	56	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_2	beard	reters	filler	BEARD.wav	B IH1 R D	W	1	2.6021	#N/A	NA	NA	NA	NA	NA	R_EH_T_ER_Z.wav	R EH T ER Z	NW	2	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_3	bee	aeshk	filler	BEE.wav	B IY1	W	1	2.3962	202	NA	NA	NA	NA	NA	AESHK.wav	AE SH K	NW	1	0	21	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_4	big	bannow	filler	BIG.wav	B IH1 G	W	1	3.8594	75	NA	NA	NA	NA	NA	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_5	bird	fubble	filler	BIRD.wav	B ER1 D	W	1	3.0781	110	NA	NA	NA	NA	NA	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_6	boss	sihnsaxrfaxp	filler	boss.wav	B AO1 S	W	1	3.3681	88	NA	NA	NA	NA	NA	SIHNSAHRFAHP.wav	S IH NS AH R F AH P	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_7	bowl	bota	filler	BOWL.wav	B OW1 L	W	1	2.8344	174	NA	NA	NA	NA	NA	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_8	brave	winternz	filler	BRAVE.wav	B R EY1 V	W	1	3.0461	22	NA	NA	NA	NA	NA	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_9	broom	paang	filler	broom.wav	B R UW1 M	W	1	2.2553	52	NA	NA	NA	NA	NA	PAANG.wav	P AA NG	NW	1	0	42	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_10	brush	vaper	filler	BRUSH.wav	B R AH1 SH	W	1	2.7672	33	NA	NA	NA	NA	NA	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_11	buzz	rowf	filler	BUZZ.wav	B AH1 Z	W	1	2.5843	91	NA	NA	NA	NA	NA	ROWF.wav	R OW F	NW	1	0	100	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_12	cat	cuchee	filler	CAT.wav	K AE1 T	W	1	3.1421	117	NA	NA	NA	NA	NA	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_13	church	mowfs	filler	CHURCH.wav	CH ER1 CH	W	1	3.1274	19	NA	NA	NA	NA	NA	MOWFS.wav	M OW F S	NW	1	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_14	club	uxman	filler	CLUB.wav	K L AH1 B	W	1	3.3339	18	NA	NA	NA	NA	NA	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_15	dog	skehk	filler	DOG.wav	D AO1 G	W	1	3.4843	46	NA	NA	NA	NA	NA	SKEHK.wav	S K EH K	NW	1	0	15	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_16	fist	permume	filler	FIST.wav	F IH1 S T	W	1	2.4683	54	NA	NA	NA	NA	NA	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_17	flag	skaym	filler	FLAG.wav	F L AE1 G	W	1	2.6972	30	NA	NA	NA	NA	NA	SKAYM.wav	S K AY M	NW	1	0	13	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_18	gold	dihsihnvihrd	filler	GOLD.wav	G OW1 L D	W	1	3.1858	48	NA	NA	NA	NA	NA	DIHSIHNVIHRD.wav	D IH S IH N V IH R D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_19	green	swaydz	filler	GREEN.wav	G R IY1 N	W	1	3.2808	67	NA	NA	NA	NA	NA	SWAYDZ.wav	S W AY D Z	NW	1	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_20	haze	baasps	filler	HAZE.wav	HH EY1 Z	W	1	1.6812	157	NA	NA	NA	NA	NA	BAASPS.wav	B AA S P S	NW	1	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_21	hear	pahpaxrdliy	filler	HEAR.wav	HH IY1 R	W	1	3.8603	59	NA	NA	NA	NA	NA	PAHPAHRDLIY.wav	P AH P AH R D L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_22	leaf	paesihguhks	filler	LEAF.wav	L IY1 F	W	1	2.3385	90	NA	NA	NA	NA	NA	PAESIHGUHKS.wav	P AE S IH G UH K S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_23	moth	baxskiyshaxn	filler	MOTH.wav	M AO1 TH	W	1	1.8451	46	NA	NA	NA	NA	NA	BAHSKIYSHAHN.wav	B AH S K IY SH AH N	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_24	pain	lowstung	filler	PAIN.wav	P EY1 N	W	1	3.4098	125	NA	NA	NA	NA	NA	L_OW_S_T_AH_NG.wav	L OW1 ER0	NW	2	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_25	shell	skwaykaxnihng	filler	SHELL.wav	SH EH1 L	W	1	2.6064	115	NA	NA	NA	NA	NA	SKWAYKAHNIHNG.wav	S K W AY K AH N IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_26	snow	huzzy	filler	SNOW.wav	S N OW1	W	1	2.8887	37	NA	NA	NA	NA	NA	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_27	steam	moctor	filler	STEAM.wav	S T IY1 M	W	1	2.6117	39	NA	NA	NA	NA	NA	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_28	strong	cato	filler	STRONG.wav	S T R AO1 NG	W	1	3.4289	12	NA	NA	NA	NA	NA	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_29	sum	clackuz	filler	SUM.wav	S AH1 M	W	1	2.5551	88	NA	NA	NA	NA	NA	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_30	sweep	vihklaxmawnt	filler	sweep.wav	S W IY1 P	W	1	2.5821	25	NA	NA	NA	NA	NA	VIHKLAHMAWNT.wav	V IH K L AH M AW N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_31	tart	paer	filler	TART.wav	T AA1 R T	W	1	1.9731	37	NA	NA	NA	NA	NA	PAER.wav	P AE R	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_32	weak	enwars	filler	WEAK.wav	W IY1 K	W	1	3.0726	109	NA	NA	NA	NA	NA	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_33	wheat	leafa	filler	WHEAT.wav	W IY1 T	W	1	2.3096	97	NA	NA	NA	NA	NA	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_34	wood	perchant	filler	WOOD.wav	W UH1 D	W	1	2.8779	30	NA	NA	NA	NA	NA	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_35	yacht	ehgyiywaxrm	filler	YACHT.wav	Y AA1 T	W	1	2.2967	57	NA	NA	NA	NA	NA	EHGIYWAHRM.wav	EH G Y IY W AH R M	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_36	yawn	yihl	filler	YAWN.wav	Y AO1 N	W	1	1.6128	#N/A	NA	NA	NA	NA	NA	YIHL.wav	Y IH L	NW	1	0	65	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_37	yell	nuckie	filler	YELL.wav	Y EH1 L	W	1	2.8645	77	NA	NA	NA	NA	NA	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_38	ran	bayzee	filler	ran.wav	R AE1 N	W	1	3.458	143	NA	NA	NA	NA	NA	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_39	woman	payt	filler	WUH1MAH0N.wav	W UH1 M AH0 N	W	2	3.7728	18	NA	NA	NA	NA	NA	PAYT.wav	P AY T	NW	1	0	85	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_40	jingled	skayt	filler	JHIH1NGGAH0LD.wav	JH IH1 NG G AH0 L D	W	2	0.4771	6	NA	NA	NA	NA	NA	SKAYT.wav	S K AY T	NW	1	0	32	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_41	torches	mumote	filler	TAO1RCHIH0Z.wav	T AO1 R CH IH0 Z	W	2	1.7076	4	NA	NA	NA	NA	NA	M_AH_M_OW_T.wav	M AH M OW T	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_42	frigid	medry	filler	FRIH1JHAH0D.wav	F R IH1 JH AH0 D	W	2	1.7634	2	NA	NA	NA	NA	NA	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_43	dome	geckered	filler	dome.wav	D OW1 M	W	1	1.8751	79	NA	NA	NA	NA	NA	G_EH_K_ER_D.wav	G EH K ER D	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_44	cough	swaht	filler	cough.wav	K AO1 F	W	1	2.525	78	NA	NA	NA	NA	NA	SWAHT.wav	S W AH T	NW	1	0	17	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_45	diet	gawnst	filler	DAY1AH0T.wav	D AY1 AH0 T	W	2	2.7466	30	NA	NA	NA	NA	NA	GAWNST.wav	G AW NS T	NW	1	0	3	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_46	carted	piyvaxrnaxs	filler	CARTED.wav	K AA1 R T IH0 D	W	2	0.9031	8	NA	NA	NA	NA	NA	PIHVAHRNAHS.wav	P IY V AH R N AH S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_47	pathways	sweeree	filler	PAE1THWEY2Z.wav	P AE1 TH W EY2 Z	W	2	1.3424	1	NA	NA	NA	NA	NA	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	NA	NA	NA	NA	NA	NA	NA
+2	filler_wnw_48	jumps	avan	filler	jumps.wav	JH AH1 M P Z	W	1	2.3404	11	NA	NA	NA	NA	NA	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	NA	NA	NA	NA	NA	NA	NA
+3	1	naekt	plant	unrel_nw	NAEKT.wav	N AE K T	NW	1	0	30	NA	NA	NA	NA	NA	PLANT.wav	P L AE1 N T	W	1	0.465397724	19	NA	NA	NA	NA	NA	batiss	cactus	plant	2	low	2	0.321428571
+3	1	atlas	map	semantic	ATLAS.wav	AE1 T L AH0 S	W	2	1.5563	7	NA	NA	NA	NA	NA	MAP.wav	M AE1 P	W	1	0.463340442	73	NA	NA	NA	NA	NA	batiss	atlas	map	1	low	2	0.527027027
+3	1	batiss	church	test	BAETAHS.wav	B AE T AH S	NW	2	0	9	large	31	high	1.27472266	4.356026503	CHURCH.wav	CH ER1 CH	W	1	0.495183432	19	NA	NA	NA	NA	NA	batiss	baptist	church	12	high	2	0.267973856
+3	1	dihz	skahch	nw_nw	DIHZ.wav	D IH Z	NW	1	0	88	NA	NA	NA	NA	NA	SKAHCH.wav	S K AH CH	NW	1	0	16	NA	NA	NA	NA	NA	batiss	bat	ball	8	high	2	0.251968504
+3	1	minefield	stove	unrel_w	MAY1NFIY1LD.wav	M AY1 N F IY2 L D	W	2	1.6232	1	NA	NA	NA	NA	NA	STOVE.wav	S T OW1 V	W	1	0.389485041	20	NA	NA	NA	NA	NA	avan	oven	stove	1	low	1	0.224242424
+3	2	sayngk	wine	unrel_nw	SAYNGK.wav	S AY NG K	NW	1	0	11	NA	NA	NA	NA	NA	WINE.wav	W AY1 N	W	1	0.502645578	118	NA	NA	NA	NA	NA	cover (nw)	cooler	wine	1	low	2	0.206521739
+3	2	bureau	dresser	semantic	BUREAU.wav	B Y UH1 R OW0	W	2	2.549	5	NA	NA	NA	NA	NA	DRESSER.wav	D R EH1 S ER0	W	2	0.343231295	16	NA	NA	NA	NA	NA	birow	bureau	dresser	16	high	2	0.140939597
+3	2	birow	mustache	test	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	MUSTACHE.wav	M AH1 S T AE2 SH	W	2	0.352259719	2	NA	NA	NA	NA	NA	birow	beard	mustache	3	low	1	0.310344828
+3	2	strah	faemz	nw_nw	STRAH.wav	S T R AH	NW	1	0	29	NA	NA	NA	NA	NA	FAEMZ.wav	F AE M Z	NW	1	0	36	NA	NA	NA	NA	NA	cover (nw)	cover 	lid	21	high	1	0.12
+3	2	convex	superman	unrel_w	KAA1NVEH2KS.wav	K AA1 N V EH2 K S	W	2	0.7782	1	NA	NA	NA	NA	NA	SUPERMAN.wav	S UW1 P ER0 M AE2 N	W	3	0.346372537	#N/A	NA	NA	NA	NA	NA	birow	hero	superman	20	high	1	0.166666667
+3	3	kehvz	twelve	unrel_nw	KEHVZ.wav	K EH V Z	NW	1	0	15	NA	NA	NA	NA	NA	TWELVE.wav	T W EH1 L V	W	1	0.449154293	1	NA	NA	NA	NA	NA	dozer	dozen	twelve	25	high	2	0.483660131
+3	3	leaf	tree	semantic	LEAF.wav	L IY1 F	W	1	2.3385	90	NA	NA	NA	NA	NA	TREE.wav	T R IY1	W	1	0.506545619	#N/A	NA	NA	NA	NA	NA	leafa	leaf	tree	35	high	1	0.642424242
+3	3	dozer	bee	test	DAHZER.wav	D AH Z ER	NW	2	0	9	large	9	low	0.799918544	2.009364073	BEE.wav	B IY1	W	1	0.379523064	202	NA	NA	NA	NA	NA	dozer	buzz	bee	1	low	2	0.520833333
+3	3	draesht	tehrch	nw_nw	DRAESHT.wav	D R AE SH T	NW	1	0	6	NA	NA	NA	NA	NA	TEHRCH.wav	T EH R CH	NW	1	0	15	NA	NA	NA	NA	NA	dozer	desert	sand	5	high	2	0.17037037
+3	3	rival	tale	unrel_w	RAY1VAH0L.wav	R AY1 V AH0 L	W	2	2.1644	19	NA	NA	NA	NA	NA	TALE.wav	T EY1 L	W	1	0.421521666	117	NA	NA	NA	NA	NA	leafa	fairy	tale	1	low	4	0.542857143
+3	4	luhch	write	unrel_nw	LUHCH.wav	L UH CH	NW	1	0	21	NA	NA	NA	NA	NA	WRITE.wav	R AY1 T	W	1	0.540179261	105	NA	NA	NA	NA	NA	fesser	essay	write	1	low	3	0.335616438
+3	4	professor	teacher	semantic	PROFESSOR.wav	P R AH0 F EH1 S ER0	W	3	2.9106	5	NA	NA	NA	NA	NA	TEACHER	T IY1 CH ER0	W	2	0.493583511	16	NA	NA	NA	NA	NA	fesser	professor	teacher	46	high	3	0.510791367
+3	4	fesser	bird	test	FEHSER.wav	F EH S ER	NW	2	0	11	large	11	low	2.681515794	1.632938805	BIRD.wav	B ER1 D	W	1	0.488282725	110	NA	NA	NA	NA	NA	fesser	feather	bird	1	low	1	0.358974359
+3	4	paybz	thehrts	nw_nw	PAYBZ.wav	P AY B Z	NW	1	0	13	NA	NA	NA	NA	NA	THEHRTS.wav	TH EH R T S	NW	1	0	6	NA	NA	NA	NA	NA	huzzy	haze	fog	1	low	2	0.377952756
+3	4	founder	rabbit	unrel_w	FAW1NDER0.wav	F AW1 N D ER0	W	2	1.959	14	NA	NA	NA	NA	NA	RABBIT.wav	R AE1 B IH0 T	W	2	0.423458872	17	NA	NA	NA	NA	NA	kerek	carrot	rabbit	55	high	2	0.205
+3	5	spawks	fun	unrel_nw	SPAWKS.wav	S P AW K S	NW	1	0	9	NA	NA	NA	NA	NA	fun.wav	F AH1 N	W	1	0.564180614	91	NA	NA	NA	NA	NA	weeco	weekend	fun	16	high	3	0.234899329
+3	5	lollipop	candy	semantic	LOLLIPOP.wav	L AA1 L IY0 P AA2 P	W	3	1.7924	1	NA	NA	NA	NA	NA	CANDY.wav	K AE1 N D IY0	W	2	0.470660352	43	NA	NA	NA	NA	NA	lolla	lollipop	candy	11	high	4	0.412162162
+3	5	weeco	strong	test	WIYKOW.wav	W IY K OW	NW	2	0	9	large	12	low	1.148794097	2.918460374	STRONG.wav	S T R AO1 NG	W	1	0.53515482	12	NA	NA	NA	NA	NA	weeco	weak	strong	14	high	1	0.557142857
+3	5	klehd	traedz	nw_nw	KLEHD.wav	K L EH D	NW	1	0	33	NA	NA	NA	NA	NA	TRAEDZ.wav	T R AE D Z	NW	1	0	9	NA	NA	NA	NA	NA	cuchee	touchy	sensitive	10	high	1	0.223684211
+3	5	bias	bread	unrel_w	BAY1AH0S.wav	B AY1 AH0 S	W	2	1.7993	24	NA	NA	NA	NA	NA	BREAD.wav	B R EH1 D	W	1	0.470660352	45	NA	NA	NA	NA	NA	weeco	wheat	bread	2	low	2	0.189189189
+3	6	wehvz	pen	unrel_nw	WEHVZ.wav	W EH V Z	NW	1	0	18	NA	NA	NA	NA	NA	PEN.wav	P EH1 N	W	1	0.464221198	113	NA	NA	NA	NA	NA	meckle	marker	pen	2	low	4	0.256756757
+3	6	freckle	face	semantic	FRECKLE.wav	F R EH1 K AH0 L	W	2	1.2788	#N/A	NA	NA	NA	NA	NA	FACE.wav	F EY1 S	W	1	0.57391544	72	NA	NA	NA	NA	NA	meckle	freckle	face	5	high	2	0.448051948
+3	6	meckle	gold	test	MEHKAHL.wav	M EH K AH L	NW	2	0	10	large	25	high	0.917850636	4.185680473	GOLD.wav	G OW1 L D	W	1	0.503218508	48	NA	NA	NA	NA	NA	meckle	medal	gold	2	low	1	0.210884354
+3	6	griyl	steyps	nw_nw	GRIYL.wav	G R IY L	NW	1	0	52	NA	NA	NA	NA	NA	STEYPS.wav	S T EY P S	NW	1	0	14	NA	NA	NA	NA	NA	meckle	buckle	belt	2	low	2	0.666666667
+3	6	printouts	car	unrel_w	PRIH1NTAW2TZ.wav	P R IH1 N T AW2 T S	W	2	1.0792	1	NA	NA	NA	NA	NA	CAR.wav	K AA1 R	W	1	0.569631366	162	NA	NA	NA	NA	NA	meckle	mechanical	car	1	low	5	0.257142857
+3	7	maefs	period	unrel_nw	MAEFS.wav	M AE F S	NW	1	0	24	NA	NA	NA	NA	NA	PERIOD.wav	P IH1 R IY0 AH0 D	W	3	0.478552067	3	NA	NA	NA	NA	NA	tawto	dot	period	1	low	2	0.182432432
+3	7	ladder	climb	semantic	LADDER.wav	L AE1 D ER0	W	2	2.4969	44	NA	NA	NA	NA	NA	CLIMB.wav	K L AY1 M	W	1	0.456411586	39	NA	NA	NA	NA	NA	zater	ladder	climb	1	low	2	0.337931034
+3	7	tawto	furniture	test	T_AA_T_OW.wav	T AA T OW	NW	2	0	11	large	25	high	2.556749458	3.839622954	FURNITURE.wav	F ER1 N IH0 CH ER0	W	3	0.436417104	#N/A	NA	NA	NA	NA	NA	tawto	patio	furniture	2	low	4	0.254901961
+3	7	yehts	tahs	nw_nw	YEHTS.wav	Y EH T S	NW	1	0	49	NA	NA	NA	NA	NA	TAHS.wav	T AH S	NW	1	0	63	NA	NA	NA	NA	NA	tawto	potato	chip	20	high	4	0.141891892
+3	7	fellows	vegetables	unrel_w	FEH1LOW0Z.wav	F EH1 L OW0 Z	W	2	2.6503	17	NA	NA	NA	NA	NA	VEGETABLES.wav	V EH1 JH T AH0 B AH0 L Z	W	3	0.384980296	1	NA	NA	NA	NA	NA	tawto	tomato	vegetables	1	low	4	0.230769231
+3	8	wowks	breathe	unrel_nw	WOWKS.wav	W OW K S	NW	1	0	46	NA	NA	NA	NA	NA	BREATHE.wav	B R IY1 DH	W	1	0.498834149	24	NA	NA	NA	NA	NA	zhelung	lung	breathe	1	low	3	0.362318841
+3	8	brush	hair	semantic	BRUSH.wav	B R AH1 SH	W	1	2.7672	33	NA	NA	NA	NA	NA	HAIR.wav	HH EH1 R	W	1	0.551486594	125	NA	NA	NA	NA	NA	brushels	brush	hair	9	high	3	0.440217391
+3	8	zhelung	big	test	ZHEYLAHNG.wav	ZH EY L AH NG	NW	2	0	11	large	24	high	2.78868912	3.90569566	BIG.wav	B IH1 G	W	1	0.586519793	75	NA	NA	NA	NA	NA	zhelung	giant	big	1	low	5	0.229166667
+3	8	smaem	traynd	nw_nw	SMAEM.wav	S M AE M	NW	1	0	15	NA	NA	NA	NA	NA	TRAYND.wav	T R AY N D	NW	1	0	9	NA	NA	NA	NA	NA	zolly	yawn	tired	1	low	4	0.464052288
+3	8	mothers	add	unrel_w	MAH1DHER0Z.wav	M AH1 DH ER0 Z	W	2	2.6684	14	NA	NA	NA	NA	NA	ADD.wav	AE1 D	W	1	0.494697123	82	NA	NA	NA	NA	NA	zhelung	sum	add	1	low	5	0.283783784
+3	9	ehkt	cook	unrel_nw	EHKT.wav	EH K T	NW	1	0	41	NA	NA	NA	NA	NA	COOK.wav	K UH1 K	W	1	0.496472984	57	NA	NA	NA	NA	NA	chichin	kitchen	cook	27	high	1	0.182741117
+3	9	cabbage	lettuce	semantic	CABBAGE.wav	K AE1 B AH0 JH	W	2	2.0414	5	NA	NA	NA	NA	NA	LETTUCE.wav	L EH1 T AH0 S	W	2	0.32085222	12	NA	NA	NA	NA	NA	curdage	cabbage	lettuce	1	low	2	0.28057554
+3	9	curdage	brave	test	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	BRAVE.wav	B R EY1 V	W	1	0.483744157	22	NA	NA	NA	NA	NA	curdage	courage	brave	26	high	2	0.239726027
+3	9	hhawn	ayng	nw_nw	HHAWN.wav	HH AW N	NW	1	0	87	NA	NA	NA	NA	NA	AYNG.wav	AY NG	NW	1	0	51	NA	NA	NA	NA	NA	clackuz	crackers	cheese	34	high	2	0.294520548
+3	9	smelly	soup	unrel_w	SMELLY.wav	S M EH1 L IY0	W	2	2.2095	23	NA	NA	NA	NA	NA	SOUP.wav	S UW1 P	W	1	0.459859706	83	NA	NA	NA	NA	NA	chichin	chicken	soup	14	high	1	0.092391304
+3	10	riynt	band	unrel_nw	RIYNT.wav	R IY N T	NW	1	0	19	NA	NA	NA	NA	NA	BAND.wav	B AE1 N D	W	1	0.484356792	49	NA	NA	NA	NA	NA	glumber	rubber	band	1	low	3	0.216216216
+3	10	slumber	sleep	semantic	SLUMBER.wav	S L AH1 M B ER0	W	2	2.0253	#N/A	NA	NA	NA	NA	NA	SLEEP.wav	S L IY1 P	W	1	0.564500362	28	NA	NA	NA	NA	NA	glumber	slumber	sleep	23	high	1	0.513513514
+3	10	glumber	wood	test	GLAHMBER.wav	G L AH M B ER	NW	2	0	2	small	15	low	0.997923519	2.851207983	WOOD.wav	W UH1 D	W	1	0.459075699	30	NA	NA	NA	NA	NA	glumber	timber	wood	1	low	3	0.41025641
+3	10	naym	sowngk	nw_nw	NAYM.wav	N AY M	NW	1	0	46	NA	NA	NA	NA	NA	SOWNGK.wav	S OW NG K	NW	1	0	10	NA	NA	NA	NA	NA	dreason	treason	guilty	25	high	2	0.114864865
+3	10	maintenance	nurse	unrel_w	MEY1NTNAH0NS.wav	M EY1 N T N AH0 N S	W	2	2.42	1	NA	NA	NA	NA	NA	NURSE.wav	N ER1 S	W	1	0.483073542	55	NA	NA	NA	NA	NA	moctor	doctor	nurse	11	high	2	0.378787879
+3	11	sehm	fish	unrel_nw	SEHM.wav	S EH M	NW	1	0	88	NA	NA	NA	NA	NA	FISH.wav	F IH1 SH	W	1	0.509565403	50	NA	NA	NA	NA	NA	sardent	sardine	fish	14	high	3	0.452380952
+3	11	curtain	drapes	semantic	CURTAIN.wav	K ER1 T AH0 N	W	2	2.5211	41	NA	NA	NA	NA	NA	DRAPES.wav	D R EY1 P S	W	1	0.306489363	13	NA	NA	NA	NA	NA	perchant	curtain	drapes	1	low	3	0.25984252
+3	11	sardent	army	test	SAARDAHNT.wav	S AA R D AH N T	NW	2	0	2	small	12	low	0.076028129	2.967113485	ARMY.wav	AA1 R M IY0	W	1	0.502167558	29	NA	NA	NA	NA	NA	sardent	sergeant	army	13	high	1	0.353741497
+3	11	prehnd	dayts	nw_nw	P_R_EH_N_D.wav	P R EH N D	NW	1	0	9	NA	NA	NA	NA	NA	DAYTS.wav	D AY T S	NW	1	0	65	NA	NA	NA	NA	NA	perchant	purchase	buy	26	high	2	0.577181208
+3	11	contacts	important	unrel_w	KAA1NTAE2KTS.wav	K AA1 N T AE2 K T S	W	2	2.4914	4	NA	NA	NA	NA	NA	IMPORTANT.wav	IH0 M P AO1 R T AH0 N T	W	3	0.566826239	1	NA	NA	NA	NA	NA	perchant	urgent	important	1	low	2	0.173913043
+3	12	kraeng	smoke	unrel_nw	KRAENG.wav	K R AE NG	NW	1	0	33	NA	NA	NA	NA	NA	SMOKE.wav	S M OW1 K	W	1	0.515224565	19	NA	NA	NA	NA	NA	timney	chimney	smoke	45	high	1	0.24025974
+3	12	envy	jealousy	semantic	ENVY.wav	EH1 N V IY0	W	2	2.6096	10	NA	NA	NA	NA	NA	JEALOUSY.wav	JH EH1 L AH0 S IY0	W	3	0.37322473	4	NA	NA	NA	NA	NA	enwars	envy	jealousy	1	low	4	0.513333333
+3	12	enwars	green	test	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	GREEN.wav	G R IY1 N	W	1	0.515979756	67	NA	NA	NA	NA	NA	enwars	emerald	green	1	low	5	0.371621622
+3	12	chehd	chihrts	nw_nw	CHEHD.wav	CH EH D	NW	1	0	42	NA	NA	NA	NA	NA	CHIRTS.wav	CH IH R T S	NW	1	0	4	NA	NA	NA	NA	NA	timney	tame	wild	1	low	3	0.4
+3	12	photon	forever	unrel_w	FOW1TAA2N.wav	F OW1 T AA2 N	W	2	1.301	2	NA	NA	NA	NA	NA	FOREVER.wav	F ER0 EH1 V ER0	W	3	0.536230073	1	NA	NA	NA	NA	NA	enwars	endless	forever	1	low	3	0.248322148
+3	13	stehbz	stomach	unrel_nw	STEHBZ.wav	S T EH B Z	NW	1	0	9	NA	NA	NA	NA	NA	STOMACH.wav	S T AH1 M AH0 K	W	2	0.48945221	2	NA	NA	NA	NA	NA	nuleave	belly	stomach	13	high	3	0.402777778
+3	13	mellow	yellow	semantic	MELLOW.wav	M EH1 L OW0	W	2	2.0864	53	NA	NA	NA	NA	NA	YELLOW.wav	Y EH1 L OW0	W	2	0.478364451	25	NA	NA	NA	NA	NA	nuleave	mellow	yellow	3	low	4	0.328671329
+3	13	nuleave	pain	test	NAHLIYV.wav	N AH L IY V	NW	2	0	2	small	28	high	0.072941923	3.913100742	PAIN.wav	P EY1 N	W	1	0.532728906	125	NA	NA	NA	NA	NA	nuleave	relief	pain	1	low	4	0.117647059
+3	13	jhahnd	stahnjh	nw_nw	JHAHND.wav	JH AH N D	NW	1	0	27	NA	NA	NA	NA	NA	STAHNJH.wav	S T AH N JH	NW	1	0	8	NA	NA	NA	NA	NA	medry	mediocre	average	1	low	5	0.169934641
+3	13	missile	white	unrel_w	MIH1SAH0L.wav	M IH1 S AH0 L	W	2	2.3181	46	NA	NA	NA	NA	NA	WHITE.wav	W AY1 T	W	1	0.547257673	104	NA	NA	NA	NA	NA	nuleave	snow	white	1	low	5	0.314102564
+3	14	kaadz	rude	unrel_nw	KAADZ.wav	K AA D Z	NW	1	0	52	NA	NA	NA	NA	NA	RUDE.wav	R UW1 D	W	1	0.469439079	107	NA	NA	NA	NA	NA	shawshus	obnoxious	rude	1	low	5	0.181818182
+3	14	cautious	careful	semantic	CAUTIOUS.wav	K AO1 SH AH0 S	W	2	2.2014	4	NA	NA	NA	NA	NA	CAREFUL.wav	K EH0 R F UH2 L	W	2	0.545653424	6	NA	NA	NA	NA	NA	shawshus	cautious	careful	21	high	1	0.513333333
+3	14	shawshus	beach	test	SHAOSHAHS.wav	SH AO SH AH S	NW	2	0	2	small	27	high	0.998916038	3.819383308	BEACH.wav	B IY1 CH	W	1	0.492941889	#N/A	NA	NA	NA	NA	NA	shawshus	shell	beach	1	low	4	0.25
+3	14	kwihsk	behrbd	nw_nw	KWIHSK.wav	K W IH S K	NW	1	0	7	NA	NA	NA	NA	NA	BEHRBD.wav	B EH R B D	NW	1	0	4	NA	NA	NA	NA	NA	shawshus	nauseous	sick	4	low	1	0.613333333
+3	14	spoken	breakfast	unrel_w	SPOW1KAH0N.wav	S P OW1 K AH0 N	W	2	2.9335	4	NA	NA	NA	NA	NA	BREAKFAST.wav	B R EH1 K F AH0 S T	W	2	0.517697225	1	NA	NA	NA	NA	NA	shawshus	sausage	breakfast	1	low	3	0.092105263
+3	15	graelt	bull's eye	unrel_nw	GRAELT.wav	G R AE L T	NW	1	0	6	NA	NA	NA	NA	NA	BULLSEYE.wav	B UH1 L Z AY2	W	2	0.450787792	#N/A	NA	NA	NA	NA	NA	tarfin	target	bull's eye	11	high	3	0.297297297
+3	15	yacht	boat	semantic	YACHT.wav	Y AA1 T	W	1	2.2967	57	NA	NA	NA	NA	NA	BOAT.wav	B OW1 T	W	1	0.500209022	117	NA	NA	NA	NA	NA	yaters	yacht	boat	9	high	3	0.59375
+3	15	tarfin	hurricane	test	TAORFAHN.wav	T AO R F AH N	NW	2	0	2	small	27	high	0.082953374	4.052326308	HURRICANE.wav	HH ER1 AH0 K EY2 N	W	3	0.352741915	2	NA	NA	NA	NA	NA	tarfin	typhoon	hurricane	2	low	3	0.175324675
+3	15	krayn	lawnz	nw_nw	KRAYN.wav	K R AY N	NW	1	0	55	NA	NA	NA	NA	NA	LAWNZ.wav	L AW N Z	NW	1	0	46	NA	NA	NA	NA	NA	uxman	express	fast	1	low	5	0.186206897
+3	15	tally	sour	unrel_w	TAE1LIY0.wav	T AE1 L IY0	W	2	1.7782	75	NA	NA	NA	NA	NA	SOUR.wav	S AW1 R	W	1	0.380156952	57	NA	NA	NA	NA	NA	tarfin	tart	sour	1	low	4	0.25
+3	16	klehpt	shoes	unrel_nw	KLEHPT.wav	K L EH P T	NW	1	0	12	NA	NA	NA	NA	NA	SHOES.wav	SH UW1 Z	W	1	0.519224023	103	NA	NA	NA	NA	NA	zaucous	socks	shoes	10	high	3	0.655405405
+3	16	beaver	dam	semantic	BEAVER.wav	B IY1 V ER0	W	2	2.1072	41	NA	NA	NA	NA	NA	DAM.wav	D AE1 M	W	1	0.32157772	85	NA	NA	NA	NA	NA	beevee	beaver	dam	14	high	1	0.269503546
+3	16	bannow	flag	test	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	FLAG.wav	F L AE1 G	W	1	0.430913151	30	NA	NA	NA	NA	NA	bannow	banner	flag	25	high	1	0.686868687
+3	16	vehrnd	skey	nw_nw	VEHRND.wav	V EH R N D	NW	1	0	3	NA	NA	NA	NA	NA	SKEY.wav	S K EY	NW	1	0	37	NA	NA	NA	NA	NA	yutul	shuttle	space	9	high	1	0.415492958
+3	16	layers	scream	unrel_w	LEY1ER0Z.wav	L EY1 ER0 Z	W	2	1.959	49	NA	NA	NA	NA	NA	SCREAM.wav	S K R IY1 M	W	1	0.468051791	#N/A	NA	NA	NA	NA	NA	yutul	yell	scream	3	low	3	0.577777778
+3	17	fihm	food	unrel_nw	FIHM.wav	F IH M	NW	1	0	67	NA	NA	NA	NA	NA	FOOD.wav	F UW1 D	W	1	0.551083865	50	NA	NA	NA	NA	NA	dimer	diner	food	9	high	1	0.317880795
+3	17	diamond	ring	semantic	DIAMOND.wav	D AY1 M AH0 N D	W	2	2.6758	3	NA	NA	NA	NA	NA	RING.wav	R IH1 NG	W	1	0.520771657	82	NA	NA	NA	NA	NA	dimer	diamond	ring	32	high	3	0.630434783
+3	17	dimer	water	test	DAYMER.wav	D AY M ER	NW	2	0	11	large	9	low	2.715889977	2.344627096	WATER.wav	W AO1 T ER0	W	2	0.558192389	24	NA	NA	NA	NA	NA	dimer	diver	water	1	low	1	0.266666667
+3	17	neyks	hhehz	nw_nw	NEYKS.wav	N EY K S	NW	1	0	42	NA	NA	NA	NA	NA	HHEHZ.wav	HH EH Z	NW	1	0	91	NA	NA	NA	NA	NA	crickly	cricket	bug	10	high	2	0.216216216
+3	17	rocket	nickel	unrel_w	RAA1KAH0T.wav	R AA1 K AH0 T	W	2	2.4609	16	NA	NA	NA	NA	NA	NICKEL.wav	N IH1 K AH0 L	W	2	0.403154851	52	NA	NA	NA	NA	NA	dimer	dime	nickel	4	low	1	0.527272727
+3	18	puhnd	eggs	unrel_nw	PUHND.wav	P UH N D	NW	1	0	11	NA	NA	NA	NA	NA	EGGS.wav	EH1 G Z	W	1	0.483972215	43	NA	NA	NA	NA	NA	lakein	bacon	eggs	1	low	1	0.517241379
+3	18	fighter	boxer	semantic	FIGHTER.wav	F AY1 T ER0	W	2	2.5658	52	NA	NA	NA	NA	NA	BOXER.wav	B AA1 K S ER0	W	2	0.313213178	11	NA	NA	NA	NA	NA	fidest	fighter	boxer	13	high	4	0.209459459
+3	18	nuckie	fist	test	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	FIST.wav	F IH1 S T	W	1	0.392397943	54	NA	NA	NA	NA	NA	nuckie	knuckle	fist	24	high	2	0.257142857
+3	18	weym	jhahk	nw_nw	WEYM.wav	W EY M	NW	1	0	68	NA	NA	NA	NA	NA	JHAHK.wav	JH AH K	NW	1	0	54	NA	NA	NA	NA	NA	gingul	giggle	laugh	8	high	1	0.78030303
+3	18	piping	story	unrel_w	PAY1PIH0NG.wav	P AY1 P IH0 NG	W	2	1.5441	7	NA	NA	NA	NA	NA	STORY.wav	S T AO1 R IY0	W	2	0.559906625	36	NA	NA	NA	NA	NA	fubble	fable	story	1	low	1	0.480769231
+3	19	krihf	neutron	unrel_nw	KRIHF.wav	K R IH F	NW	1	0	32	NA	NA	NA	NA	NA	NEUTRON.wav	N UW1 T R AA2 N	W	2	0.145476105	1	NA	NA	NA	NA	NA	protag	proton	neutron	16	high	2	0.565789474
+3	19	oval	round	semantic	OVAL.wav	OW1 V AH0 L	W	2	1.7243	16	NA	NA	NA	NA	NA	ROUND.wav	R AW1 N D	W	1	0.515582451	30	NA	NA	NA	NA	NA	onul	oval	round	6	high	1	0.407608696
+3	19	muswee	ketchup	test	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	KETCHUP.wav	K EH1 CH AH0 P	W	2	0.358125285	4	NA	NA	NA	NA	NA	muswee	mustard	ketchup	14	high	3	0.584415584
+3	19	dehrnd	taesht	nw_nw	DEHRND.wav	D EH R N D	NW	1	0	2	NA	NA	NA	NA	NA	TAESHT.wav	T AE SH T	NW	1	0	19	NA	NA	NA	NA	NA	permume	perfume	smell	27	high	3	0.392857143
+3	19	colon	old	unrel_w	KOW1LAH0N.wav	K OW1 L AH0 N	W	2	1.9823	78	NA	NA	NA	NA	NA	OLD.wav	OW1 L D	W	1	0.584274672	53	NA	NA	NA	NA	NA	muswee	musty	old	10	high	1	0.114864865
+3	20	lahcht	protection	unrel_nw	LAHCHT.wav	L AH CH T	NW	1	0	14	NA	NA	NA	NA	NA	PROTECTION.wav	P ER0 T EH1 K SH AH0 N	W	3	0.467163966	2	NA	NA	NA	NA	NA	sheeler	shield	protection	7	high	1	0.243243243
+3	20	sunny	cloudy	semantic	SUNNY.wav	S AH1 N IY0	W	2	2.4654	45	NA	NA	NA	NA	NA	CLOUDY.wav	K L AW1 D IY0	W	2	0.296160414	4	NA	NA	NA	NA	NA	sussy	sunny	cloudy	1	low	1	0.175324675
+3	20	vaper	steam	test	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	STEAM.wav	S T IY1 M	W	1	0.416923289	39	NA	NA	NA	NA	NA	vaper	vapor	steam	9	high	1	0.127516779
+3	20	spihmz	bahcht	nw_nw	SPIHMZ.wav	S P IH M Z	NW	1	0	15	NA	NA	NA	NA	NA	BAHCHT.wav	B AH CH T	NW	1	0	19	NA	NA	NA	NA	NA	thibber	flipper	dolphin	7	high	3	0.797385621
+3	20	lions	purple	unrel_w	LAY1AH0NZ.wav	L AY1 AH0 N Z	W	2	2.2148	20	NA	NA	NA	NA	NA	PURPLE.wav	P ER1 P AH0 L	W	2	0.419344334	#N/A	NA	NA	NA	NA	NA	vaper	violet	purple	1	low	5	0.402777778
+3	21	driyld	dinosaur	unrel_nw	DRIYLD.wav	D R IY L D	NW	1	0	4	NA	NA	NA	NA	NA	DINOSAUR.wav	D AY1 N AH0 S AO2 R	W	3	0.315592534	1	NA	NA	NA	NA	NA	bosser	fossil	dinosaur	9	high	4	0.217105263
+3	21	saucer	cup	semantic	SAUCER.wav	S AO1 S ER0	W	2	1.8633	22	NA	NA	NA	NA	NA	CUP.wav	K AH1 P	W	1	0.504484455	76	NA	NA	NA	NA	NA	bosser	saucer	cup	1	low	1	0.527272727
+3	21	vember	club	test	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	CLUB.wav	K L AH1 B	W	1	0.522952569	18	NA	NA	NA	NA	NA	vember	member	club	6	high	1	0.263513514
+3	21	hhawks	maer	nw_nw	HHAWKS.wav	HH AW K S	NW	1	0	29	NA	NA	NA	NA	NA	MAER.wav	M AE R	NW	1	0	68	NA	NA	NA	NA	NA	bosser	boss	employee	10	high	2	0.147435897
+3	21	scramble	summer	unrel_w	SKRAE1MBAH0L.wav	S K R AE1 M B AH0 L	W	2	1.9685	3	NA	NA	NA	NA	NA	SUMMER.wav	S AH1 M ER0	W	2	0.506802578	39	NA	NA	NA	NA	NA	winternz	winter	summer	33	high	2	0.372340426
+3	22	kleyn	squirrel	unrel_nw	KLEYN.wav	K L EY N	NW	1	0	68	NA	NA	NA	NA	NA	squirrel.wav	S K W ER1 AH0 L	W	2	0.346372537	2	NA	NA	NA	NA	NA	cheppan	chipmunk	squirrel	2	low	4	0.22
+3	22	photo	picture	semantic	photo.wav	F OW1 T OW2	W	2	2.8893	16	NA	NA	NA	NA	NA	picture.wav	P IH1 K CH ER0	W	2	0.544353344	12	NA	NA	NA	NA	NA	bota	photo	picture	9	high	2	0.576530612
+3	22	sweeree	broom	test	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	broom.wav	B R UW1 M	W	1	0.35320432	52	NA	NA	NA	NA	NA	sweeree	sweep	broom	1	low	2	0.405555556
+3	22	blaysts	flawn	nw_nw	BLAYSTS.wav	B L AY S T S	NW	1	0	1	NA	NA	NA	NA	NA	FLAWN.wav	F L AW N	NW	1	0	15	NA	NA	NA	NA	NA	bayzee	daisy	flower	13	high	1	0.689189189
+3	22	battling	talk	unrel_w	BAE1TLIH0NG.wav	B AE1 T L IH0 NG	W	2	2.0934	9	NA	NA	NA	NA	NA	talk.wav	T AO1 K	W	1	0.589055531	76	NA	NA	NA	NA	NA	gossy	gossip	talk	20	high	2	0.446043165
+3	23	spaach	picket	unrel_nw	SPAACH.wav	S P AA CH	NW	1	0	14	NA	NA	NA	NA	NA	PICKET.wav	P IH1 K IH0 T	W	2	0.287689784	19	NA	NA	NA	NA	NA	flisnung	fence	picket	1	low	5	0.149606299
+3	23	bowl	dish	semantic	BOWL.wav	B OW1 L	W	1	2.8344	174	NA	NA	NA	NA	NA	DISH.wav	D IH1 SH	W	1	0.422819565	62	NA	NA	NA	NA	NA	olem	bowl	dish	1	low	3	0.111111111
+3	23	flisnung	hear	test	FLIHSNAHNG.wav	F L IH S N AH NG	NW	2	0	2	small	30	high	0.071885217	4.448710649	HEAR.wav	HH IY1 R	W	1	0.586621057	59	NA	NA	NA	NA	NA	flisnung	listen	hear	8	high	3	0.505555556
+3	23	kyuwvd	muwbd	nw_nw	KYUWVD.wav	K Y UW V D	NW	1	0	3	NA	NA	NA	NA	NA	MUWBD.wav	M UW B D	NW	1	0	3	NA	NA	NA	NA	NA	flisnung	twister	tornado	1	low	5	0.466216216
+3	23	robots	cereal	unrel_w	ROW1BAA2TS.wav	R OW1 B AA2 T S	W	2	1.9638	3	NA	NA	NA	NA	NA	CEREAL.wav	S IH1 R IY0 AH0 L	W	3	0.371104822	8	NA	NA	NA	NA	NA	olem	oatmeal	cereal	1	low	4	0.184210526
+3	24	faarlz	beef	unrel_nw	FAARLZ.wav	F AA R L Z	NW	1	0	22	NA	NA	NA	NA	NA	BEEF.wav	B IY1 F	W	1	0.448536278	73	NA	NA	NA	NA	NA	rowser	roast	beef	4	low	1	0.49375
+3	24	moth	butterfly	semantic	MOTH.wav	M AO1 TH	W	1	1.8451	46	NA	NA	NA	NA	NA	BUTTERFLY.wav	B AH1 T ER0 F L AY2	W	3	0.356370095	2	NA	NA	NA	NA	NA	masso	moth	butterfly	1	low	3	0.266666667
+3	24	cato	dog	test	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	DOG.wav	D AO1 G	W	1	0.542115541	46	NA	NA	NA	NA	NA	cato	cat	dog	28	high	1	0.516129032
+3	24	dayp	pawl	nw_nw	DAYP.wav	D AY P	NW	1	0	55	NA	NA	NA	NA	NA	PAWL.wav	P AW L	NW	1	0	69	NA	NA	NA	NA	NA	wefer	weather	climate	5	high	1	0.198412698
+3	24	stagnant	animal	unrel_w	STAE1GNAH0NT.wav	S T AE1 G N AH0 N T	W	2	1.1761	0	NA	NA	NA	NA	NA	ANIMAL.wav	AE1 N AH0 M AH0 L	W	3	0.496611418	7	NA	NA	NA	NA	NA	masso	opossum	animal	1	low	5	0.141414141
+3	filler_nwnw_1	trahbz	zolly	filler	TRAHBZ.wav	T R AH B Z	NW	1	0	11	#N/A	#N/A	#N/A	#N/A	#N/A	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_2	mehsts	taeld	filler	MEHSTS.wav	M EH S T S	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	TAELD.wav	T AE L D	NW	1	0	16	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_3	dorice	skehts	filler	dorice.wav	D AH R AY S	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	SKEHTS.wav	S K EH T S	NW	1	0	19	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_4	gihd	siybz	filler	GIHD.wav	G IH D	NW	1	0	53	#N/A	#N/A	#N/A	#N/A	#N/A	SIYBZ.wav	S IY B Z	NW	1	0	54	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_5	wefer	dreason	filler	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_6	thibber	waenmaxsiy	filler	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	WAENMAHSIY.wav	W AE N M AH S IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_7	yaters	kerek	filler	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_8	zihnd	klaam	filler	ZIHND.wav	Z IH N D	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	KLAAM.wav	K L AA M	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_9	masso	gahb	filler	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	GAHB.wav	G AH B	NW	1	0	39	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_10	curdage	hhehnd	filler	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	HHEHND.wav	HH EH N D	NW	1	0	49	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_11	onul	birow	filler	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_12	muswee	olem	filler	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_13	kleyt	stehliyzliy	filler	KLEYT.wav	K L EY T	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	STEHLIYZLIY.wav	S T EH L IY Z L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_14	beevee	vember	filler	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_15	dihmtiysihng	chehnzmihtihd	filler	DIHMTIYSIHNG.wav	D IH M T IY S IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	CHEHNZMIHTIHD.wav	CH EH N Z M IH T IH D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_16	lolla	hhaylihmaxn	filler	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	HHAYLIHMAHN.wav	HH AY L IH M AH N	NW	3	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_17	braht	brushels	filler	BRAHT.wav	BR AH T	NW	1	0	35	#N/A	#N/A	#N/A	#N/A	#N/A	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_18	chihngkpehraxnt	kriyrz	filler	CHIHNGKPEHRAHNT.wav	CH IH NG K P EH R AH N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	KRIYRZ.wav	K R IY R Z	NW	1	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_19	skehrlz	gingul	filler	SKEHRLZ.wav	S K EH R L Z	NW	1	0	1	#N/A	#N/A	#N/A	#N/A	#N/A	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_20	zater	gossy	filler	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_21	siynt	staarm	filler	SIYNT.wav	S IY N T	NW	1	0	18	#N/A	#N/A	#N/A	#N/A	#N/A	STAARM.wav	S T AA R M	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_22	sussy	saech	filler	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	SAECH.wav	S AE CH	NW	1	0	52	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_23	fidest	yutul	filler	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	NA	NA	NA	NA	NA	NA	NA
+3	filler_nwnw_24	fihd	crickly	filler	FIHD.wav	F IH D	NW	1	0	62	#N/A	#N/A	#N/A	#N/A	#N/A	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_1	beard	byuw	filler	BEARD.wav	B IH1 R D	W	1	2.6021	#N/A	NA	NA	NA	NA	NA	BYUW.wav	B Y UW	NW	1	0	56	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_2	boss	reters	filler	boss.wav	B AO1 S	W	1	3.3681	88	NA	NA	NA	NA	NA	R_EH_T_ER_Z.wav	R EH T ER Z	NW	2	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_3	bug	aeshk	filler	BUG.wav	B AH1 G	W	1	2.7664	65	NA	NA	NA	NA	NA	AESHK.wav	AE SH K	NW	1	0	21	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_4	buy	bannow	filler	BUY.wav	B AY1	W	1	3.6322	133	NA	NA	NA	NA	NA	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_5	buzz	fubble	filler	BUZZ.wav	B AH1 Z	W	1	2.5843	91	NA	NA	NA	NA	NA	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_6	cat	sihnsaxrfaxp	filler	CAT.wav	K AE1 T	W	1	3.1421	117	NA	NA	NA	NA	NA	SIHNSAHRFAHP.wav	S IH NS AH R F AH P	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_7	cheese	bota	filler	CHEESE.wav	CH IY1 Z	W	1	3.0535	130	NA	NA	NA	NA	NA	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_8	chip	winternz	filler	CHIP.wav	CH IH1 P	W	1	2.6911	57	NA	NA	NA	NA	NA	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_9	dime	paang	filler	DIME.wav	D AY1 M	W	1	2.6758	74	NA	NA	NA	NA	NA	PAANG.wav	P AA NG	NW	1	0	42	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_10	dot	vaper	filler	dot.wav	D AA1 T	W	1	2.2672	90	NA	NA	NA	NA	NA	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_11	fast	rowf	filler	FAST.wav	F AE1 S T	W	1	3.5808	43	NA	NA	NA	NA	NA	ROWF.wav	R OW F	NW	1	0	100	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_12	fence	cuchee	filler	FENCE.wav	F EH1 N S	W	1	2.7427	30	NA	NA	NA	NA	NA	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_13	fog	mowfs	filler	FOG.wav	F AO1 G	W	1	2.3345	51	NA	NA	NA	NA	NA	MOWFS.wav	M OW F S	NW	1	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_14	haze	uxman	filler	HAZE.wav	HH EY1 Z	W	1	1.6812	157	NA	NA	NA	NA	NA	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_15	laugh	skehk	filler	LAUGH.wav	L AE1 F	W	1	3.2862	65	NA	NA	NA	NA	NA	SKEHK.wav	S K EH K	NW	1	0	15	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_16	lid	permume	filler	LID.wav	L IH1 D	W	1	2.3424	84	NA	NA	NA	NA	NA	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_17	lung	skaym	filler	lung.wav	L AH1 NG	W	1	2.3802	49	NA	NA	NA	NA	NA	SKAYM.wav	S K AY M	NW	1	0	13	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_18	roast	dihsihnvihrd	filler	ROAST.wav	R OW1 S T	W	1	2.5599	44	NA	NA	NA	NA	NA	DIHSIHNVIHRD.wav	D IH S IH N V IH R D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_19	sand	swaydz	filler	SAND.wav	S AE1 N D	W	1	2.7917	51	NA	NA	NA	NA	NA	SWAYDZ.wav	S W AY D Z	NW	1	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_20	shell	baasps	filler	SHELL.wav	SH EH1 L	W	1	2.6064	115	NA	NA	NA	NA	NA	BAASPS.wav	B AA S P S	NW	1	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_21	shield	pahpaxrdliy	filler	SHIELD.wav	SH IY1 L D	W	1	2.4099	45	NA	NA	NA	NA	NA	PAHPAHRDLIY.wav	P AH P AH R D L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_22	sick	paesihguhks	filler	SICK.wav	S IH1 K	W	1	3.5875	109	NA	NA	NA	NA	NA	PAESIHGUHKS.wav	P AE S IH G UH K S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_23	smell	baxskiyshaxn	filler	SMELL.wav	S M EH1 L	W	1	3.3797	29	NA	NA	NA	NA	NA	BAHSKIYSHAHN.wav	B AH S K IY SH AH N	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_24	snow	lowstung	filler	SNOW.wav	S N OW1	W	1	2.8887	37	NA	NA	NA	NA	NA	L_OW_S_T_AH_NG.wav	L OW1 ER0	NW	2	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_25	socks	skwaykaxnihng	filler	SOCKS.wav	S AA1 K S	W	1	2.738	60	NA	NA	NA	NA	NA	SKWAYKAHNIHNG.wav	S K W AY K AH N IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_26	space	huzzy	filler	SPACE.wav	S P EY1 S	W	1	3.224	20	NA	NA	NA	NA	NA	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_27	sum	moctor	filler	SUM.wav	S AH1 M	W	1	2.5551	88	NA	NA	NA	NA	NA	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_28	sweep	cato	filler	sweep.wav	S W IY1 P	W	1	2.5821	25	NA	NA	NA	NA	NA	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_29	tart	clackuz	filler	TART.wav	T AA1 R T	W	1	1.9731	37	NA	NA	NA	NA	NA	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_30	tired	vihklaxmawnt	filler	TIRED.wav	T AY1 ER0 D	W	1	3.4982	12	NA	NA	NA	NA	NA	VIHKLAHMAWNT.wav	V IH K L AH M AW N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_31	weak	paer	filler	WEAK.wav	W IY1 K	W	1	3.0726	109	NA	NA	NA	NA	NA	PAER.wav	P AE R	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_32	wheat	enwars	filler	WHEAT.wav	W IY1 T	W	1	2.3096	97	NA	NA	NA	NA	NA	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_33	yawn	leafa	filler	YAWN.wav	Y AO1 N	W	1	1.6128	#N/A	NA	NA	NA	NA	NA	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_34	yell	perchant	filler	YELL.wav	Y EH1 L	W	1	2.8645	77	NA	NA	NA	NA	NA	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_35	woman	ehgyiywaxrm	filler	WUH1MAH0N.wav	W UH1 M AH0 N	W	2	3.7728	18	NA	NA	NA	NA	NA	EHGIYWAHRM.wav	EH G Y IY W AH R M	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_36	jingled	yihl	filler	JHIH1NGGAH0LD.wav	JH IH1 NG G AH0 L D	W	2	0.4771	6	NA	NA	NA	NA	NA	YIHL.wav	Y IH L	NW	1	0	65	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_37	ran	nuckie	filler	ran.wav	R AE1 N	W	1	3.458	143	NA	NA	NA	NA	NA	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_38	torches	bayzee	filler	TAO1RCHIH0Z.wav	T AO1 R CH IH0 Z	W	2	1.7076	4	NA	NA	NA	NA	NA	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_39	dome	payt	filler	dome.wav	D OW1 M	W	1	1.8751	79	NA	NA	NA	NA	NA	PAYT.wav	P AY T	NW	1	0	85	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_40	frigid	skayt	filler	FRIH1JHAH0D.wav	F R IH1 JH AH0 D	W	2	1.7634	2	NA	NA	NA	NA	NA	SKAYT.wav	S K AY T	NW	1	0	32	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_41	diet	mumote	filler	DAY1AH0T.wav	D AY1 AH0 T	W	2	2.7466	30	NA	NA	NA	NA	NA	M_AH_M_OW_T.wav	M AH M OW T	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_42	carted	medry	filler	CARTED.wav	K AA1 R T IH0 D	W	2	0.9031	8	NA	NA	NA	NA	NA	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_43	pathways	geckered	filler	PAE1THWEY2Z.wav	P AE1 TH W EY2 Z	W	2	1.3424	1	NA	NA	NA	NA	NA	G_EH_K_ER_D.wav	G EH K ER D	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_44	jumps	swaht	filler	jumps.wav	JH AH1 M P Z	W	1	2.3404	11	NA	NA	NA	NA	NA	SWAHT.wav	S W AH T	NW	1	0	17	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_45	cough	gawnst	filler	cough.wav	K AO1 F	W	1	2.525	78	NA	NA	NA	NA	NA	GAWNST.wav	G AW NS T	NW	1	0	3	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_46	creamy	piyvaxrnaxs	filler	KRIY1MIY0.wav	K R IY1 M IY0	W	2	1.7243	22	NA	NA	NA	NA	NA	PIHVAHRNAHS.wav	P IY V AH R N AH S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_47	anchors	sweeree	filler	AE1NGKER0Z.wav	AE1 NG K ER0 Z	W	2	1.5185	17	NA	NA	NA	NA	NA	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	NA	NA	NA	NA	NA	NA	NA
+3	filler_wnw_48	yearly	avan	filler	YIH1RLIY0.wav	Y IH1 R L IY0	W	2	1.6435	7	NA	NA	NA	NA	NA	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	NA	NA	NA	NA	NA	NA	NA
+4	1	minefield	plant	unrel_w	MAY1NFIY1LD.wav	M AY1 N F IY2 L D	W	2	1.6232	1	NA	NA	NA	NA	NA	PLANT.wav	P L AE1 N T	W	1	0.465397724	19	NA	NA	NA	NA	NA	batiss	cactus	plant	2	low	2	0.321428571
+4	1	naekt	map	unrel_nw	NAEKT.wav	N AE K T	NW	1	0	30	NA	NA	NA	NA	NA	MAP.wav	M AE1 P	W	1	0.463340442	73	NA	NA	NA	NA	NA	batiss	atlas	map	1	low	2	0.527027027
+4	1	baptist	church	semantic	BAPTIST.wav	B AE1 P T AH0 S T	W	2	1.8808	3	NA	NA	NA	NA	NA	CHURCH.wav	CH ER1 CH	W	1	0.495183432	19	NA	NA	NA	NA	NA	batiss	baptist	church	12	high	2	0.267973856
+4	1	batiss	ball	test	BAETAHS.wav	B AE T AH S	NW	2	0	9	large	31	high	1.27472266	4.356026503	ball.wav	B AO1 L	W	1	0.520640715	124	NA	NA	NA	NA	NA	batiss	bat	ball	8	high	2	0.251968504
+4	1	dihz	skahch	nw_nw	DIHZ.wav	D IH Z	NW	1	0	88	NA	NA	NA	NA	NA	SKAHCH.wav	S K AH CH	NW	1	0	16	NA	NA	NA	NA	NA	avan	oven	stove	1	low	1	0.224242424
+4	2	convex	wine	unrel_w	KAA1NVEH2KS.wav	K AA1 N V EH2 K S	W	2	0.7782	1	NA	NA	NA	NA	NA	WINE.wav	W AY1 N	W	1	0.502645578	118	NA	NA	NA	NA	NA	cover (nw)	cooler	wine	1	low	2	0.206521739
+4	2	sayngk	dresser	unrel_nw	SAYNGK.wav	S AY NG K	NW	1	0	11	NA	NA	NA	NA	NA	DRESSER.wav	D R EH1 S ER0	W	2	0.343231295	16	NA	NA	NA	NA	NA	birow	bureau	dresser	16	high	2	0.140939597
+4	2	beard	mustache	semantic	BEARD.wav	B IH1 R D	W	1	2.6021	#N/A	NA	NA	NA	NA	NA	MUSTACHE.wav	M AH1 S T AE2 SH	W	2	0.352259719	2	NA	NA	NA	NA	NA	birow	beard	mustache	3	low	1	0.310344828
+4	2	cover (nw)	lid	test	KOWVER.wav	K OW V ER	NW	2	0	11	large	14	low	0.460947018	2.891803819	LID.wav	L IH1 D	W	1	0.369661059	84	NA	NA	NA	NA	NA	cover (nw)	cover 	lid	21	high	1	0.12
+4	2	strah	faemz	nw_nw	STRAH.wav	S T R AH	NW	1	0	29	NA	NA	NA	NA	NA	FAEMZ.wav	F AE M Z	NW	1	0	36	NA	NA	NA	NA	NA	birow	hero	superman	20	high	1	0.166666667
+4	3	rival	twelve	unrel_w	RAY1VAH0L.wav	R AY1 V AH0 L	W	2	2.1644	19	NA	NA	NA	NA	NA	TWELVE.wav	T W EH1 L V	W	1	0.449154293	1	NA	NA	NA	NA	NA	dozer	dozen	twelve	25	high	2	0.483660131
+4	3	kehvz	tree	unrel_nw	KEHVZ.wav	K EH V Z	NW	1	0	15	NA	NA	NA	NA	NA	TREE.wav	T R IY1	W	1	0.506545619	#N/A	NA	NA	NA	NA	NA	leafa	leaf	tree	35	high	1	0.642424242
+4	3	buzz	bee	semantic	BUZZ.wav	B AH1 Z	W	1	2.5843	91	NA	NA	NA	NA	NA	BEE.wav	B IY1	W	1	0.379523064	202	NA	NA	NA	NA	NA	dozer	buzz	bee	1	low	2	0.520833333
+4	3	dozer	sand	test	DAHZER.wav	D AH Z ER	NW	2	0	9	large	9	low	0.799918544	2.009364073	SAND.wav	S AE1 N D	W	1	0.445868747	51	NA	NA	NA	NA	NA	dozer	desert	sand	5	high	2	0.17037037
+4	3	draesht	tehrch	nw_nw	DRAESHT.wav	D R AE SH T	NW	1	0	6	NA	NA	NA	NA	NA	TEHRCH.wav	T EH R CH	NW	1	0	15	NA	NA	NA	NA	NA	leafa	fairy	tale	1	low	4	0.542857143
+4	4	founder	write	unrel_w	FAW1NDER0.wav	F AW1 N D ER0	W	2	1.959	14	NA	NA	NA	NA	NA	WRITE.wav	R AY1 T	W	1	0.540179261	105	NA	NA	NA	NA	NA	fesser	essay	write	1	low	3	0.335616438
+4	4	luhch	teacher	unrel_nw	LUHCH.wav	L UH CH	NW	1	0	21	NA	NA	NA	NA	NA	TEACHER	T IY1 CH ER0	W	2	0.493583511	16	NA	NA	NA	NA	NA	fesser	professor	teacher	46	high	3	0.510791367
+4	4	feather	bird	semantic	FEATHER.wav	F EH1 DH ER0	W	2	2.3655	#N/A	NA	NA	NA	NA	NA	BIRD.wav	B ER1 D	W	1	0.488282725	110	NA	NA	NA	NA	NA	fesser	feather	bird	1	low	1	0.358974359
+4	4	huzzy	fog	test	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	FOG.wav	F AO1 G	W	1	0.368193878	51	NA	NA	NA	NA	NA	huzzy	haze	fog	1	low	2	0.377952756
+4	4	paybz	thehrts	nw_nw	PAYBZ.wav	P AY B Z	NW	1	0	13	NA	NA	NA	NA	NA	THEHRTS.wav	TH EH R T S	NW	1	0	6	NA	NA	NA	NA	NA	kerek	carrot	rabbit	55	high	2	0.205
+4	5	bias	fun	unrel_w	BAY1AH0S.wav	B AY1 AH0 S	W	2	1.7993	24	NA	NA	NA	NA	NA	fun.wav	F AH1 N	W	1	0.564180614	91	NA	NA	NA	NA	NA	weeco	weekend	fun	16	high	3	0.234899329
+4	5	spawks	candy	unrel_nw	SPAWKS.wav	S P AW K S	NW	1	0	9	NA	NA	NA	NA	NA	CANDY.wav	K AE1 N D IY0	W	2	0.470660352	43	NA	NA	NA	NA	NA	lolla	lollipop	candy	11	high	4	0.412162162
+4	5	weak	strong	semantic	WEAK.wav	W IY1 K	W	1	3.0726	109	NA	NA	NA	NA	NA	STRONG.wav	S T R AO1 NG	W	1	0.53515482	12	NA	NA	NA	NA	NA	weeco	weak	strong	14	high	1	0.557142857
+4	5	cuchee	sensitive	test	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	SENSITIVE.wav	S EH1 N S IH0 T IH0 V	W	3	0.471144965	1	NA	NA	NA	NA	NA	cuchee	touchy	sensitive	10	high	1	0.223684211
+4	5	klehd	traedz	nw_nw	KLEHD.wav	K L EH D	NW	1	0	33	NA	NA	NA	NA	NA	TRAEDZ.wav	T R AE D Z	NW	1	0	9	NA	NA	NA	NA	NA	weeco	wheat	bread	2	low	2	0.189189189
+4	6	printouts	pen	unrel_w	PRIH1NTAW2TZ.wav	P R IH1 N T AW2 T S	W	2	1.0792	1	NA	NA	NA	NA	NA	PEN.wav	P EH1 N	W	1	0.464221198	113	NA	NA	NA	NA	NA	meckle	marker	pen	2	low	4	0.256756757
+4	6	wehvz	face	unrel_nw	WEHVZ.wav	W EH V Z	NW	1	0	18	NA	NA	NA	NA	NA	FACE.wav	F EY1 S	W	1	0.57391544	72	NA	NA	NA	NA	NA	meckle	freckle	face	5	high	2	0.448051948
+4	6	medal	gold	semantic	MEDAL.wav	M EH1 D AH0 L	W	2	2.4728	36	NA	NA	NA	NA	NA	GOLD.wav	G OW1 L D	W	1	0.503218508	48	NA	NA	NA	NA	NA	meckle	medal	gold	2	low	1	0.210884354
+4	6	meckle	belt	test	MEHKAHL.wav	M EH K AH L	NW	2	0	10	large	25	high	0.917850636	5.04	belt.wav	B EH1 L T	W	1	0.465947662	64	NA	NA	NA	NA	NA	meckle	buckle	belt	2	low	2	0.666666667
+4	6	griyl	steyps	nw_nw	GRIYL.wav	G R IY L	NW	1	0	52	NA	NA	NA	NA	NA	STEYPS.wav	S T EY P S	NW	1	0	14	NA	NA	NA	NA	NA	meckle	mechanical	car	1	low	5	0.257142857
+4	7	fellows	period	unrel_w	FEH1LOW0Z.wav	F EH1 L OW0 Z	W	2	2.6503	17	NA	NA	NA	NA	NA	PERIOD.wav	P IH1 R IY0 AH0 D	W	3	0.478552067	3	NA	NA	NA	NA	NA	tawto	dot	period	1	low	2	0.182432432
+4	7	maefs	climb	unrel_nw	MAEFS.wav	M AE F S	NW	1	0	24	NA	NA	NA	NA	NA	CLIMB.wav	K L AY1 M	W	1	0.456411586	39	NA	NA	NA	NA	NA	zater	ladder	climb	1	low	2	0.337931034
+4	7	patio	furniture	semantic	PATIO.wav	P AE1 T IY0 OW2	W	3	2.0374	8	NA	NA	NA	NA	NA	FURNITURE.wav	F ER1 N IH0 CH ER0	W	3	0.436417104	#N/A	NA	NA	NA	NA	NA	tawto	patio	furniture	2	low	4	0.254901961
+4	7	tawto	chip	test	T_AA_T_OW.wav	T AA T OW	NW	2	0	11	large	25	high	2.556749458	3.839622954	CHIP.wav	CH IH1 P	W	1	0.429929836	57	NA	NA	NA	NA	NA	tawto	potato	chip	20	high	4	0.141891892
+4	7	yehts	tahs	nw_nw	YEHTS.wav	Y EH T S	NW	1	0	49	NA	NA	NA	NA	NA	TAHS.wav	T AH S	NW	1	0	63	NA	NA	NA	NA	NA	tawto	tomato	vegetables	1	low	4	0.230769231
+4	8	mothers	breathe	unrel_w	MAH1DHER0Z.wav	M AH1 DH ER0 Z	W	2	2.6684	14	NA	NA	NA	NA	NA	BREATHE.wav	B R IY1 DH	W	1	0.498834149	24	NA	NA	NA	NA	NA	zhelung	lung	breathe	1	low	3	0.362318841
+4	8	wowks	hair	unrel_nw	WOWKS.wav	W OW K S	NW	1	0	46	NA	NA	NA	NA	NA	HAIR.wav	HH EH1 R	W	1	0.551486594	125	NA	NA	NA	NA	NA	brushels	brush	hair	9	high	3	0.440217391
+4	8	giant	big	semantic	GIANT.wav	JH AY1 AH0 N T	W	2	2.9355	#N/A	NA	NA	NA	NA	NA	BIG.wav	B IH1 G	W	1	0.586519793	75	NA	NA	NA	NA	NA	zhelung	giant	big	1	low	5	0.229166667
+4	8	zolly	tired	test	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	TIRED.wav	T AY1 ER0 D	W	1	0.543844635	12	NA	NA	NA	NA	NA	zolly	yawn	tired	1	low	4	0.464052288
+4	8	smaem	traynd	nw_nw	SMAEM.wav	S M AE M	NW	1	0	15	NA	NA	NA	NA	NA	TRAYND.wav	T R AY N D	NW	1	0	9	NA	NA	NA	NA	NA	zhelung	sum	add	1	low	5	0.283783784
+4	9	smelly	cook	unrel_w	SMELLY.wav	S M EH1 L IY0	W	2	2.2095	23	NA	NA	NA	NA	NA	COOK.wav	K UH1 K	W	1	0.496472984	57	NA	NA	NA	NA	NA	chichin	kitchen	cook	27	high	1	0.182741117
+4	9	ehkt	lettuce	unrel_nw	EHKT.wav	EH K T	NW	1	0	41	NA	NA	NA	NA	NA	LETTUCE.wav	L EH1 T AH0 S	W	2	0.32085222	12	NA	NA	NA	NA	NA	curdage	cabbage	lettuce	1	low	2	0.28057554
+4	9	courage	brave	semantic	COURAGE.wav	K ER1 IH0 JH	W	2	2.9222	#N/A	NA	NA	NA	NA	NA	BRAVE.wav	B R EY1 V	W	1	0.483744157	22	NA	NA	NA	NA	NA	curdage	courage	brave	26	high	2	0.239726027
+4	9	clackuz	cheese	test	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	CHEESE.wav	CH IY1 Z	W	1	0.484797924	130	NA	NA	NA	NA	NA	clackuz	crackers	cheese	34	high	2	0.294520548
+4	9	hhawn	ayng	nw_nw	HHAWN.wav	HH AW N	NW	1	0	87	NA	NA	NA	NA	NA	AYNG.wav	AY NG	NW	1	0	51	NA	NA	NA	NA	NA	chichin	chicken	soup	14	high	1	0.092391304
+4	10	maintenance	band	unrel_w	MEY1NTNAH0NS.wav	M EY1 N T N AH0 N S	W	2	2.42	1	NA	NA	NA	NA	NA	BAND.wav	B AE1 N D	W	1	0.484356792	49	NA	NA	NA	NA	NA	glumber	rubber	band	1	low	3	0.216216216
+4	10	riynt	sleep	unrel_nw	RIYNT.wav	R IY N T	NW	1	0	19	NA	NA	NA	NA	NA	SLEEP.wav	S L IY1 P	W	1	0.564500362	28	NA	NA	NA	NA	NA	glumber	slumber	sleep	23	high	1	0.513513514
+4	10	timber	wood	semantic	TIMBER.wav	T IH1 M B ER0	W	2	1.8808	7	NA	NA	NA	NA	NA	WOOD.wav	W UH1 D	W	1	0.459075699	30	NA	NA	NA	NA	NA	glumber	timber	wood	1	low	3	0.41025641
+4	10	dreason	guilty	test	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	GUILTY.wav	G IH1 L T IY0	W	2	0.503409317	12	NA	NA	NA	NA	NA	dreason	treason	guilty	25	high	2	0.114864865
+4	10	naym	sowngk	nw_nw	NAYM.wav	N AY M	NW	1	0	46	NA	NA	NA	NA	NA	SOWNGK.wav	S OW NG K	NW	1	0	10	NA	NA	NA	NA	NA	moctor	doctor	nurse	11	high	2	0.378787879
+4	11	contacts	fish	unrel_w	KAA1NTAE2KTS.wav	K AA1 N T AE2 K T S	W	2	2.4914	4	NA	NA	NA	NA	NA	FISH.wav	F IH1 SH	W	1	0.509565403	50	NA	NA	NA	NA	NA	sardent	sardine	fish	14	high	3	0.452380952
+4	11	sehm	drapes	unrel_nw	SEHM.wav	S EH M	NW	1	0	88	NA	NA	NA	NA	NA	DRAPES.wav	D R EY1 P S	W	1	0.306489363	13	NA	NA	NA	NA	NA	perchant	curtain	drapes	1	low	3	0.25984252
+4	11	sergeant	army	semantic	SERGEANT.wav	S AA1 R JH AH0 N T	W	2	2.9025	2	NA	NA	NA	NA	NA	ARMY.wav	AA1 R M IY0	W	1	0.502167558	29	NA	NA	NA	NA	NA	sardent	sergeant	army	13	high	1	0.353741497
+4	11	perchant	buy	test	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	BUY.wav	B AY1	W	1	0.560169754	133	NA	NA	NA	NA	NA	perchant	purchase	buy	26	high	2	0.577181208
+4	11	prehnd	dayts	nw_nw	P_R_EH_N_D.wav	P R EH N D	NW	1	0	9	NA	NA	NA	NA	NA	DAYTS.wav	D AY T S	NW	1	0	65	NA	NA	NA	NA	NA	perchant	urgent	important	1	low	2	0.173913043
+4	12	photon	smoke	unrel_w	FOW1TAA2N.wav	F OW1 T AA2 N	W	2	1.301	2	NA	NA	NA	NA	NA	SMOKE.wav	S M OW1 K	W	1	0.515224565	19	NA	NA	NA	NA	NA	timney	chimney	smoke	45	high	1	0.24025974
+4	12	kraeng	jealousy	unrel_nw	KRAENG.wav	K R AE NG	NW	1	0	33	NA	NA	NA	NA	NA	JEALOUSY.wav	JH EH1 L AH0 S IY0	W	3	0.37322473	4	NA	NA	NA	NA	NA	enwars	envy	jealousy	1	low	4	0.513333333
+4	12	emerald	green	semantic	EMERALD.wav	EH1 M R AH0 L D	W	3	1.7993	2	NA	NA	NA	NA	NA	GREEN.wav	G R IY1 N	W	1	0.515979756	67	NA	NA	NA	NA	NA	enwars	emerald	green	1	low	5	0.371621622
+4	12	timney	wild	test	TIHMNIY.wav	T IH M N IY	NW	2	0	2	small	10	low	0.07731692	2.73	wild.wav	W AY1 L D	W	1	0.511869998	50	NA	NA	NA	NA	NA	timney	tame	wild	1	low	3	0.4
+4	12	chehd	chihrts	nw_nw	CHEHD.wav	CH EH D	NW	1	0	42	NA	NA	NA	NA	NA	CHIRTS.wav	CH IH R T S	NW	1	0	4	NA	NA	NA	NA	NA	enwars	endless	forever	1	low	3	0.248322148
+4	13	missile	stomach	unrel_w	MIH1SAH0L.wav	M IH1 S AH0 L	W	2	2.3181	46	NA	NA	NA	NA	NA	STOMACH.wav	S T AH1 M AH0 K	W	2	0.48945221	2	NA	NA	NA	NA	NA	nuleave	belly	stomach	13	high	3	0.402777778
+4	13	stehbz	yellow	unrel_nw	STEHBZ.wav	S T EH B Z	NW	1	0	9	NA	NA	NA	NA	NA	YELLOW.wav	Y EH1 L OW0	W	2	0.478364451	25	NA	NA	NA	NA	NA	nuleave	mellow	yellow	3	low	4	0.328671329
+4	13	relief	pain	semantic	RELIEF.wav	R IH0 L IY1 F	W	2	2.7839	5	NA	NA	NA	NA	NA	PAIN.wav	P EY1 N	W	1	0.532728906	125	NA	NA	NA	NA	NA	nuleave	relief	pain	1	low	4	0.117647059
+4	13	medry	average	test	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	AVERAGE.wav	AE1 V R IH0 JH	W	2	0.442730553	2	NA	NA	NA	NA	NA	medry	mediocre	average	1	low	5	0.169934641
+4	13	jhahnd	stahnjh	nw_nw	JHAHND.wav	JH AH N D	NW	1	0	27	NA	NA	NA	NA	NA	STAHNJH.wav	S T AH N JH	NW	1	0	8	NA	NA	NA	NA	NA	nuleave	snow	white	1	low	5	0.314102564
+4	14	spoken	rude	unrel_w	SPOW1KAH0N.wav	S P OW1 K AH0 N	W	2	2.9335	4	NA	NA	NA	NA	NA	RUDE.wav	R UW1 D	W	1	0.469439079	107	NA	NA	NA	NA	NA	shawshus	obnoxious	rude	1	low	5	0.181818182
+4	14	kaadz	careful	unrel_nw	KAADZ.wav	K AA D Z	NW	1	0	52	NA	NA	NA	NA	NA	CAREFUL.wav	K EH0 R F UH2 L	W	2	0.545653424	6	NA	NA	NA	NA	NA	shawshus	cautious	careful	21	high	1	0.513333333
+4	14	shell	beach	semantic	SHELL.wav	SH EH1 L	W	1	2.6064	115	NA	NA	NA	NA	NA	BEACH.wav	B IY1 CH	W	1	0.492941889	#N/A	NA	NA	NA	NA	NA	shawshus	shell	beach	1	low	4	0.25
+4	14	shawshus	sick	test	SHAOSHAHS.wav	SH AO SH AH S	NW	2	0	2	small	27	high	0.998916038	3.819383308	SICK.wav	S IH1 K	W	1	0.55479191	109	NA	NA	NA	NA	NA	shawshus	nauseous	sick	4	low	1	0.613333333
+4	14	kwihsk	behrbd	nw_nw	KWIHSK.wav	K W IH S K	NW	1	0	7	NA	NA	NA	NA	NA	BEHRBD.wav	B EH R B D	NW	1	0	4	NA	NA	NA	NA	NA	shawshus	sausage	breakfast	1	low	3	0.092105263
+4	15	tally	bull's eye	unrel_w	TAE1LIY0.wav	T AE1 L IY0	W	2	1.7782	75	NA	NA	NA	NA	NA	BULLSEYE.wav	B UH1 L Z AY2	W	2	0.450787792	#N/A	NA	NA	NA	NA	NA	tarfin	target	bull's eye	11	high	3	0.297297297
+4	15	graelt	boat	unrel_nw	GRAELT.wav	G R AE L T	NW	1	0	6	NA	NA	NA	NA	NA	BOAT.wav	B OW1 T	W	1	0.500209022	117	NA	NA	NA	NA	NA	yaters	yacht	boat	9	high	3	0.59375
+4	15	typhoon	hurricane	semantic	TYPHOON.wav	T AY2 F UW1 N	W	2	1.5441	#N/A	NA	NA	NA	NA	NA	HURRICANE.wav	HH ER1 AH0 K EY2 N	W	3	0.352741915	2	NA	NA	NA	NA	NA	tarfin	typhoon	hurricane	2	low	3	0.175324675
+4	15	uxman	fast	test	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	FAST.wav	F AE1 S T	W	1	0.553980065	43	NA	NA	NA	NA	NA	uxman	express	fast	1	low	5	0.186206897
+4	15	krayn	lawnz	nw_nw	KRAYN.wav	K R AY N	NW	1	0	55	NA	NA	NA	NA	NA	LAWNZ.wav	L AW N Z	NW	1	0	46	NA	NA	NA	NA	NA	tarfin	tart	sour	1	low	4	0.25
+4	16	layers	shoes	unrel_w	LEY1ER0Z.wav	L EY1 ER0 Z	W	2	1.959	49	NA	NA	NA	NA	NA	SHOES.wav	SH UW1 Z	W	1	0.519224023	103	NA	NA	NA	NA	NA	zaucous	socks	shoes	10	high	3	0.655405405
+4	16	klehpt	dam	unrel_nw	KLEHPT.wav	K L EH P T	NW	1	0	12	NA	NA	NA	NA	NA	DAM.wav	D AE1 M	W	1	0.32157772	85	NA	NA	NA	NA	NA	beevee	beaver	dam	14	high	1	0.269503546
+4	16	banner	flag	semantic	BANNER.wav	B AE1 N ER0	W	2	2.1335	53	NA	NA	NA	NA	NA	FLAG.wav	F L AE1 G	W	1	0.430913151	30	NA	NA	NA	NA	NA	bannow	banner	flag	25	high	1	0.686868687
+4	16	yutul	space	test	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	SPACE.wav	S P EY1 S	W	1	0.508395033	20	NA	NA	NA	NA	NA	yutul	shuttle	space	9	high	1	0.415492958
+4	16	vehrnd	skey	nw_nw	VEHRND.wav	V EH R N D	NW	1	0	3	NA	NA	NA	NA	NA	SKEY.wav	S K EY	NW	1	0	37	NA	NA	NA	NA	NA	yutul	yell	scream	3	low	3	0.577777778
+4	17	rocket	food	unrel_w	RAA1KAH0T.wav	R AA1 K AH0 T	W	2	2.4609	16	NA	NA	NA	NA	NA	FOOD.wav	F UW1 D	W	1	0.551083865	50	NA	NA	NA	NA	NA	dimer	diner	food	9	high	1	0.317880795
+4	17	fihm	ring	unrel_nw	FIHM.wav	F IH M	NW	1	0	67	NA	NA	NA	NA	NA	RING.wav	R IH1 NG	W	1	0.520771657	82	NA	NA	NA	NA	NA	dimer	diamond	ring	32	high	3	0.630434783
+4	17	diver	water	semantic	DIVER.wav	D AY1 V ER0	W	2	1.7324	24	NA	NA	NA	NA	NA	WATER.wav	W AO1 T ER0	W	2	0.558192389	24	NA	NA	NA	NA	NA	dimer	diver	water	1	low	1	0.266666667
+4	17	crickly	bug	test	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	BUG.wav	B AH1 G	W	1	0.441914976	65	NA	NA	NA	NA	NA	crickly	cricket	bug	10	high	2	0.216216216
+4	17	neyks	hhehz	nw_nw	NEYKS.wav	N EY K S	NW	1	0	42	NA	NA	NA	NA	NA	HHEHZ.wav	HH EH Z	NW	1	0	91	NA	NA	NA	NA	NA	dimer	dime	nickel	4	low	1	0.527272727
+4	18	piping	eggs	unrel_w	PAY1PIH0NG.wav	P AY1 P IH0 NG	W	2	1.5441	7	NA	NA	NA	NA	NA	EGGS.wav	EH1 G Z	W	1	0.483972215	43	NA	NA	NA	NA	NA	lakein	bacon	eggs	1	low	1	0.517241379
+4	18	puhnd	boxer	unrel_nw	PUHND.wav	P UH N D	NW	1	0	11	NA	NA	NA	NA	NA	BOXER.wav	B AA1 K S ER0	W	2	0.313213178	11	NA	NA	NA	NA	NA	fidest	fighter	boxer	13	high	4	0.209459459
+4	18	knuckle	fist	semantic	KNUCKLE.wav	N AH1 K AH0 L	W	2	1.7782	#N/A	NA	NA	NA	NA	NA	FIST.wav	F IH1 S T	W	1	0.392397943	54	NA	NA	NA	NA	NA	nuckie	knuckle	fist	24	high	2	0.257142857
+4	18	gingul	laugh	test	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	LAUGH.wav	L AE1 F	W	1	0.516693991	65	NA	NA	NA	NA	NA	gingul	giggle	laugh	8	high	1	0.78030303
+4	18	weym	jhahk	nw_nw	WEYM.wav	W EY M	NW	1	0	68	NA	NA	NA	NA	NA	JHAHK.wav	JH AH K	NW	1	0	54	NA	NA	NA	NA	NA	fubble	fable	story	1	low	1	0.480769231
+4	19	colon	neutron	unrel_w	KOW1LAH0N.wav	K OW1 L AH0 N	W	2	1.9823	78	NA	NA	NA	NA	NA	NEUTRON.wav	N UW1 T R AA2 N	W	2	0.145476105	1	NA	NA	NA	NA	NA	protag	proton	neutron	16	high	2	0.565789474
+4	19	krihf	round	unrel_nw	KRIHF.wav	K R IH F	NW	1	0	32	NA	NA	NA	NA	NA	ROUND.wav	R AW1 N D	W	1	0.515582451	30	NA	NA	NA	NA	NA	onul	oval	round	6	high	1	0.407608696
+4	19	mustard	ketchup	semantic	MUSTARD.wav	M AH1 S T ER0 D	W	2	2.3579	7	NA	NA	NA	NA	NA	KETCHUP.wav	K EH1 CH AH0 P	W	2	0.358125285	4	NA	NA	NA	NA	NA	muswee	mustard	ketchup	14	high	3	0.584415584
+4	19	permume	smell	test	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	SMELL.wav	S M EH1 L	W	1	0.528878152	29	NA	NA	NA	NA	NA	permume	perfume	smell	27	high	3	0.392857143
+4	19	dehrnd	taesht	nw_nw	DEHRND.wav	D EH R N D	NW	1	0	2	NA	NA	NA	NA	NA	TAESHT.wav	T AE SH T	NW	1	0	19	NA	NA	NA	NA	NA	muswee	musty	old	10	high	1	0.114864865
+4	20	lions	protection	unrel_w	LAY1AH0NZ.wav	L AY1 AH0 N Z	W	2	2.2148	20	NA	NA	NA	NA	NA	PROTECTION.wav	P ER0 T EH1 K SH AH0 N	W	3	0.467163966	2	NA	NA	NA	NA	NA	sheeler	shield	protection	7	high	1	0.243243243
+4	20	lahcht	cloudy	unrel_nw	LAHCHT.wav	L AH CH T	NW	1	0	14	NA	NA	NA	NA	NA	CLOUDY.wav	K L AW1 D IY0	W	2	0.296160414	4	NA	NA	NA	NA	NA	sussy	sunny	cloudy	1	low	1	0.175324675
+4	20	vapor	steam	semantic	VAPOR.wav	V EY1 P ER0	W	2	1.4314	12	NA	NA	NA	NA	NA	STEAM.wav	S T IY1 M	W	1	0.416923289	39	NA	NA	NA	NA	NA	vaper	vapor	steam	9	high	1	0.127516779
+4	20	thibber	dolphin	test	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	DOLPHIN.wav	D AA1 L F AH0 N	W	2	0.270282784	6	NA	NA	NA	NA	NA	thibber	flipper	dolphin	7	high	3	0.797385621
+4	20	spihmz	bahcht	nw_nw	SPIHMZ.wav	S P IH M Z	NW	1	0	15	NA	NA	NA	NA	NA	BAHCHT.wav	B AH CH T	NW	1	0	19	NA	NA	NA	NA	NA	vaper	violet	purple	1	low	5	0.402777778
+4	21	scramble	dinosaur	unrel_w	SKRAE1MBAH0L.wav	S K R AE1 M B AH0 L	W	2	1.9685	3	NA	NA	NA	NA	NA	DINOSAUR.wav	D AY1 N AH0 S AO2 R	W	3	0.315592534	1	NA	NA	NA	NA	NA	bosser	fossil	dinosaur	9	high	4	0.217105263
+4	21	driyld	cup	unrel_nw	DRIYLD.wav	D R IY L D	NW	1	0	4	NA	NA	NA	NA	NA	CUP.wav	K AH1 P	W	1	0.504484455	76	NA	NA	NA	NA	NA	bosser	saucer	cup	1	low	1	0.527272727
+4	21	member	club	semantic	MEMBER.wav	M EH1 M B ER0	W	2	3.0453	8	NA	NA	NA	NA	NA	CLUB.wav	K L AH1 B	W	1	0.522952569	18	NA	NA	NA	NA	NA	vember	member	club	6	high	1	0.263513514
+4	21	bosser	employee	test	BAOSER.wav	B AO S ER	NW	2	0	9	large	22	high	0.35693382	3.794771052	employee.wav	IH0 M P L OY1	W	3	0.420533323	8	NA	NA	NA	NA	NA	bosser	boss	employee	10	high	2	0.147435897
+4	21	hhawks	maer	nw_nw	HHAWKS.wav	HH AW K S	NW	1	0	29	NA	NA	NA	NA	NA	MAER.wav	M AE R	NW	1	0	68	NA	NA	NA	NA	NA	winternz	winter	summer	33	high	2	0.372340426
+4	22	battling	squirrel	unrel_w	BAE1TLIH0NG.wav	B AE1 T L IH0 NG	W	2	2.0934	9	NA	NA	NA	NA	NA	squirrel.wav	S K W ER1 AH0 L	W	2	0.346372537	2	NA	NA	NA	NA	NA	cheppan	chipmunk	squirrel	2	low	4	0.22
+4	22	kleyn	picture	unrel_nw	KLEYN.wav	K L EY N	NW	1	0	68	NA	NA	NA	NA	NA	picture.wav	P IH1 K CH ER0	W	2	0.544353344	12	NA	NA	NA	NA	NA	bota	photo	picture	9	high	2	0.576530612
+4	22	sweep	broom	semantic	sweep.wav	S W IY1 P	W	1	2.5821	25	NA	NA	NA	NA	NA	broom.wav	B R UW1 M	W	1	0.35320432	52	NA	NA	NA	NA	NA	sweeree	sweep	broom	1	low	2	0.405555556
+4	22	bayzee	flower	test	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	flower.wav	F L AW1 ER0	W	2	0.447049444	24	NA	NA	NA	NA	NA	bayzee	daisy	flower	13	high	1	0.689189189
+4	22	blaysts	flawn	nw_nw	BLAYSTS.wav	B L AY S T S	NW	1	0	1	NA	NA	NA	NA	NA	FLAWN.wav	F L AW N	NW	1	0	15	NA	NA	NA	NA	NA	gossy	gossip	talk	20	high	2	0.446043165
+4	23	robots	picket	unrel_w	ROW1BAA2TS.wav	R OW1 B AA2 T S	W	2	1.9638	3	NA	NA	NA	NA	NA	PICKET.wav	P IH1 K IH0 T	W	2	0.287689784	19	NA	NA	NA	NA	NA	flisnung	fence	picket	1	low	5	0.149606299
+4	23	spaach	dish	unrel_nw	SPAACH.wav	S P AA CH	NW	1	0	14	NA	NA	NA	NA	NA	DISH.wav	D IH1 SH	W	1	0.422819565	62	NA	NA	NA	NA	NA	olem	bowl	dish	1	low	3	0.111111111
+4	23	listen	hear	semantic	LISTEN.wav	L IH1 S AH0 N	W	2	3.843	51	NA	NA	NA	NA	NA	HEAR.wav	HH IY1 R	W	1	0.586621057	59	NA	NA	NA	NA	NA	flisnung	listen	hear	8	high	3	0.505555556
+4	23	flisnung	tornado	test	FLIHSNAHNG.wav	F L IH S N AH NG	NW	2	0	2	small	30	high	0.071885217	4.448710649	TORNADO.wav	T AO2 R N EY1 D OW0	W	3	0.27565681	4	NA	NA	NA	NA	NA	flisnung	twister	tornado	1	low	5	0.466216216
+4	23	kyuwvd	muwbd	nw_nw	KYUWVD.wav	K Y UW V D	NW	1	0	3	NA	NA	NA	NA	NA	MUWBD.wav	M UW B D	NW	1	0	3	NA	NA	NA	NA	NA	olem	oatmeal	cereal	1	low	4	0.184210526
+4	24	stagnant	beef	unrel_w	STAE1GNAH0NT.wav	S T AE1 G N AH0 N T	W	2	1.1761	0	NA	NA	NA	NA	NA	BEEF.wav	B IY1 F	W	1	0.448536278	73	NA	NA	NA	NA	NA	rowser	roast	beef	4	low	1	0.49375
+4	24	faarlz	butterfly	unrel_nw	FAARLZ.wav	F AA R L Z	NW	1	0	22	NA	NA	NA	NA	NA	BUTTERFLY.wav	B AH1 T ER0 F L AY2	W	3	0.356370095	2	NA	NA	NA	NA	NA	masso	moth	butterfly	1	low	3	0.266666667
+4	24	cat	dog	semantic	CAT.wav	K AE1 T	W	1	3.1421	117	NA	NA	NA	NA	NA	DOG.wav	D AO1 G	W	1	0.542115541	46	NA	NA	NA	NA	NA	cato	cat	dog	28	high	1	0.516129032
+4	24	wefer	climate	test	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	CLIMATE.wav	K L AY1 M IH0 T	W	2	0.339948062	8	NA	NA	NA	NA	NA	wefer	weather	climate	5	high	1	0.198412698
+4	24	dayp	pawl	nw_nw	DAYP.wav	D AY P	NW	1	0	55	NA	NA	NA	NA	NA	PAWL.wav	P AW L	NW	1	0	69	NA	NA	NA	NA	NA	masso	opossum	animal	1	low	5	0.141414141
+4	filler_nwnw_1	trahbz	zolly	filler	TRAHBZ.wav	T R AH B Z	NW	1	0	11	#N/A	#N/A	#N/A	#N/A	#N/A	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_2	mehsts	taeld	filler	MEHSTS.wav	M EH S T S	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	TAELD.wav	T AE L D	NW	1	0	16	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_3	dorice	skehts	filler	dorice.wav	D AH R AY S	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	SKEHTS.wav	S K EH T S	NW	1	0	19	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_4	gihd	siybz	filler	GIHD.wav	G IH D	NW	1	0	53	#N/A	#N/A	#N/A	#N/A	#N/A	SIYBZ.wav	S IY B Z	NW	1	0	54	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_5	wefer	dreason	filler	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_6	thibber	waenmaxsiy	filler	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	WAENMAHSIY.wav	W AE N M AH S IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_7	yaters	kerek	filler	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_8	zihnd	klaam	filler	ZIHND.wav	Z IH N D	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	KLAAM.wav	K L AA M	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_9	masso	gahb	filler	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	GAHB.wav	G AH B	NW	1	0	39	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_10	curdage	hhehnd	filler	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	HHEHND.wav	HH EH N D	NW	1	0	49	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_11	onul	birow	filler	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_12	muswee	olem	filler	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_13	kleyt	stehliyzliy	filler	KLEYT.wav	K L EY T	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	STEHLIYZLIY.wav	S T EH L IY Z L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_14	beevee	vember	filler	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_15	dihmtiysihng	chehnzmihtihd	filler	DIHMTIYSIHNG.wav	D IH M T IY S IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	CHEHNZMIHTIHD.wav	CH EH N Z M IH T IH D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_16	lolla	hhaylihmaxn	filler	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	HHAYLIHMAHN.wav	HH AY L IH M AH N	NW	3	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_17	braht	brushels	filler	BRAHT.wav	BR AH T	NW	1	0	35	#N/A	#N/A	#N/A	#N/A	#N/A	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_18	chihngkpehraxnt	kriyrz	filler	CHIHNGKPEHRAHNT.wav	CH IH NG K P EH R AH N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	KRIYRZ.wav	K R IY R Z	NW	1	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_19	skehrlz	gingul	filler	SKEHRLZ.wav	S K EH R L Z	NW	1	0	1	#N/A	#N/A	#N/A	#N/A	#N/A	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_20	zater	gossy	filler	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_21	siynt	staarm	filler	SIYNT.wav	S IY N T	NW	1	0	18	#N/A	#N/A	#N/A	#N/A	#N/A	STAARM.wav	S T AA R M	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_22	sussy	saech	filler	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	SAECH.wav	S AE CH	NW	1	0	52	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_23	fidest	yutul	filler	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	NA	NA	NA	NA	NA	NA	NA
+4	filler_nwnw_24	fihd	crickly	filler	FIHD.wav	F IH D	NW	1	0	62	#N/A	#N/A	#N/A	#N/A	#N/A	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_1	add	byuw	filler	ADD.wav	AE1 D	W	1	3.1239	82	NA	NA	NA	NA	NA	BYUW.wav	B Y UW	NW	1	0	56	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_2	boss	reters	filler	boss.wav	B AO1 S	W	1	3.3681	88	NA	NA	NA	NA	NA	R_EH_T_ER_Z.wav	R EH T ER Z	NW	2	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_3	bowl	aeshk	filler	BOWL.wav	B OW1 L	W	1	2.8344	174	NA	NA	NA	NA	NA	AESHK.wav	AE SH K	NW	1	0	21	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_4	bread	bannow	filler	BREAD.wav	B R EH1 D	W	1	2.9557	45	NA	NA	NA	NA	NA	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_5	brush	fubble	filler	BRUSH.wav	B R AH1 SH	W	1	2.7672	33	NA	NA	NA	NA	NA	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_6	car	sihnsaxrfaxp	filler	CAR.wav	K AA1 R	W	1	3.7122	162	NA	NA	NA	NA	NA	SIHNSAHRFAHP.wav	S IH NS AH R F AH P	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_7	dot	bota	filler	dot.wav	D AA1 T	W	1	2.2672	90	NA	NA	NA	NA	NA	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_8	fence	winternz	filler	FENCE.wav	F EH1 N S	W	1	2.7427	30	NA	NA	NA	NA	NA	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_9	haze	paang	filler	HAZE.wav	HH EY1 Z	W	1	1.6812	157	NA	NA	NA	NA	NA	PAANG.wav	P AA NG	NW	1	0	42	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_10	leaf	vaper	filler	LEAF.wav	L IY1 F	W	1	2.3385	90	NA	NA	NA	NA	NA	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_11	lung	rowf	filler	lung.wav	L AH1 NG	W	1	2.3802	49	NA	NA	NA	NA	NA	ROWF.wav	R OW F	NW	1	0	100	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_12	moth	cuchee	filler	MOTH.wav	M AO1 TH	W	1	1.8451	46	NA	NA	NA	NA	NA	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_13	nurse	mowfs	filler	NURSE.wav	N ER1 S	W	1	3.0414	55	NA	NA	NA	NA	NA	MOWFS.wav	M OW F S	NW	1	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_14	old	uxman	filler	OLD.wav	OW1 L D	W	1	3.8395	53	NA	NA	NA	NA	NA	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_15	roast	skehk	filler	ROAST.wav	R OW1 S T	W	1	2.5599	44	NA	NA	NA	NA	NA	SKEHK.wav	S K EH K	NW	1	0	15	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_16	scream	permume	filler	SCREAM.wav	S K R IY1 M	W	1	2.938	#N/A	NA	NA	NA	NA	NA	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_17	shield	skaym	filler	SHIELD.wav	SH IY1 L D	W	1	2.4099	45	NA	NA	NA	NA	NA	SKAYM.wav	S K AY M	NW	1	0	13	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_18	snow	dihsihnvihrd	filler	SNOW.wav	S N OW1	W	1	2.8887	37	NA	NA	NA	NA	NA	DIHSIHNVIHRD.wav	D IH S IH N V IH R D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_19	socks	swaydz	filler	SOCKS.wav	S AA1 K S	W	1	2.738	60	NA	NA	NA	NA	NA	SWAYDZ.wav	S W AY D Z	NW	1	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_20	soup	baasps	filler	SOUP.wav	S UW1 P	W	1	2.8831	83	NA	NA	NA	NA	NA	BAASPS.wav	B AA S P S	NW	1	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_21	sour	pahpaxrdliy	filler	SOUR.wav	S AW1 R	W	1	2.3997	57	NA	NA	NA	NA	NA	PAHPAHRDLIY.wav	P AH P AH R D L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_22	stove	paesihguhks	filler	STOVE.wav	S T OW1 V	W	1	2.4518	20	NA	NA	NA	NA	NA	PAESIHGUHKS.wav	P AE S IH G UH K S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_23	sum	baxskiyshaxn	filler	SUM.wav	S AH1 M	W	1	2.5551	88	NA	NA	NA	NA	NA	BAHSKIYSHAHN.wav	B AH S K IY SH AH N	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_24	tale	lowstung	filler	TALE.wav	T EY1 L	W	1	2.6395	117	NA	NA	NA	NA	NA	L_OW_S_T_AH_NG.wav	L OW1 ER0	NW	2	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_25	talk	skwaykaxnihng	filler	talk.wav	T AO1 K	W	1	3.882	76	NA	NA	NA	NA	NA	SKWAYKAHNIHNG.wav	S K W AY K AH N IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_26	tart	huzzy	filler	TART.wav	T AA1 R T	W	1	1.9731	37	NA	NA	NA	NA	NA	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_27	wheat	moctor	filler	WHEAT.wav	W IY1 T	W	1	2.3096	97	NA	NA	NA	NA	NA	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_28	white	cato	filler	WHITE.wav	W AY1 T	W	1	3.5258	104	NA	NA	NA	NA	NA	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_29	yacht	clackuz	filler	YACHT.wav	Y AA1 T	W	1	2.2967	57	NA	NA	NA	NA	NA	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_30	yawn	vihklaxmawnt	filler	YAWN.wav	Y AO1 N	W	1	1.6128	#N/A	NA	NA	NA	NA	NA	VIHKLAHMAWNT.wav	V IH K L AH M AW N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_31	yell	paer	filler	YELL.wav	Y EH1 L	W	1	2.8645	77	NA	NA	NA	NA	NA	PAER.wav	P AE R	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_32	woman	enwars	filler	WUH1MAH0N.wav	W UH1 M AH0 N	W	2	3.7728	18	NA	NA	NA	NA	NA	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_33	jingled	leafa	filler	JHIH1NGGAH0LD.wav	JH IH1 NG G AH0 L D	W	2	0.4771	6	NA	NA	NA	NA	NA	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_34	ran	perchant	filler	ran.wav	R AE1 N	W	1	3.458	143	NA	NA	NA	NA	NA	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_35	torches	ehgyiywaxrm	filler	TAO1RCHIH0Z.wav	T AO1 R CH IH0 Z	W	2	1.7076	4	NA	NA	NA	NA	NA	EHGIYWAHRM.wav	EH G Y IY W AH R M	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_36	dome	yihl	filler	dome.wav	D OW1 M	W	1	1.8751	79	NA	NA	NA	NA	NA	YIHL.wav	Y IH L	NW	1	0	65	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_37	frigid	nuckie	filler	FRIH1JHAH0D.wav	F R IH1 JH AH0 D	W	2	1.7634	2	NA	NA	NA	NA	NA	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_38	diet	bayzee	filler	DAY1AH0T.wav	D AY1 AH0 T	W	2	2.7466	30	NA	NA	NA	NA	NA	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_39	carted	payt	filler	CARTED.wav	K AA1 R T IH0 D	W	2	0.9031	8	NA	NA	NA	NA	NA	PAYT.wav	P AY T	NW	1	0	85	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_40	pathways	skayt	filler	PAE1THWEY2Z.wav	P AE1 TH W EY2 Z	W	2	1.3424	1	NA	NA	NA	NA	NA	SKAYT.wav	S K AY T	NW	1	0	32	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_41	jumps	mumote	filler	jumps.wav	JH AH1 M P Z	W	1	2.3404	11	NA	NA	NA	NA	NA	M_AH_M_OW_T.wav	M AH M OW T	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_42	cough	medry	filler	cough.wav	K AO1 F	W	1	2.525	78	NA	NA	NA	NA	NA	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_43	creamy	geckered	filler	KRIY1MIY0.wav	K R IY1 M IY0	W	2	1.7243	22	NA	NA	NA	NA	NA	G_EH_K_ER_D.wav	G EH K ER D	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_44	anchors	swaht	filler	AE1NGKER0Z.wav	AE1 NG K ER0 Z	W	2	1.5185	17	NA	NA	NA	NA	NA	SWAHT.wav	S W AH T	NW	1	0	17	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_45	yearly	gawnst	filler	YIH1RLIY0.wav	Y IH1 R L IY0	W	2	1.6435	7	NA	NA	NA	NA	NA	GAWNST.wav	G AW NS T	NW	1	0	3	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_46	otter	piyvaxrnaxs	filler	AA1TER0.wav	AA1 T ER0	W	2	1.4472	43	NA	NA	NA	NA	NA	PIHVAHRNAHS.wav	P IY V AH R N AH S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_47	limbs	sweeree	filler	limbs.wav	L IH1 M B Z	W	1	2.0294	47	NA	NA	NA	NA	NA	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	NA	NA	NA	NA	NA	NA	NA
+4	filler_wnw_48	highbrow	avan	filler	HHAY1BRAW2.wav	HH AY1 B R AW2	W	2	1.2041	2	NA	NA	NA	NA	NA	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	NA	NA	NA	NA	NA	NA	NA
+5	1	dihz	skahch	nw_nw	DIHZ.wav	D IH Z	NW	1	0	88	NA	NA	NA	NA	NA	SKAHCH.wav	S K AH CH	NW	1	0	16	NA	NA	NA	NA	NA	batiss	cactus	plant	2	low	2	0.321428571
+5	1	minefield	map	unrel_w	MAY1NFIY1LD.wav	M AY1 N F IY2 L D	W	2	1.6232	1	NA	NA	NA	NA	NA	MAP.wav	M AE1 P	W	1	0.463340442	73	NA	NA	NA	NA	NA	batiss	atlas	map	1	low	2	0.527027027
+5	1	naekt	church	unrel_nw	NAEKT.wav	N AE K T	NW	1	0	30	NA	NA	NA	NA	NA	CHURCH.wav	CH ER1 CH	W	1	0.495183432	19	NA	NA	NA	NA	NA	batiss	baptist	church	12	high	2	0.267973856
+5	1	bat	ball	semantic	bat.wav	B AE1 T	W	1	2.7497	101	NA	NA	NA	NA	NA	ball.wav	B AO1 L	W	1	0.520640715	124	NA	NA	NA	NA	NA	batiss	bat	ball	8	high	2	0.251968504
+5	1	avan	stove	test	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	STOVE.wav	S T OW1 V	W	1	0.389485041	20	NA	NA	NA	NA	NA	avan	oven	stove	1	low	1	0.224242424
+5	2	strah	faemz	nw_nw	STRAH.wav	S T R AH	NW	1	0	29	NA	NA	NA	NA	NA	FAEMZ.wav	F AE M Z	NW	1	0	36	NA	NA	NA	NA	NA	cover (nw)	cooler	wine	1	low	2	0.206521739
+5	2	convex	dresser	unrel_w	KAA1NVEH2KS.wav	K AA1 N V EH2 K S	W	2	0.7782	1	NA	NA	NA	NA	NA	DRESSER.wav	D R EH1 S ER0	W	2	0.343231295	16	NA	NA	NA	NA	NA	birow	bureau	dresser	16	high	2	0.140939597
+5	2	sayngk	mustache	unrel_nw	SAYNGK.wav	S AY NG K	NW	1	0	11	NA	NA	NA	NA	NA	MUSTACHE.wav	M AH1 S T AE2 SH	W	2	0.352259719	2	NA	NA	NA	NA	NA	birow	beard	mustache	3	low	1	0.310344828
+5	2	cover 	lid	semantic	cover.wav	K AH1 V ER0	W	2	3.4445	#N/A	NA	NA	NA	NA	NA	LID.wav	L IH1 D	W	1	0.369661059	84	NA	NA	NA	NA	NA	cover (nw)	cover 	lid	21	high	1	0.12
+5	2	birow	superman	test	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	SUPERMAN.wav	S UW1 P ER0 M AE2 N	W	3	0.346372537	#N/A	NA	NA	NA	NA	NA	birow	hero	superman	20	high	1	0.166666667
+5	3	draesht	tehrch	nw_nw	DRAESHT.wav	D R AE SH T	NW	1	0	6	NA	NA	NA	NA	NA	TEHRCH.wav	T EH R CH	NW	1	0	15	NA	NA	NA	NA	NA	dozer	dozen	twelve	25	high	2	0.483660131
+5	3	rival	tree	unrel_w	RAY1VAH0L.wav	R AY1 V AH0 L	W	2	2.1644	19	NA	NA	NA	NA	NA	TREE.wav	T R IY1	W	1	0.506545619	#N/A	NA	NA	NA	NA	NA	leafa	leaf	tree	35	high	1	0.642424242
+5	3	kehvz	bee	unrel_nw	KEHVZ.wav	K EH V Z	NW	1	0	15	NA	NA	NA	NA	NA	BEE.wav	B IY1	W	1	0.379523064	202	NA	NA	NA	NA	NA	dozer	buzz	bee	1	low	2	0.520833333
+5	3	desert	sand	semantic	DESERT.wav	D EH1 Z ER0 T	W	2	2.8639	10	NA	NA	NA	NA	NA	SAND.wav	S AE1 N D	W	1	0.445868747	51	NA	NA	NA	NA	NA	dozer	desert	sand	5	high	2	0.17037037
+5	3	leafa	tale	test	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	TALE.wav	T EY1 L	W	1	0.421521666	117	NA	NA	NA	NA	NA	leafa	fairy	tale	1	low	4	0.542857143
+5	4	paybz	thehrts	nw_nw	PAYBZ.wav	P AY B Z	NW	1	0	13	NA	NA	NA	NA	NA	THEHRTS.wav	TH EH R T S	NW	1	0	6	NA	NA	NA	NA	NA	fesser	essay	write	1	low	3	0.335616438
+5	4	founder	teacher	unrel_w	FAW1NDER0.wav	F AW1 N D ER0	W	2	1.959	14	NA	NA	NA	NA	NA	TEACHER	T IY1 CH ER0	W	2	0.493583511	16	NA	NA	NA	NA	NA	fesser	professor	teacher	46	high	3	0.510791367
+5	4	luhch	bird	unrel_nw	LUHCH.wav	L UH CH	NW	1	0	21	NA	NA	NA	NA	NA	BIRD.wav	B ER1 D	W	1	0.488282725	110	NA	NA	NA	NA	NA	fesser	feather	bird	1	low	1	0.358974359
+5	4	haze	fog	semantic	HAZE.wav	HH EY1 Z	W	1	1.6812	157	NA	NA	NA	NA	NA	FOG.wav	F AO1 G	W	1	0.368193878	51	NA	NA	NA	NA	NA	huzzy	haze	fog	1	low	2	0.377952756
+5	4	kerek	rabbit	test	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	RABBIT.wav	R AE1 B IH0 T	W	2	0.423458872	17	NA	NA	NA	NA	NA	kerek	carrot	rabbit	55	high	2	0.205
+5	5	klehd	traedz	nw_nw	KLEHD.wav	K L EH D	NW	1	0	33	NA	NA	NA	NA	NA	TRAEDZ.wav	T R AE D Z	NW	1	0	9	NA	NA	NA	NA	NA	weeco	weekend	fun	16	high	3	0.234899329
+5	5	bias	candy	unrel_w	BAY1AH0S.wav	B AY1 AH0 S	W	2	1.7993	24	NA	NA	NA	NA	NA	CANDY.wav	K AE1 N D IY0	W	2	0.470660352	43	NA	NA	NA	NA	NA	lolla	lollipop	candy	11	high	4	0.412162162
+5	5	spawks	strong	unrel_nw	SPAWKS.wav	S P AW K S	NW	1	0	9	NA	NA	NA	NA	NA	STRONG.wav	S T R AO1 NG	W	1	0.53515482	12	NA	NA	NA	NA	NA	weeco	weak	strong	14	high	1	0.557142857
+5	5	touchy	sensitive	semantic	TOUCHY.wav	T AH1 CH IY0	W	2	2.1303	23	NA	NA	NA	NA	NA	SENSITIVE.wav	S EH1 N S IH0 T IH0 V	W	3	0.471144965	1	NA	NA	NA	NA	NA	cuchee	touchy	sensitive	10	high	1	0.223684211
+5	5	weeco	bread	test	WIYKOW.wav	W IY K OW	NW	2	0	9	large	12	low	1.148794097	2.918460374	BREAD.wav	B R EH1 D	W	1	0.470660352	45	NA	NA	NA	NA	NA	weeco	wheat	bread	2	low	2	0.189189189
+5	6	griyl	steyps	nw_nw	GRIYL.wav	G R IY L	NW	1	0	52	NA	NA	NA	NA	NA	STEYPS.wav	S T EY P S	NW	1	0	14	NA	NA	NA	NA	NA	meckle	marker	pen	2	low	4	0.256756757
+5	6	printouts	face	unrel_w	PRIH1NTAW2TZ.wav	P R IH1 N T AW2 T S	W	2	1.0792	1	NA	NA	NA	NA	NA	FACE.wav	F EY1 S	W	1	0.57391544	72	NA	NA	NA	NA	NA	meckle	freckle	face	5	high	2	0.448051948
+5	6	wehvz	gold	unrel_nw	WEHVZ.wav	W EH V Z	NW	1	0	18	NA	NA	NA	NA	NA	GOLD.wav	G OW1 L D	W	1	0.503218508	48	NA	NA	NA	NA	NA	meckle	medal	gold	2	low	1	0.210884354
+5	6	buckle	belt	semantic	buckle.wav	B AH1 K AH0 L	W	2	2.3324	32	NA	NA	NA	NA	NA	belt.wav	B EH1 L T	W	1	0.465947662	64	NA	NA	NA	NA	NA	meckle	buckle	belt	2	low	2	0.666666667
+5	6	meckle	car	test	MEHKAHL.wav	M EH K AH L	NW	2	0	10	large	25	high	0.917850636	4.185680473	CAR.wav	K AA1 R	W	1	0.569631366	162	NA	NA	NA	NA	NA	meckle	mechanical	car	1	low	5	0.257142857
+5	7	yehts	tahs	nw_nw	YEHTS.wav	Y EH T S	NW	1	0	49	NA	NA	NA	NA	NA	TAHS.wav	T AH S	NW	1	0	63	NA	NA	NA	NA	NA	tawto	dot	period	1	low	2	0.182432432
+5	7	fellows	climb	unrel_w	FEH1LOW0Z.wav	F EH1 L OW0 Z	W	2	2.6503	17	NA	NA	NA	NA	NA	CLIMB.wav	K L AY1 M	W	1	0.456411586	39	NA	NA	NA	NA	NA	zater	ladder	climb	1	low	2	0.337931034
+5	7	maefs	furniture	unrel_nw	MAEFS.wav	M AE F S	NW	1	0	24	NA	NA	NA	NA	NA	FURNITURE.wav	F ER1 N IH0 CH ER0	W	3	0.436417104	#N/A	NA	NA	NA	NA	NA	tawto	patio	furniture	2	low	4	0.254901961
+5	7	potato	chip	semantic	POTATO.wav	P AH0 T EY1 T OW2	W	3	2.5866	1	NA	NA	NA	NA	NA	CHIP.wav	CH IH1 P	W	1	0.429929836	57	NA	NA	NA	NA	NA	tawto	potato	chip	20	high	4	0.141891892
+5	7	tawto	vegetables	test	T_AA_T_OW.wav	T AA T OW	NW	2	0	11	large	25	high	2.556749458	3.839622954	VEGETABLES.wav	V EH1 JH T AH0 B AH0 L Z	W	3	0.384980296	1	NA	NA	NA	NA	NA	tawto	tomato	vegetables	1	low	4	0.230769231
+5	8	smaem	traynd	nw_nw	SMAEM.wav	S M AE M	NW	1	0	15	NA	NA	NA	NA	NA	TRAYND.wav	T R AY N D	NW	1	0	9	NA	NA	NA	NA	NA	zhelung	lung	breathe	1	low	3	0.362318841
+5	8	mothers	hair	unrel_w	MAH1DHER0Z.wav	M AH1 DH ER0 Z	W	2	2.6684	14	NA	NA	NA	NA	NA	HAIR.wav	HH EH1 R	W	1	0.551486594	125	NA	NA	NA	NA	NA	brushels	brush	hair	9	high	3	0.440217391
+5	8	wowks	big	unrel_nw	WOWKS.wav	W OW K S	NW	1	0	46	NA	NA	NA	NA	NA	BIG.wav	B IH1 G	W	1	0.586519793	75	NA	NA	NA	NA	NA	zhelung	giant	big	1	low	5	0.229166667
+5	8	yawn	tired	semantic	YAWN.wav	Y AO1 N	W	1	1.6128	#N/A	NA	NA	NA	NA	NA	TIRED.wav	T AY1 ER0 D	W	1	0.543844635	12	NA	NA	NA	NA	NA	zolly	yawn	tired	1	low	4	0.464052288
+5	8	zhelung	add	test	ZHEYLAHNG.wav	ZH EY L AH NG	NW	2	0	11	large	24	high	2.78868912	3.90569566	ADD.wav	AE1 D	W	1	0.494697123	82	NA	NA	NA	NA	NA	zhelung	sum	add	1	low	5	0.283783784
+5	9	hhawn	ayng	nw_nw	HHAWN.wav	HH AW N	NW	1	0	87	NA	NA	NA	NA	NA	AYNG.wav	AY NG	NW	1	0	51	NA	NA	NA	NA	NA	chichin	kitchen	cook	27	high	1	0.182741117
+5	9	smelly	lettuce	unrel_w	SMELLY.wav	S M EH1 L IY0	W	2	2.2095	23	NA	NA	NA	NA	NA	LETTUCE.wav	L EH1 T AH0 S	W	2	0.32085222	12	NA	NA	NA	NA	NA	curdage	cabbage	lettuce	1	low	2	0.28057554
+5	9	ehkt	brave	unrel_nw	EHKT.wav	EH K T	NW	1	0	41	NA	NA	NA	NA	NA	BRAVE.wav	B R EY1 V	W	1	0.483744157	22	NA	NA	NA	NA	NA	curdage	courage	brave	26	high	2	0.239726027
+5	9	crackers	cheese	semantic	CRACKERS.wav	K R AE1 K ER0 Z	W	2	2.2355	6	NA	NA	NA	NA	NA	CHEESE.wav	CH IY1 Z	W	1	0.484797924	130	NA	NA	NA	NA	NA	clackuz	crackers	cheese	34	high	2	0.294520548
+5	9	chichin	soup	test	CHIHCHAHN.wav	CH IH CH AH N	NW	2	0	2	small	13	low	0.999414397	2.48090424	SOUP.wav	S UW1 P	W	1	0.459859706	83	NA	NA	NA	NA	NA	chichin	chicken	soup	14	high	1	0.092391304
+5	10	naym	sowngk	nw_nw	NAYM.wav	N AY M	NW	1	0	46	NA	NA	NA	NA	NA	SOWNGK.wav	S OW NG K	NW	1	0	10	NA	NA	NA	NA	NA	glumber	rubber	band	1	low	3	0.216216216
+5	10	maintenance	sleep	unrel_w	MEY1NTNAH0NS.wav	M EY1 N T N AH0 N S	W	2	2.42	1	NA	NA	NA	NA	NA	SLEEP.wav	S L IY1 P	W	1	0.564500362	28	NA	NA	NA	NA	NA	glumber	slumber	sleep	23	high	1	0.513513514
+5	10	riynt	wood	unrel_nw	RIYNT.wav	R IY N T	NW	1	0	19	NA	NA	NA	NA	NA	WOOD.wav	W UH1 D	W	1	0.459075699	30	NA	NA	NA	NA	NA	glumber	timber	wood	1	low	3	0.41025641
+5	10	treason	guilty	semantic	TREASON.wav	T R IY1 Z AH0 N	W	2	2.2201	4	NA	NA	NA	NA	NA	GUILTY.wav	G IH1 L T IY0	W	2	0.503409317	12	NA	NA	NA	NA	NA	dreason	treason	guilty	25	high	2	0.114864865
+5	10	moctor	nurse	test	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NURSE.wav	N ER1 S	W	1	0.483073542	55	NA	NA	NA	NA	NA	moctor	doctor	nurse	11	high	2	0.378787879
+5	11	prehnd	dayts	nw_nw	P_R_EH_N_D.wav	P R EH N D	NW	1	0	9	NA	NA	NA	NA	NA	DAYTS.wav	D AY T S	NW	1	0	65	NA	NA	NA	NA	NA	sardent	sardine	fish	14	high	3	0.452380952
+5	11	contacts	drapes	unrel_w	KAA1NTAE2KTS.wav	K AA1 N T AE2 K T S	W	2	2.4914	4	NA	NA	NA	NA	NA	DRAPES.wav	D R EY1 P S	W	1	0.306489363	13	NA	NA	NA	NA	NA	perchant	curtain	drapes	1	low	3	0.25984252
+5	11	sehm	army	unrel_nw	SEHM.wav	S EH M	NW	1	0	88	NA	NA	NA	NA	NA	ARMY.wav	AA1 R M IY0	W	1	0.502167558	29	NA	NA	NA	NA	NA	sardent	sergeant	army	13	high	1	0.353741497
+5	11	purchase	buy	semantic	PURCHASE.wav	P ER1 CH AH0 S	W	2	2.4298	4	NA	NA	NA	NA	NA	BUY.wav	B AY1	W	1	0.560169754	133	NA	NA	NA	NA	NA	perchant	purchase	buy	26	high	2	0.577181208
+5	11	perchant	important	test	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	IMPORTANT.wav	IH0 M P AO1 R T AH0 N T	W	3	0.566826239	1	NA	NA	NA	NA	NA	perchant	urgent	important	1	low	2	0.173913043
+5	12	chehd	chihrts	nw_nw	CHEHD.wav	CH EH D	NW	1	0	42	NA	NA	NA	NA	NA	CHIRTS.wav	CH IH R T S	NW	1	0	4	NA	NA	NA	NA	NA	timney	chimney	smoke	45	high	1	0.24025974
+5	12	photon	jealousy	unrel_w	FOW1TAA2N.wav	F OW1 T AA2 N	W	2	1.301	2	NA	NA	NA	NA	NA	JEALOUSY.wav	JH EH1 L AH0 S IY0	W	3	0.37322473	4	NA	NA	NA	NA	NA	enwars	envy	jealousy	1	low	4	0.513333333
+5	12	kraeng	green	unrel_nw	KRAENG.wav	K R AE NG	NW	1	0	33	NA	NA	NA	NA	NA	GREEN.wav	G R IY1 N	W	1	0.515979756	67	NA	NA	NA	NA	NA	enwars	emerald	green	1	low	5	0.371621622
+5	12	tame	wild	semantic	tame.wav	T EY1 M	W	1	2.0374	54	NA	NA	NA	NA	NA	wild.wav	W AY1 L D	W	1	0.511869998	50	NA	NA	NA	NA	NA	timney	tame	wild	1	low	3	0.4
+5	12	enwars	forever	test	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	FOREVER.wav	F ER0 EH1 V ER0	W	3	0.536230073	1	NA	NA	NA	NA	NA	enwars	endless	forever	1	low	3	0.248322148
+5	13	jhahnd	stahnjh	nw_nw	JHAHND.wav	JH AH N D	NW	1	0	27	NA	NA	NA	NA	NA	STAHNJH.wav	S T AH N JH	NW	1	0	8	NA	NA	NA	NA	NA	nuleave	belly	stomach	13	high	3	0.402777778
+5	13	missile	yellow	unrel_w	MIH1SAH0L.wav	M IH1 S AH0 L	W	2	2.3181	46	NA	NA	NA	NA	NA	YELLOW.wav	Y EH1 L OW0	W	2	0.478364451	25	NA	NA	NA	NA	NA	nuleave	mellow	yellow	3	low	4	0.328671329
+5	13	stehbz	pain	unrel_nw	STEHBZ.wav	S T EH B Z	NW	1	0	9	NA	NA	NA	NA	NA	PAIN.wav	P EY1 N	W	1	0.532728906	125	NA	NA	NA	NA	NA	nuleave	relief	pain	1	low	4	0.117647059
+5	13	mediocre	average	semantic	MEDIOCRE.wav	M IY2 D IY0 OW1 K ER0	W	4	1.8062	0	NA	NA	NA	NA	NA	AVERAGE.wav	AE1 V R IH0 JH	W	2	0.442730553	2	NA	NA	NA	NA	NA	medry	mediocre	average	1	low	5	0.169934641
+5	13	nuleave	white	test	NAHLIYV.wav	N AH L IY V	NW	2	0	2	small	28	high	0.072941923	3.913100742	WHITE.wav	W AY1 T	W	1	0.547257673	104	NA	NA	NA	NA	NA	nuleave	snow	white	1	low	5	0.314102564
+5	14	kwihsk	behrbd	nw_nw	KWIHSK.wav	K W IH S K	NW	1	0	7	NA	NA	NA	NA	NA	BEHRBD.wav	B EH R B D	NW	1	0	4	NA	NA	NA	NA	NA	shawshus	obnoxious	rude	1	low	5	0.181818182
+5	14	spoken	careful	unrel_w	SPOW1KAH0N.wav	S P OW1 K AH0 N	W	2	2.9335	4	NA	NA	NA	NA	NA	CAREFUL.wav	K EH0 R F UH2 L	W	2	0.545653424	6	NA	NA	NA	NA	NA	shawshus	cautious	careful	21	high	1	0.513333333
+5	14	kaadz	beach	unrel_nw	KAADZ.wav	K AA D Z	NW	1	0	52	NA	NA	NA	NA	NA	BEACH.wav	B IY1 CH	W	1	0.492941889	#N/A	NA	NA	NA	NA	NA	shawshus	shell	beach	1	low	4	0.25
+5	14	nauseous	sick	semantic	NAUSEOUS.wav	N AO1 SH AH0 S	W	2	2.1335	#N/A	NA	NA	NA	NA	NA	SICK.wav	S IH1 K	W	1	0.55479191	109	NA	NA	NA	NA	NA	shawshus	nauseous	sick	4	low	1	0.613333333
+5	14	shawshus	breakfast	test	SHAOSHAHS.wav	SH AO SH AH S	NW	2	0	2	small	27	high	0.998916038	3.819383308	BREAKFAST.wav	B R EH1 K F AH0 S T	W	2	0.517697225	1	NA	NA	NA	NA	NA	shawshus	sausage	breakfast	1	low	3	0.092105263
+5	15	krayn	lawnz	nw_nw	KRAYN.wav	K R AY N	NW	1	0	55	NA	NA	NA	NA	NA	LAWNZ.wav	L AW N Z	NW	1	0	46	NA	NA	NA	NA	NA	tarfin	target	bull's eye	11	high	3	0.297297297
+5	15	tally	boat	unrel_w	TAE1LIY0.wav	T AE1 L IY0	W	2	1.7782	75	NA	NA	NA	NA	NA	BOAT.wav	B OW1 T	W	1	0.500209022	117	NA	NA	NA	NA	NA	yaters	yacht	boat	9	high	3	0.59375
+5	15	graelt	hurricane	unrel_nw	GRAELT.wav	G R AE L T	NW	1	0	6	NA	NA	NA	NA	NA	HURRICANE.wav	HH ER1 AH0 K EY2 N	W	3	0.352741915	2	NA	NA	NA	NA	NA	tarfin	typhoon	hurricane	2	low	3	0.175324675
+5	15	express	fast	semantic	EXPRESS.wav	IH0 K S P R EH1 S	W	2	2.8331	1	NA	NA	NA	NA	NA	FAST.wav	F AE1 S T	W	1	0.553980065	43	NA	NA	NA	NA	NA	uxman	express	fast	1	low	5	0.186206897
+5	15	tarfin	sour	test	TAORFAHN.wav	T AO R F AH N	NW	2	0	2	small	27	high	0.082953374	4.052326308	SOUR.wav	S AW1 R	W	1	0.380156952	57	NA	NA	NA	NA	NA	tarfin	tart	sour	1	low	4	0.25
+5	16	vehrnd	skey	nw_nw	VEHRND.wav	V EH R N D	NW	1	0	3	NA	NA	NA	NA	NA	SKEY.wav	S K EY	NW	1	0	37	NA	NA	NA	NA	NA	zaucous	socks	shoes	10	high	3	0.655405405
+5	16	layers	dam	unrel_w	LEY1ER0Z.wav	L EY1 ER0 Z	W	2	1.959	49	NA	NA	NA	NA	NA	DAM.wav	D AE1 M	W	1	0.32157772	85	NA	NA	NA	NA	NA	beevee	beaver	dam	14	high	1	0.269503546
+5	16	klehpt	flag	unrel_nw	KLEHPT.wav	K L EH P T	NW	1	0	12	NA	NA	NA	NA	NA	FLAG.wav	F L AE1 G	W	1	0.430913151	30	NA	NA	NA	NA	NA	bannow	banner	flag	25	high	1	0.686868687
+5	16	shuttle	space	semantic	SHUTTLE.wav	SH AH1 T AH0 L	W	2	2.1139	14	NA	NA	NA	NA	NA	SPACE.wav	S P EY1 S	W	1	0.508395033	20	NA	NA	NA	NA	NA	yutul	shuttle	space	9	high	1	0.415492958
+5	16	yutul	scream	test	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	SCREAM.wav	S K R IY1 M	W	1	0.468051791	#N/A	NA	NA	NA	NA	NA	yutul	yell	scream	3	low	3	0.577777778
+5	17	neyks	hhehz	nw_nw	NEYKS.wav	N EY K S	NW	1	0	42	NA	NA	NA	NA	NA	HHEHZ.wav	HH EH Z	NW	1	0	91	NA	NA	NA	NA	NA	dimer	diner	food	9	high	1	0.317880795
+5	17	rocket	ring	unrel_w	RAA1KAH0T.wav	R AA1 K AH0 T	W	2	2.4609	16	NA	NA	NA	NA	NA	RING.wav	R IH1 NG	W	1	0.520771657	82	NA	NA	NA	NA	NA	dimer	diamond	ring	32	high	3	0.630434783
+5	17	fihm	water	unrel_nw	FIHM.wav	F IH M	NW	1	0	67	NA	NA	NA	NA	NA	WATER.wav	W AO1 T ER0	W	2	0.558192389	24	NA	NA	NA	NA	NA	dimer	diver	water	1	low	1	0.266666667
+5	17	cricket	bug	semantic	CRICKET.wav	K R IH1 K IH0 T	W	2	1.9777	4	NA	NA	NA	NA	NA	BUG.wav	B AH1 G	W	1	0.441914976	65	NA	NA	NA	NA	NA	crickly	cricket	bug	10	high	2	0.216216216
+5	17	dimer	nickel	test	DAYMER.wav	D AY M ER	NW	2	0	11	large	9	low	2.715889977	2.344627096	NICKEL.wav	N IH1 K AH0 L	W	2	0.403154851	52	NA	NA	NA	NA	NA	dimer	dime	nickel	4	low	1	0.527272727
+5	18	weym	jhahk	nw_nw	WEYM.wav	W EY M	NW	1	0	68	NA	NA	NA	NA	NA	JHAHK.wav	JH AH K	NW	1	0	54	NA	NA	NA	NA	NA	lakein	bacon	eggs	1	low	1	0.517241379
+5	18	piping	boxer	unrel_w	PAY1PIH0NG.wav	P AY1 P IH0 NG	W	2	1.5441	7	NA	NA	NA	NA	NA	BOXER.wav	B AA1 K S ER0	W	2	0.313213178	11	NA	NA	NA	NA	NA	fidest	fighter	boxer	13	high	4	0.209459459
+5	18	puhnd	fist	unrel_nw	PUHND.wav	P UH N D	NW	1	0	11	NA	NA	NA	NA	NA	FIST.wav	F IH1 S T	W	1	0.392397943	54	NA	NA	NA	NA	NA	nuckie	knuckle	fist	24	high	2	0.257142857
+5	18	giggle	laugh	semantic	GIGGLE.wav	G IH1 G AH0 L	W	2	1.8921	23	NA	NA	NA	NA	NA	LAUGH.wav	L AE1 F	W	1	0.516693991	65	NA	NA	NA	NA	NA	gingul	giggle	laugh	8	high	1	0.78030303
+5	18	fubble	story	test	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	STORY.wav	S T AO1 R IY0	W	2	0.559906625	36	NA	NA	NA	NA	NA	fubble	fable	story	1	low	1	0.480769231
+5	19	dehrnd	taesht	nw_nw	DEHRND.wav	D EH R N D	NW	1	0	2	NA	NA	NA	NA	NA	TAESHT.wav	T AE SH T	NW	1	0	19	NA	NA	NA	NA	NA	protag	proton	neutron	16	high	2	0.565789474
+5	19	colon	round	unrel_w	KOW1LAH0N.wav	K OW1 L AH0 N	W	2	1.9823	78	NA	NA	NA	NA	NA	ROUND.wav	R AW1 N D	W	1	0.515582451	30	NA	NA	NA	NA	NA	onul	oval	round	6	high	1	0.407608696
+5	19	krihf	ketchup	unrel_nw	KRIHF.wav	K R IH F	NW	1	0	32	NA	NA	NA	NA	NA	KETCHUP.wav	K EH1 CH AH0 P	W	2	0.358125285	4	NA	NA	NA	NA	NA	muswee	mustard	ketchup	14	high	3	0.584415584
+5	19	perfume	smell	semantic	PERFUME.wav	P ER0 F Y UW1 M	W	2	2.5933	3	NA	NA	NA	NA	NA	SMELL.wav	S M EH1 L	W	1	0.528878152	29	NA	NA	NA	NA	NA	permume	perfume	smell	27	high	3	0.392857143
+5	19	muswee	old	test	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OLD.wav	OW1 L D	W	1	0.584274672	53	NA	NA	NA	NA	NA	muswee	musty	old	10	high	1	0.114864865
+5	20	spihmz	bahcht	nw_nw	SPIHMZ.wav	S P IH M Z	NW	1	0	15	NA	NA	NA	NA	NA	BAHCHT.wav	B AH CH T	NW	1	0	19	NA	NA	NA	NA	NA	sheeler	shield	protection	7	high	1	0.243243243
+5	20	lions	cloudy	unrel_w	LAY1AH0NZ.wav	L AY1 AH0 N Z	W	2	2.2148	20	NA	NA	NA	NA	NA	CLOUDY.wav	K L AW1 D IY0	W	2	0.296160414	4	NA	NA	NA	NA	NA	sussy	sunny	cloudy	1	low	1	0.175324675
+5	20	lahcht	steam	unrel_nw	LAHCHT.wav	L AH CH T	NW	1	0	14	NA	NA	NA	NA	NA	STEAM.wav	S T IY1 M	W	1	0.416923289	39	NA	NA	NA	NA	NA	vaper	vapor	steam	9	high	1	0.127516779
+5	20	flipper	dolphin	semantic	FLIPPER.wav	F L IH1 P ER0	W	2	1.5315	#N/A	NA	NA	NA	NA	NA	DOLPHIN.wav	D AA1 L F AH0 N	W	2	0.270282784	6	NA	NA	NA	NA	NA	thibber	flipper	dolphin	7	high	3	0.797385621
+5	20	vaper	purple	test	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	PURPLE.wav	P ER1 P AH0 L	W	2	0.419344334	#N/A	NA	NA	NA	NA	NA	vaper	violet	purple	1	low	5	0.402777778
+5	21	hhawks	maer	nw_nw	HHAWKS.wav	HH AW K S	NW	1	0	29	NA	NA	NA	NA	NA	MAER.wav	M AE R	NW	1	0	68	NA	NA	NA	NA	NA	bosser	fossil	dinosaur	9	high	4	0.217105263
+5	21	scramble	cup	unrel_w	SKRAE1MBAH0L.wav	S K R AE1 M B AH0 L	W	2	1.9685	3	NA	NA	NA	NA	NA	CUP.wav	K AH1 P	W	1	0.504484455	76	NA	NA	NA	NA	NA	bosser	saucer	cup	1	low	1	0.527272727
+5	21	driyld	club	unrel_nw	DRIYLD.wav	D R IY L D	NW	1	0	4	NA	NA	NA	NA	NA	CLUB.wav	K L AH1 B	W	1	0.522952569	18	NA	NA	NA	NA	NA	vember	member	club	6	high	1	0.263513514
+5	21	boss	employee	semantic	boss.wav	B AA1 S	W	1	3.3681	88	NA	NA	NA	NA	NA	employee.wav	IH0 M P L OY1	W	3	0.420533323	8	NA	NA	NA	NA	NA	bosser	boss	employee	10	high	2	0.147435897
+5	21	winternz	summer	test	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	SUMMER.wav	S AH1 M ER0	W	2	0.506802578	39	NA	NA	NA	NA	NA	winternz	winter	summer	33	high	2	0.372340426
+5	22	blaysts	flawn	nw_nw	BLAYSTS.wav	B L AY S T S	NW	1	0	1	NA	NA	NA	NA	NA	FLAWN.wav	F L AW N	NW	1	0	15	NA	NA	NA	NA	NA	cheppan	chipmunk	squirrel	2	low	4	0.22
+5	22	battling	picture	unrel_w	BAE1TLIH0NG.wav	B AE1 T L IH0 NG	W	2	2.0934	9	NA	NA	NA	NA	NA	picture.wav	P IH1 K CH ER0	W	2	0.544353344	12	NA	NA	NA	NA	NA	bota	photo	picture	9	high	2	0.576530612
+5	22	kleyn	broom	unrel_nw	KLEYN.wav	K L EY N	NW	1	0	68	NA	NA	NA	NA	NA	broom.wav	B R UW1 M	W	1	0.35320432	52	NA	NA	NA	NA	NA	sweeree	sweep	broom	1	low	2	0.405555556
+5	22	daisy	flower	semantic	daisy.wav	D EY1 Z IY0	W	2	2.2529	32	NA	NA	NA	NA	NA	flower.wav	F L AW1 ER0	W	2	0.447049444	24	NA	NA	NA	NA	NA	bayzee	daisy	flower	13	high	1	0.689189189
+5	22	gossy	talk	test	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	talk.wav	T AO1 K	W	1	0.589055531	76	NA	NA	NA	NA	NA	gossy	gossip	talk	20	high	2	0.446043165
+5	23	kyuwvd	muwbd	nw_nw	KYUWVD.wav	K Y UW V D	NW	1	0	3	NA	NA	NA	NA	NA	MUWBD.wav	M UW B D	NW	1	0	3	NA	NA	NA	NA	NA	flisnung	fence	picket	1	low	5	0.149606299
+5	23	robots	dish	unrel_w	ROW1BAA2TS.wav	R OW1 B AA2 T S	W	2	1.9638	3	NA	NA	NA	NA	NA	DISH.wav	D IH1 SH	W	1	0.422819565	62	NA	NA	NA	NA	NA	olem	bowl	dish	1	low	3	0.111111111
+5	23	spaach	hear	unrel_nw	SPAACH.wav	S P AA CH	NW	1	0	14	NA	NA	NA	NA	NA	HEAR.wav	HH IY1 R	W	1	0.586621057	59	NA	NA	NA	NA	NA	flisnung	listen	hear	8	high	3	0.505555556
+5	23	twister	tornado	semantic	TWISTER.wav	T W IH1 S T ER0	W	2	1.7709	5	NA	NA	NA	NA	NA	TORNADO.wav	T AO2 R N EY1 D OW0	W	3	0.27565681	4	NA	NA	NA	NA	NA	flisnung	twister	tornado	1	low	5	0.466216216
+5	23	olem	cereal	test	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	CEREAL.wav	S IH1 R IY0 AH0 L	W	3	0.371104822	8	NA	NA	NA	NA	NA	olem	oatmeal	cereal	1	low	4	0.184210526
+5	24	dayp	pawl	nw_nw	DAYP.wav	D AY P	NW	1	0	55	NA	NA	NA	NA	NA	PAWL.wav	P AW L	NW	1	0	69	NA	NA	NA	NA	NA	rowser	roast	beef	4	low	1	0.49375
+5	24	stagnant	butterfly	unrel_w	STAE1GNAH0NT.wav	S T AE1 G N AH0 N T	W	2	1.1761	0	NA	NA	NA	NA	NA	BUTTERFLY.wav	B AH1 T ER0 F L AY2	W	3	0.356370095	2	NA	NA	NA	NA	NA	masso	moth	butterfly	1	low	3	0.266666667
+5	24	faarlz	dog	unrel_nw	FAARLZ.wav	F AA R L Z	NW	1	0	22	NA	NA	NA	NA	NA	DOG.wav	D AO1 G	W	1	0.542115541	46	NA	NA	NA	NA	NA	cato	cat	dog	28	high	1	0.516129032
+5	24	weather	climate	semantic	WEATHER.wav	W EH1 DH ER0	W	2	3.0137	26	NA	NA	NA	NA	NA	CLIMATE.wav	K L AY1 M IH0 T	W	2	0.339948062	8	NA	NA	NA	NA	NA	wefer	weather	climate	5	high	1	0.198412698
+5	24	masso	animal	test	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	ANIMAL.wav	AE1 N AH0 M AH0 L	W	3	0.496611418	7	NA	NA	NA	NA	NA	masso	opossum	animal	1	low	5	0.141414141
+5	filler_nwnw_1	trahbz	zolly	filler	TRAHBZ.wav	T R AH B Z	W	0	0	0	NA	NA	NA	NA	NA	ZAALIY.wav	Z AA L IY	NW	2	0	11	large	25	high	2.846660827	4.015604161	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_2	mehsts	taeld	filler	MEHSTS.wav	M EH S T S	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	TAELD.wav	T AE L D	NW	1	0	16	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_3	dorice	skehts	filler	dorice.wav	D AH R AY S	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	SKEHTS.wav	S K EH T S	NW	1	0	19	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_4	gihd	siybz	filler	GIHD.wav	G IH D	NW	1	0	53	#N/A	#N/A	#N/A	#N/A	#N/A	SIYBZ.wav	S IY B Z	NW	1	0	54	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_5	wefer	dreason	filler	WEHFER.wav	W EH F ER	NW	2	0	9	large	24	high	0.648561208	3.903297624	DRIYZAHNG.wav	D R IY Z AH NG	NW	2	0	2	small	13	low	0.981442156	2.408626009	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_6	thibber	waenmaxsiy	filler	THIHBER.wav	TH IH B ER	NW	2	0	2	small	18	low	0.998887812	2.984583451	WAENMAHSIY.wav	W AE N M AH S IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_7	yaters	kerek	filler	YAOTERZ.wav	Y AO T ER Z	NW	2	0	2	small	25	high	0.998768871	3.884591257	KEHRAHK.wav	K EH R AH K	NW	2	0	11	large	6	low	2.364535522	0.945832671	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_8	zihnd	klaam	filler	ZIHND.wav	Z IH N D	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	KLAAM.wav	K L AA M	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_9	masso	gahb	filler	MAASOW.wav	M AA S OW	NW	2	0	9	large	30	high	2.470349518	4.042320134	GAHB.wav	G AH B	NW	1	0	39	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_10	curdage	hhehnd	filler	KERDAHJH.wav	K ER D AH JH	NW	2	0	2	small	18	low	0.025457405	2.977581325	HHEHND.wav	HH EH N D	NW	1	0	49	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_11	onul	birow	filler	OWNAHL.wav	OW N AH L	NW	2	0	9	large	21	high	2.596569059	3.699387529	BIHROW.wav	B IH R OW	NW	2	0	11	large	17	low	2.391370556	3.191168894	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_12	muswee	olem	filler	MAHSWIY.wav	M AH S W IY	NW	2	0	2	small	20	low	0.998890377	3.538456283	OWLAHM.wav	OW L AH M	NW	2	0	10	large	35	high	2.442665836	4.722217151	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_13	kleyt	stehliyzliy	filler	KLEYT.wav	K L EY T	NW	1	0	33	#N/A	#N/A	#N/A	#N/A	#N/A	STEHLIYZLIY.wav	S T EH L IY Z L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_14	beevee	vember	filler	BIYVIY.wav	B IY V IY	NW	2	0	9	large	20	low	0.557457921	3.549955548	VEHMBER.wav	V EH M B ER	NW	2	0	2	small	10	low	0.064328109	1.794073052	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_15	dihmtiysihng	chehnzmihtihd	filler	DIHMTIYSIHNG.wav	D IH M T IY S IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	CHEHNZMIHTIHD.wav	CH EH N Z M IH T IH D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_16	lolla	hhaylihmaxn	filler	LAALAH.wav	L AA L AH	NW	2	0	10	large	25	high	2.305406635	4.022903849	HHAYLIHMAHN.wav	HH AY L IH M AH N	NW	3	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_17	braht	brushels	filler	BRAHT.wav	BR AH T	NW	1	0	35	#N/A	#N/A	#N/A	#N/A	#N/A	BRAHSHAHLZ.wav	B R AH SH AH L Z	NW	2	0	2	small	12	low	0.987335475	3.062846823	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_18	chihngkpehraxnt	kriyrz	filler	CHIHNGKPEHRAHNT.wav	CH IH NG K P EH R AH N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	KRIYRZ.wav	K R IY R Z	NW	1	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_19	skehrlz	gingul	filler	SKEHRLZ.wav	S K EH R L Z	NW	1	0	1	#N/A	#N/A	#N/A	#N/A	#N/A	GIHNGGAHL.wav	G IH NG G AH L	NW	2	0	9	large	22	high	0.886977503	3.599786422	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_20	zater	gossy	filler	ZAETER.wav	Z AE T ER	NW	2	0	9	large	37	high	0.312563447	4.825617151	gossy.wav	G AO S IY	NW	2	0	10	large	0	low	2.993168544	6.022367813	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_21	siynt	staarm	filler	SIYNT.wav	S IY N T	NW	1	0	18	#N/A	#N/A	#N/A	#N/A	#N/A	STAARM.wav	S T AA R M	NW	1	0	25	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_22	sussy	saech	filler	SAHSIY.wav	S AH S IY	NW	2	0	11	large	19	low	2.58294702	3.481611126	SAECH.wav	S AE CH	NW	1	0	52	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_23	fidest	yutul	filler	FAYDAHST.wav	F AY D AH S T	NW	2	0	2	small	23	high	0.061834361	3.646569252	YAHTAHL.wav	Y AH T AH L	NW	2	0	2	small	25	high	0.990757722	4.186415567	NA	NA	NA	NA	NA	NA	NA
+5	filler_nwnw_24	fihd	crickly	filler	FIHD.wav	F IH D	NW	1	0	62	#N/A	#N/A	#N/A	#N/A	#N/A	KRIHKLIY.wav	K R IH K L IY	NW	2	0	2	small	5	low	0.080723419	1.661928435	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_1	band	byuw	filler	BAND.wav	B AE1 N D	W	1	3.0504	49	NA	NA	NA	NA	NA	BYUW.wav	B Y UW	NW	1	0	56	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_2	beard	reters	filler	BEARD.wav	B IH1 R D	W	1	2.6021	#N/A	NA	NA	NA	NA	NA	R_EH_T_ER_Z.wav	R EH T ER Z	NW	2	0	10	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_3	beef	aeshk	filler	BEEF.wav	B IY1 F	W	1	2.8089	73	NA	NA	NA	NA	NA	AESHK.wav	AE SH K	NW	1	0	21	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_4	bowl	bannow	filler	BOWL.wav	B OW1 L	W	1	2.8344	174	NA	NA	NA	NA	NA	BAENOW.wav	B AE N OW	NW	2	0	10	large	19	low	1.221957407	3.204837621	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_5	breathe	fubble	filler	BREATHE.wav	B R IY1 DH	W	1	3.1538	24	NA	NA	NA	NA	NA	F_AH_B_AH_L.wav	F AH B AH L	NW	2	0	10	large	15	low	1.138974244	2.769898892	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_6	brush	sihnsaxrfaxp	filler	BRUSH.wav	B R AH1 SH	W	1	2.7672	33	NA	NA	NA	NA	NA	SIHNSAHRFAHP.wav	S IH NS AH R F AH P	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_7	buzz	bota	filler	BUZZ.wav	B AH1 Z	W	1	2.5843	91	NA	NA	NA	NA	NA	bota.wav	B OW T AH	NW	2	0	11	large	0	low	1.041200198	6.022367813	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_8	cat	winternz	filler	CAT.wav	K AE1 T	W	1	3.1421	117	NA	NA	NA	NA	NA	WIHNTERNZ.wav	W IH N T ER N Z	NW	2	0	2	small	7	low	0.970950595	1.806896705	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_9	cook	paang	filler	COOK.wav	K UH1 K	W	1	3.1367	57	NA	NA	NA	NA	NA	PAANG.wav	P AA NG	NW	1	0	42	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_10	dot	vaper	filler	dot.wav	D AA1 T	W	1	2.2672	90	NA	NA	NA	NA	NA	VAAPER.wav	V AA P ER	NW	2	0	10	large	24	high	2.481720613	3.683159908	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_11	eggs	rowf	filler	EGGS.wav	EH1 G Z	W	1	3.0477	43	NA	NA	NA	NA	NA	ROWF.wav	R OW F	NW	1	0	100	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_12	fence	cuchee	filler	FENCE.wav	F EH1 N S	W	1	2.7427	30	NA	NA	NA	NA	NA	KAHCHIY.wav	K AH CH IY	NW	2	0	9	large	25	high	2.508571946	4.08379804	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_13	fish	mowfs	filler	FISH.wav	F IH1 SH	W	1	3.2327	50	NA	NA	NA	NA	NA	MOWFS.wav	M OW F S	NW	1	0	8	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_14	food	uxman	filler	FOOD.wav	F UW1 D	W	1	3.557	50	NA	NA	NA	NA	NA	AHKSMEHND.wav	AH K S M EH N D	NW	2	0	2	small	25	high	0.095850122	4.062308347	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_15	fun	skehk	filler	fun.wav	F AH1 N	W	1	3.6659	91	NA	NA	NA	NA	NA	SKEHK.wav	S K EH K	NW	1	0	15	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_16	leaf	permume	filler	LEAF.wav	L IY1 F	W	1	2.3385	90	NA	NA	NA	NA	NA	PERMYUWM.wav	P ER M Y UW M	NW	2	0	2	small	20	low	0.083365081	3.219088804	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_17	lung	skaym	filler	lung.wav	L AH1 NG	W	1	2.3802	49	NA	NA	NA	NA	NA	SKAYM.wav	S K AY M	NW	1	0	13	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_18	moth	dihsihnvihrd	filler	MOTH.wav	M AO1 TH	W	1	1.8451	46	NA	NA	NA	NA	NA	DIHSIHNVIHRD.wav	D IH S IH N V IH R D	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_19	pen	swaydz	filler	PEN.wav	P EH1 N	W	1	2.9122	113	NA	NA	NA	NA	NA	SWAYDZ.wav	S W AY D Z	NW	1	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_20	plant	baasps	filler	PLANT.wav	P L AE1 N T	W	1	2.9201	19	NA	NA	NA	NA	NA	BAASPS.wav	B AA S P S	NW	1	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_21	roast	pahpaxrdliy	filler	ROAST.wav	R OW1 S T	W	1	2.5599	44	NA	NA	NA	NA	NA	PAHPAHRDLIY.wav	P AH P AH R D L IY	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_22	rude	paesihguhks	filler	RUDE.wav	R UW1 D	W	1	2.9474	107	NA	NA	NA	NA	NA	PAESIHGUHKS.wav	P AE S IH G UH K S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_23	shell	baxskiyshaxn	filler	SHELL.wav	SH EH1 L	W	1	2.6064	115	NA	NA	NA	NA	NA	BAHSKIYSHAHN.wav	B AH S K IY SH AH N	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_24	shield	lowstung	filler	SHIELD.wav	SH IY1 L D	W	1	2.4099	45	NA	NA	NA	NA	NA	L_OW_S_T_AH_NG.wav	L OW1 ER0	NW	2	0	9	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_25	shoes	skwaykaxnihng	filler	SHOES.wav	SH UW1 Z	W	1	3.3054	103	NA	NA	NA	NA	NA	SKWAYKAHNIHNG.wav	S K W AY K AH N IH NG	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_26	smoke	huzzy	filler	SMOKE.wav	S M OW1 K	W	1	3.2751	19	NA	NA	NA	NA	NA	HHAHZIY.wav	HH AH Z IY	NW	2	0	9	large	13	low	0.583273846	2.418672093	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_27	snow	moctor	filler	SNOW.wav	S N OW1	W	1	2.8887	37	NA	NA	NA	NA	NA	MAOKTER.wav	M AO K T ER	NW	2	0	2	small	18	low	0.071372979	3.64354439	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_28	socks	cato	filler	SOCKS.wav	S AA1 K S	W	1	2.738	60	NA	NA	NA	NA	NA	KAETOW.wav	K AE T OW	NW	2	0	9	large	21	high	1.05537532	3.224597467	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_29	sum	clackuz	filler	SUM.wav	S AH1 M	W	1	2.5551	88	NA	NA	NA	NA	NA	KLAEKAHZ.wav	K L AE K AH Z	NW	2	0	2	small	16	low	0.080463137	2.513898693	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_30	sweep	vihklaxmawnt	filler	sweep.wav	S W IY1 P	W	1	2.5821	25	NA	NA	NA	NA	NA	VIHKLAHMAWNT.wav	V IH K L AH M AW N T	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_31	tart	paer	filler	TART.wav	T AA1 R T	W	1	1.9731	37	NA	NA	NA	NA	NA	PAER.wav	P AE R	NW	1	0	43	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_32	twelve	enwars	filler	TWELVE.wav	T W EH1 L V	W	1	2.8129	1	NA	NA	NA	NA	NA	EHNWAORS.wav	EH N W AO R S	NW	2	0	2	small	36	high	0.999901322	4.61958948	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_33	weak	leafa	filler	WEAK.wav	W IY1 K	W	1	3.0726	109	NA	NA	NA	NA	NA	LIYFAH.wav	L IY F AH	NW	2	0	10	large	17	low	2.443849195	2.563537197	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_34	wheat	perchant	filler	WHEAT.wav	W IY1 T	W	1	2.3096	97	NA	NA	NA	NA	NA	PERCHAHNT.wav	P ER CH AH N T	NW	2	0	2	small	11	low	0.987390996	2.139814722	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_35	wine	ehgyiywaxrm	filler	WINE.wav	W AY1 N	W	1	3.1816	118	NA	NA	NA	NA	NA	EHGIYWAHRM.wav	EH G Y IY W AH R M	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_36	write	yihl	filler	WRITE.wav	R AY1 T	W	1	3.4688	105	NA	NA	NA	NA	NA	YIHL.wav	Y IH L	NW	1	0	65	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_37	yacht	nuckie	filler	YACHT.wav	Y AA1 T	W	1	2.2967	57	NA	NA	NA	NA	NA	NAHKIY.wav	N AH K IY	NW	2	0	11	large	17	low	0.88686073	2.905696521	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_38	yell	bayzee	filler	YELL.wav	Y EH1 L	W	1	2.8645	77	NA	NA	NA	NA	NA	bayzee.wav	B EY Z IY	NW	2	0	10	large	0	low	1.036521189	6.022367813	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_39	woman	payt	filler	WUH1MAH0N.wav	W UH1 M AH0 N	W	2	3.7728	18	NA	NA	NA	NA	NA	PAYT.wav	P AY T	NW	1	0	85	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_40	jingled	skayt	filler	JHIH1NGGAH0LD.wav	JH IH1 NG G AH0 L D	W	2	0.4771	6	NA	NA	NA	NA	NA	SKAYT.wav	S K AY T	NW	1	0	32	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_41	ran	mumote	filler	ran.wav	R AE1 N	W	1	3.458	143	NA	NA	NA	NA	NA	M_AH_M_OW_T.wav	M AH M OW T	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_42	torches	medry	filler	TAO1RCHIH0Z.wav	T AO1 R CH IH0 Z	W	2	1.7076	4	NA	NA	NA	NA	NA	MEHDRIY.wav	M EH D R IY	NW	2	0	2	small	27	high	0.052923507	4.116208456	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_43	dome	geckered	filler	dome.wav	D OW1 M	W	1	1.8751	79	NA	NA	NA	NA	NA	G_EH_K_ER_D.wav	G EH K ER D	NW	2	0	2	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_44	frigid	swaht	filler	FRIH1JHAH0D.wav	F R IH1 JH AH0 D	W	2	1.7634	2	NA	NA	NA	NA	NA	SWAHT.wav	S W AH T	NW	1	0	17	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_45	diet	gawnst	filler	DAY1AH0T.wav	D AY1 AH0 T	W	2	2.7466	30	NA	NA	NA	NA	NA	GAWNST.wav	G AW NS T	NW	1	0	3	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_46	carted	piyvaxrnaxs	filler	CARTED.wav	K AA1 R T IH0 D	W	2	0.9031	8	NA	NA	NA	NA	NA	PIHVAHRNAHS.wav	P IY V AH R N AH S	NW	3	0	0	#N/A	#N/A	#N/A	#N/A	#N/A	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_47	pathways	sweeree	filler	PAE1THWEY2Z.wav	P AE1 TH W EY2 Z	W	2	1.3424	1	NA	NA	NA	NA	NA	sweeree.wav	S W IY R IY	NW	2	0	2	small	25	high	0.084300672	3.958249591	NA	NA	NA	NA	NA	NA	NA
+5	filler_wnw_48	jumps	avan	filler	jumps.wav	JH AH1 M P Z	W	1	2.3404	11	NA	NA	NA	NA	NA	AEVAHN.wav	AE V AH N	NW	2	0	9	large	18	low	0.447265599	2.811151568	NA	NA	NA	NA	NA	NA	NA

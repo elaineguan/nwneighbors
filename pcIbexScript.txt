@@ -1,0 +1,925 @@
+// This is a simple demo script, feel free to edit or delete it
+// Find a tutorial and the list of availalbe elements at:
+// https://www.pcibex.net/documentation/
+
+PennController.ResetPrefix(null) // Shorten command names (keep this line here)
+
+
+//DebugOff()
+
+// Show the 'intro' trial first, then all the 'experiment' trials in a random order
+// then send the results and finally show the trial labeled 'bye'
+//Sequence( "intro","Instructions","init","instr2","Instructions2", randomize("experiment") , SendResults() , "bye" )
+//Sequence( "welcome","questionnaire","Instructions","instr2","Instructions2",randomize("experiment") , "Debrief",SendResults() , "bye" )
+//Sequence("Debrief")
+Sequence("welcome","Instructions","Instructions2", randomize("experiment"),"Debrief",SendResults(),"final")
+
+//Sequence(randomize("experiment"),"Debrief",SendResults(),"final")
+
+
+SetCounter("counter", "inc", 1);
+
+
+// What is in Header happens at the beginning of every single trial
+Header(
+    // Delay of 0ms before every trial
+    //newTimer(0)
+    //    .start()
+    //    .wait()
+)
+.log( "sonaID" , GetURLParameter("id") )
+// This log command adds a column reporting the participant's name to every line saved to the results
+
+
+
+
+
+
+newTrial("welcome",
+    defaultText
+        .print()
+    ,
+    newText("<p>Welcome!</p>").settings.css("font-size", "24")
+        .center()
+    
+    ,newText("<p>University of California, Los Angeles<p>")
+        .settings.css("font-size", "18")
+        .center()
+    ,newText("<p>CONSENT TO PARTICIPATE IN RESEARCH<p>")
+        .bold()
+        .center()
+        .settings.css("font-size", "24")
+    ,newText("<p>Empirical Neighborhoods of Nonwords<p>")
+        .italic()
+        .center()
+        .settings.css("font-size", "18")
+    ,newText("<p>Dr. Claire Moore-Cantwell, from the Linguistics Department at the University of California, Los Angeles (UCLA) is conducting a research study in collaboration with Dr. Gaja Jarosz, from the Linguistics Department at the University of Massachusetts, Amherst.<p> <p>You were selected as a possible participant in this study because you are a native speaker of American English.  Your participation in this research study is voluntary.<p>").center().settings.css("font-size", "18")
+    ,newButton("continue","Next")
+        .center()
+        .print()
+        .wait()
+    ,getButton("continue").remove()
+    
+    ,newText("<p>Why is this study being done?<p>").bold().center().settings.css("font-size", "24")
+    ,newText("<p>We want to find out what your brain does when you hear a word that sounds like a word of English, but is not.  We know that typically, your brain accesses a real word that sounds similar, but in this study we hope to find out what exactly counts as 'similar'.  The answer to this question will help us understand better how people perceive speech, and will also help us understand how rules about how a language should sound interact with actual words of the language.<p>").settings.css("font-size", "18")
+    ,newText("<p>What will happen if I take part in this research study?<p>").bold().center().settings.css("font-size", "24")
+    ,newText("<p>    If you volunteer to participate in this study, the researcher will ask you to do the following:<p>").settings.css("font-size", "18")
+    ,newText("<p>    •	Complete a language background questionnaire<p> <p>     •	Listen to made-up words of English. <p> <p>     •  Decide as quickly as you can whether each word is real or made-up <p>").settings.css("font-size", "18")
+    ,newButton("continue6","Next")
+        .center()
+        .print()
+        .wait()
+    ,getButton("continue6").remove()
+    
+    ,newText("<p>How long will I be in the research study?<p>").bold().center().settings.css("font-size", "24")
+    ,newText("<p>    Participation will take 30-60 minutes.<p>").settings.css("font-size", "18")
+    ,newText("<p>Are there any potential risks or discomforts that I can expect from this study?<p>").bold().center().settings.css("font-size", "24")
+    ,newText("<p>    There are no anticipated risks or discomforts.<p>").settings.css("font-size", "18")
+    ,newText("<p>Are there any potential benefits if I participate?<p>").bold().center().settings.css("font-size", "24")
+    ,newText("<p>    You will not directly benefit from your participation in the research.<p>").settings.css("font-size", "18")
+        ,newButton("continue5","Next")
+        .center()
+        .print()
+        .wait()
+    ,getButton("continue5").remove()
+    
+    ,newText("<p>What other choices do I have if I choose not to participate?<p>").bold().center().settings.css("font-size", "24")
+    ,
+    newText("<p>    If you choose not to participate in this study, you may still receive credit for your course by choosing from a different study on SONA, or if you choose not to participate in any studies, you should contact your professor for alternative ways to receive credit.<p>")
+        .settings.css("font-size", "18")
+    ,
+    newText("<p>Will I be paid for participating?<p>")
+        .bold()
+        .center()
+        .settings.css("font-size", "24")
+    ,
+    newText("<p>    You will receive 1 SONA credit for this study<p>")
+        .settings.css("font-size", "18")
+    
+        ,newButton("continue4","Next")
+        .center()
+        .print()
+        .wait()
+    ,getButton("continue4").remove()
+    ,
+    newText("<p>Will information about me and my participation be kept confidential?<p>")
+        .bold()
+        .center()
+        .settings.css("font-size", "24")
+    ,
+    newText("<p>    Any information that is obtained in connection with this study and that can identify you will remain confidential. It will be disclosed only with your permission or as required by law.  Identifying information such as your name, student ID number, and birth date will be kept on the secure SONA server.<p> <p>The researchers will do their best to make sure that your private information is kept confidential. Information about you will be handled as confidentially as possible, but participating in research may involve a loss of privacy and the potential for a breach in confidentiality. Study data will be physically and electronically secured.  As with any use of electronic means to store data, there is a risk of breach of data security. Your data, including de-identified data may be kept for use in future research.<p>")
+        .settings.css("font-size", "18")
+    ,
+    newText("<p>What are my rights if I take part in this study?<p>")
+        .bold()
+        .center()
+        .settings.css("font-size", "24")
+    ,
+    newText("<p>    •	You can choose whether or not you want to be in this study, and you may withdraw your consent and discontinue participation at any time.<p> <p>    •	Whatever decision you make, there will be no penalty to you, and no loss of benefits to which you were otherwise entitled.<p> <p>   •	You may refuse to answer any questions that you do not want to answer and still remain in the study.<p>")
+        .settings.css("font-size", "18")
+    
+        ,newButton("continue3","Next")
+        .center()
+        .print()
+        .wait()
+    ,getButton("continue3").remove()
+    ,
+    newText("<p>Who can I contact if I have questions about this study?<p>")
+        .bold()
+        .center()
+        .settings.css("font-size", "24")
+    ,
+    newText("<p>  •   The research team:<p>")
+        .bold()
+        .settings.css("font-size", "20")
+    ,
+    newText("<p>    If you have any questions, comments or concerns about the research, you can talk to the one of the researchers. Please contact: <p><p><p>Dr. Claire Moore-Cantwell<p><p>559-760-7071<p><p>moore.cantwell@ucla.edu<p>")
+        .settings.css("font-size", "18")
+    ,
+    newText("<p>•	UCLA Office of the Human Research Protection Program (OHRPP):<p>")
+        .bold()
+        .settings.css("font-size", "20")
+    ,
+    newText("<p>    If you have questions about your rights as a research subject, or you have concerns or suggestions and you want to talk to someone other than the researchers, you may contact the UCLA OHRPP by phone: (310) 206-2040; by email: participants@research.ucla.edu or by mail: Box 951406, Los Angeles, CA 90095-1406.<p>")
+        .settings.css("font-size", "18")
+    ,
+
+    newButton("Start")
+        .print()
+        .wait()
+
+)
+
+newTrial("questionnaire",
+    newText("sel","<p>You must select an option before continuing<p>"),
+    newText("<p>Please tell us about all the languages you speak well enough to have a simple conversation.</p><p>(If you have always spoken a language, answer 'zero' as the age you started)</p>")
+        .print()
+    ,
+    newText("<p>English:</p>")
+        .print()
+    ,
+    newText("At what age did you start learning English?")
+    ,
+    newTextInput("englishAge","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("englishOften","How often do you speak it?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("englishWell","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    newButton("exit","Done!")
+        .callback(
+            getDropDown("englishOften")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("englishWell")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end())))
+        .print()
+    ,
+
+    newButton("add","Add Another")
+        .print()
+        .wait(getDropDown("englishOften").test.selected().failure(getText("sel").print()).and(getDropDown("englishWell").test.selected().failure(getText("sel").print())))
+    ,
+    newText("lgname","<p>Please enter the name of the language</p>"),
+
+    newText("name","<p>Please type the language name:</p>"),
+    newText("age","<p>At what age did you start learning this language?</p>"),
+    
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg2","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+   getText("age").print()
+    ,
+    newTextInput("lg2Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg2Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg2Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg2")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg2Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg2Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add2","Add Another")
+        .print()
+        .wait(getTextInput("lg2").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg2Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg2Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg3","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg3Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg3Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg3Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg3")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg3Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg3Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add3","Add Another")
+        .print()
+        .wait(getTextInput("lg3").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg3Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg3Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg4","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg4Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg4Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg4Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg4")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg4Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg4Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add4","Add Another")
+        .print()
+        .wait(getTextInput("lg4").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg4Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg4Well").test.selected().failure(getText("sel").print())))
+
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg5","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg5Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg5Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg5Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg5")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg5Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg5Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add5","Add Another")
+        .print()
+        .wait(getTextInput("lg5").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg5Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg5Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg6","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg6Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg6Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg6Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg6")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg6Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg6Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add6","Add Another")
+        .print()
+        .wait(getTextInput("lg6").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg6Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg6Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg7","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg7Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg7Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg7Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg7")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg7Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg7Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add7","Add Another")
+        .print()
+        .wait(getTextInput("lg7").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg7Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg7Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg8","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg8Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg8Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg8Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg8")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg8Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg8Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add8","Add Another")
+        .print()
+        .wait(getTextInput("lg8").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg8Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg8Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg9","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg9Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg9Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg9Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg9")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg9Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg9Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add9","Add Another")
+        .print()
+        .wait(getTextInput("lg9").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg9Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg9Well").test.selected().failure(getText("sel").print())))
+    ,
+    getText("lgname").remove(),
+    getText("sel").remove(),
+    getButton("add").remove(),
+    getButton("exit").remove(),
+    newText("<p><p><p><p>").print(),
+    
+    getText("name").print(),
+    newTextInput("lg10","")
+        .log()
+        .lines(0)
+        .size(200,20)
+        .print()
+    ,
+    getText("age").print()
+    ,
+    newTextInput("lg10Age","0")
+        .log()
+        .lines(0)
+        .size(50,20)
+        .print()
+    ,
+    newDropDown("lg10Often","How often do you speak this language?")
+        .add("Every day","A few times a week","Once a week","Once a month","Almost never")
+        .log()
+        .print()
+    ,
+    newDropDown("lg10Well","How well do you speak it?")
+        .add("Extremely fluent","Not bad","Only very simple conversations")
+        .log()
+        .print()
+    ,
+    getButton("exit","Done!")
+        .callback(
+            getTextInput("lg10")
+                .test.text(/.+/)
+                    .failure(getText("lgname").print())
+                    .success(
+            getDropDown("lg10Often")
+                .test.selected()
+                    .failure(getText("sel").print())
+                    .success(
+                        getDropDown("lg10Well")
+                            .test.selected()
+                            .failure(getText("sel").print())
+                            .success(end()))))
+        .print()
+    ,
+
+    newButton("add10","Add Another")
+        .print()
+        .wait(getTextInput("lg10").test.text(/.+/).failure(getText("lgname").print()).and(getDropDown("lg10Often").test.selected().failure(getText("sel").print())).and(getDropDown("lg10Well").test.selected().failure(getText("sel").print())))
+
+
+)
+
+
+newTrial( "Instructions" ,
+    newText("instructions1","<p>In this study, you will hear real words and made up words.  Please respond as quickly as possible, indicating whether what you heard was a real word of English or not.</p><p>You'll use the left arrow key, '<-', to indicate that it was a word.</p><p>You'll use the right arrow key '->', to indicate that it was NOT a word.</p><p>For example:</p>")
+        .center()
+        .print()
+    ,
+
+    newAudio("farther","https://www.clairemoorecantwell.org/expFiles/farther.wav")
+        .center()
+        .print()
+        .wait()
+    ,
+    newText("isaword","<p>That one was a word.  Press '<-' </p>").center().print()
+    ,
+
+    newKey("answerTarget", "ArrowLeft","ArrowRight")
+        .wait()
+        .log()
+    ,
+    
+    newText("another","<p>Here's another:</p>").center().print()
+    ,
+    
+    
+    newAudio("amowan","https://www.clairemoorecantwell.org/expFiles/AHMOWWAHN.wav")
+        .center()
+        .print()
+        .wait()
+    ,
+    newText("notaword","<p>That one was not a word.  Press '->' </p>").center().print()
+    ,
+    
+    getKey("answerTarget")
+        .wait()
+        .log()
+    ,
+
+    newText("twoMore","<p>Here's two more.  Respond as quickly as you can! </p>").center().print()
+    ,
+    newButton("ok","OK!")
+        .center()
+        .print()
+        .wait() 
+)
+newTrial( "Instructions2" ,
+    newText("word","<p>Is this a word?</p>")
+        .center()
+        .print()
+    ,
+    newText("arrows","<p>Press <- for word, -> for not a word</p>")
+        .center()
+        .print()
+    ,
+    
+    
+    newAudio("brayks","https://www.clairemoorecantwell.org/expFiles/BRAYKS.wav")
+        .play()
+        .wait()
+    ,
+
+    newKey("answerTarget", "ArrowLeft","ArrowRight")
+        .wait()
+        .log()
+    ,
+    
+    newAudio("mirror","https://www.clairemoorecantwell.org/expFiles/mirror.wav")
+        .play()
+        .wait()
+    ,
+    
+    getKey("answerTarget")
+        .wait()
+        .log()
+    ,
+    
+    
+    newText("donworry","<p>Some may be more difficult than others.</p><p> Say 'Word' for sounds that mean something.  If it has no meaning, say 'Not a word'.</p><p>Please respond as fast as possible!</p>").center().print()
+    ,
+    newButton("continue","next")
+        .center()
+        .print()
+        .wait()
+)
+
+// This Template command generates as many trials as there are rows in myTable.csv
+Template( "myTable.csv" ,
+    // Row will iteratively point to every row in myTable.csv
+    row => newTrial( "experiment" ,
+    newText("word","<p>Is this a word?</p>")
+        .center()
+        .print()
+    ,
+    newText("arrows","<p>Press <- for word, -> for not a word</p>")
+        .center()
+        .print()
+    ,
+    newKey("answerPrime", "ArrowLeft","ArrowRight")
+        .callback(newTimer("bufferp",50).start().wait(),getAudio("pSound").stop(),getTimer("waitp").stop())
+        .log("all")
+    ,
+
+    //Present an audio file
+    newAudio("pSound","https://www.clairemoorecantwell.org/expFiles/"+row.p_sound)
+        .play()
+        //.wait()
+    ,
+    
+    newTimer("waitp",2000)//Times out at 2 seconds
+        .start()
+        .wait()
+        .log()
+    ,
+    
+
+    getText("word")
+        .remove()
+    ,
+    getText("arrows")
+        .remove()
+    ,
+    newTimer("pISI",600+Math.round(200*Math.random()))
+        .start()
+        .wait()
+        .log()
+    ,
+    getText("word")
+        .center()
+        .print()
+    ,
+    getText("arrows")
+        .center()
+        .print()
+    ,
+    newKey("answerTarget", "ArrowLeft","ArrowRight")
+        .callback(newTimer("buffert",50).start().wait(),getAudio("tSound").stop(),getTimer("waitt").stop())
+        .log("all")
+    ,
+
+    //Present an audio file
+    newAudio("tSound","https://www.clairemoorecantwell.org/expFiles/"+row.t_sound)
+        .play()
+        //.wait()
+    ,
+    newTimer("waitt",2000)//Times out at 2 seconds
+        .start()
+        .wait()
+        .log()
+    ,
+
+    getText("word")
+        .remove()
+    ,
+    getText("arrows")
+        .remove()
+    ,
+    newTimer("tISI",600+Math.round(200*Math.random()))
+        .start()
+        .wait()
+        .log()
+    
+    )
+    //.log("itemSet" , row.itemSet )
+    .log("Group", row.Group)
+    .log("item_set",row.item_set)
+    .log("prime",row.prime)
+    .log("target",row.target)
+    .log("condition",row.condition)
+    .log("p_sound",row.p_sound)
+    .log("p_trans",row.p_trans)
+    .log("p_w",row.p_w)
+    .log("p_nsylls",row.p_nsylls)
+    .log("p_logF",row.p_logF)
+    .log("p_dens",row.p_dens)
+    .log("p_dens_cond",row.p_dens_cond)
+    .log("p_emp_dens",row.p_emp_dens)
+    .log("p_emp_dens_cond",row.p_emp_dens_cond)
+    .log("p_entropy",row.p_entropy)
+    .log("p_emp_entropy",row.p_emp_entropy)
+    .log("t_sound",row.t_sound)
+    .log("t_trans",row.t_trans)
+    .log("t_w",row.t_w)
+    .log("t_nsylls",row.t_nsylls)
+    .log("t_logF",row.t_logF)
+    .log("t_dens",row.t_dens)
+    .log("t_dens_cond",row.t_dens_cond)
+    .log("t_emp_dens",row.t_emp_dens)
+    .log("t_emp_dens_cond",row.t_emp_dens_cond)
+    .log("t_entropy",row.t_entropy)
+    .log("t_emp_entropy",row.t_emp_entropy)
+    .log("nw",row.nw)
+    .log("resp",row.resp)
+    .log("sem",row.sem)
+    .log("resp_nTimesGiven",row.resp_nTimesGiven)
+    .log("resp_nTimesCond",row.resp_nTimesCond)
+    .log("resp_editDist",row.resp_editDist)
+    .log("sem_nTimesGiven_Nelsonetal",row.sem_nTimesGiven_Nelsonetal)
+
+)
+
+newTrial("Debrief",
+    
+    newText("done","<p>You're all done!  Please answer the questions below, and then click 'Finish' to get credit.<p>")
+        .center()
+        .print()
+    ,
+    newText("didyouhavestrategies","<p>Did you have any specific strategies for determining if the sound was a real word?<p>")
+        .center()
+        .print()
+    ,
+    newTextInput("strategies")
+        .center()
+        .print()
+        .log()
+    ,
+    newText("howoftennotsure","<p>How often were you not sure?<p>")
+        .center()
+        .print()
+    ,
+    newTextInput("notsure")
+        .center()
+        .print()
+        .log()
+    ,
+    newText("feedback","<p>Do you have any other feedback for us?<p>")
+        .center()
+        .print()
+    ,
+    newTextInput("other")
+        .center()
+        .print()
+        .log()
+    ,
+    newButton("Finish")
+        .center()
+        .print()
+        .wait()
+
+)
+
+// Spaces and linebreaks don't matter to the script: we've only been using them for the sake of readability
+newTrial( "final" ,
+     newText("thanks","<p>Thank you for your participation!</p>")
+                .center()
+           .print()
+    ,
+    newText("sonacredit","<p><a href='https://ucla.sona-systems.com/webstudy_credit.aspx?experiment_id=2305&credit_token=76fdcac55ec145a99d3ba5214c993c4d&survey_code="+ GetURLParameter("id")+"' target='_blank'>Click here to confirm your participation on SONA.</a></p> <p>This is a necessary step in order for you to receive participation credit!</p>")
+    .center()
+    .print()
+    ,
+    newButton("void")
+    .wait()
+    )
+.setOption( "countsForProgressBar" , false )
+// Make sure the progress bar is full upon reaching this last (non-)trial
